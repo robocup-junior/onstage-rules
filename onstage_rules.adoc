@@ -330,7 +330,7 @@ or Z waves) as this may interfere with robots in other RoboCup leagues. If you
 are unsure, please check with the OnStage League Committee before your
 performance.
 
-blue-background]#Teams should prepare for disruptions in communication
+[blue-background]#Teams should prepare for disruptions in communication
 protocols and unavailability of Wifi (As outlined in the general rules) before
 and during the setup and stage time.#
 
