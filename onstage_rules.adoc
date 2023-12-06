@@ -160,6 +160,8 @@ has judged the Technical Interview as well.
 [[stage-performance]]
 === Stage performance
 
+{++Teams have up to two opportunities to perform before the judges.++}
+
 The duration of the performance routine must be no less than 1:30 minutes.
 
 Each team has a total of seven minutes on the stage. This time includes
@@ -197,6 +199,9 @@ their robots.
 
 Teams must indicate the start of their performance clearly with a “3-2-1"
 countdown to the judges.
+
+{++Teams must indicate the end of their performance clearly once it’s over (e.g. everyone coming to the front of
+the stage / thanking the audience for their attention / …).++}
 
 [[restarts]]
 === Restarts
@@ -335,14 +340,18 @@ be placed within the confines of the stage.
 [[scenery]]
 === Scenery
 
-Static props which do not form an integral part of the performance are
-discouraged since the focus of the performance should be on robots. The kind
+Interactive props can be used to add value to the performance.
+
+{--Static props which do not form an integral part of the performance are
+discouraged since the focus of the performance should be on robots.--} The kind
 of props that are considered "interactive" are:
 1. Props interact with robots via sensors
 2. Props interact with robots via communication
 
-Robots can sense static props to perform a certain task or trigger a
-performance provided that they are placed on the defined stage performance area.
+Robots can sense static props to perform a certain task or trigger {~~a performance~>an action} provided that they are placed on the defined stage performance area.
+
+{++Static props which do not form an integral part of the performance are discouraged since the focus of the
+performance should be on robots.++}
 
 [[robot-autonomy-and-interaction]]
 === Robot Autonomy and Interaction
