@@ -22,8 +22,7 @@ These are the official rules for the RoboCupJunior OnStage events in 2024.
 They apply to both an on-site competition, as well as an online (virtual) or hybrid event. Teams will be
 informed in advance about how each element will be held.
 
-Special rules for [blue-background]#on-site competitions are highlighted in blue# while
-[green-background]#virtual elements are highlighted in green#.
+Special rules for [blue-background]#on-site competitions are highlighted in blue# while [green-background]#virtual elements are highlighted in green#.
 Sections with no highlighting apply to every kind of competition.
 
 Major changes from the 2023 OnStage rules are written in [red]#red#.
