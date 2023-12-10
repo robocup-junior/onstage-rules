@@ -19,12 +19,6 @@ endif::basebackend-html[]
 
 These are the official rules for the RoboCupJunior OnStage events in 2024.
 
-They apply to both an on-site competition, as well as an online (virtual) or hybrid event. Teams will be
-informed in advance about how each element will be held.
-
-Special rules for [blue-background]#on-site competitions are highlighted in blue# while [green-background]#virtual elements are highlighted in green#.
-Sections with no highlighting apply to every kind of competition.
-
 Major changes from the 2023 OnStage rules are written in [red]#red#.
 
 *Teams should make sure to review _ALL_ the pages of these rules.* The rules have been changed to deepen
@@ -35,7 +29,7 @@ available in our time.
 rules of the RoboCup Federation.
 
 *The rules, score sheets, and all forms of documentation can be downloaded from the official
-RoboCupJunior website (https://junior.robocup.org).* Each team has a responsibility to verify the latest
+RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest
 version of these documents prior to the competition, as changes may be made at any moment. Teams are
 encouraged to study all documents in detail.
 
@@ -45,6 +39,13 @@ encouraged to study all documents in detail.
 For inquiries and questions about the rules or competition updates, the *Official RoboCupJunior forum*
 (https://junior.forum.robocup.org/) can be used to contact the OnStage League Committee. All official
 communication from the committee will be published here before and during the competition season.
+
+[discrete]
+== RoboCupJunior OnStage YouTube channel
+
+Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
+
+<<<
 
 == Overview
 
