@@ -25,8 +25,8 @@ Major changes from the 2023 OnStage rules are written in [red]#red#.
 and broaden the educational benefits of competing in RoboCupJunior. It focuses on the evolving technologies
 available in our time.
 
-*The International Original Rules (in English) have priority over [.underline]#any# translations.* These rules are the official
-rules of the RoboCup Federation.
+*The International Original Rules (in English) have priority over [.underline]#any# translations.*
+These rules are the official rules of the RoboCup Federation.
 
 *The rules, score sheets, and all forms of documentation can be downloaded from the official
 RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest
@@ -43,10 +43,10 @@ communication from the committee will be published here before and during the co
 [discrete]
 == RoboCupJunior OnStage YouTube channel
 
-Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
+Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage
+YouTube channel* (https://www.youtube.com/@rcjonstage).
 
-<<<
-
+[discrete]
 == Overview
 
 RoboCupJunior OnStage invites teams to design, build and program creative and autonomous
@@ -57,24 +57,25 @@ is optional. The league is intended to be open-ended. Teams are encouraged to be
 innovative, and entertaining, in both the design of the robots and in the design of the overall
 performance.
 
-[red]#An OnStage performance should make use of innovative technologies or use technology in new
+An OnStage performance should make use of innovative technologies or use technology in new
 innovative ways not previously developed in OnStage performances, while adding value to the
 performance. Innovation can be achieved with clear evidence of testing, research and development
-and can be an inspiration for future competitors.#
+and can be an inspiration for future competitors.
 
 An OnStage Performance must showcase the implementation and integration of robotic features in
 ways that visually enhance or add value and contribute to the theme or story being portrayed.
+{++More information about the selection of the features can be found in section <<judging-overview>>.++}
 
 During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam
 Challenge. The SuperTeam Challenge is a robotic performance created by a group of two or more
 cooperating teams from different regions. The SuperTeams spend a short period of time for the
 collaborative performance creation. More details will be released before the International
-RoboCupJunior competition on the official website.
+RoboCupJunior competition {--on the official website--}.
 
 From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 
-image:media/OnStage/StagePerfLeft.jpg[image,scaledwidth=45.0%]
-image:media/OnStage/StagePerfRight.jpg[image,scaledwidth=45.0%]
+image:media/OnStage/StagePerfLeft.jpg[scaledwidth=45.0%]
+image:media/OnStage/StagePerfRight.jpg[scaledwidth=45.0%]
 
 [[judging-overview]]
 == Judging Overview
