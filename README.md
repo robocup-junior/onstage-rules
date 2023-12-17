@@ -42,7 +42,7 @@ that's the `$(pwd)` part) go through the build steps above and generate the file
 When running on Windows you initially have to do a few extra extra steps to be able to build 
 the rules using the Linux scripts with the windows subsystem for Linux.   
 
-1. Install the [Windows subsystem for linux(WSL)](https://learn.microsoft.com/en-us/windows/wsl/install)
+1. Install the [Windows subsystem for linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install)
 2. Open the WSL (search for WSL in the Windows search bar) and create username and passwort
 5. Install [Docker](https://docker.com) with the instructions on the website if not done yet
 6. Run the [build_rules_on_windows script](https://github.com/robocup-junior/onstage-rules/blob/main/build_rules_on_windows.bat) to build the rules
