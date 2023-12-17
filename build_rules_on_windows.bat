@@ -20,7 +20,7 @@ if %errorlevel% neq 0 (
     wsl sudo apt-get install dos2unix
 )
 
-REM Create temporary copies of .sh scripts with Linux-style line endings using wsl cp
+REM Create temporary copies of .sh scripts with Linux-style line endings using wsl cp (because Github checkout might automatically change them to Windows style which will stop the scripts from working)
 wsl cp %REPO_PATH%/.ci/adoc-to-tex.sh %REPO_PATH%/.ci/adoc-to-tex-temp.sh
 wsl cp %REPO_PATH%/.ci/tex-to-pdf.sh %REPO_PATH%/.ci/tex-to-pdf-temp.sh
 
