@@ -1,7 +1,13 @@
 @echo off
 
-REM Set the path to the Git repository
-set REPO_PATH=/mnt/c/Users/%USERNAME%/Documents/GitHub/onstage-rules
+REM Set the path to the Git repository dynamically
+set REPO_PATH=%CD%
+
+REM Convert backslashes to forward slashes in WSL paths
+set REPO_PATH=%REPO_PATH:\=/%
+
+REM Replace C: with /mnt/c/
+set REPO_PATH=%REPO_PATH:C:=/mnt/c%
 
 echo Running commands in WSL...
 
