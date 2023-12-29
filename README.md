@@ -47,4 +47,6 @@ the rules using the Linux scripts with the windows subsystem for Linux.
 5. Install [Docker](https://docker.com) with the instructions on the website if not done yet
 6. Run the [build_rules_on_windows script](https://github.com/robocup-junior/onstage-rules/blob/main/build_rules_on_windows.bat) to build the rules
 
+It helps to have a wsl console runing in the background all the time to avaoid windows starting and stopping it everytime the script is run, as this takes up some time. Just type wsl in the windows search bar to open it.
+
 You can now find the PDF and HTML version of the rules in the rules_documents folder.
