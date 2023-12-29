@@ -51,8 +51,11 @@ During the International RoboCupJunior OnStage Competition, teams also take part
 
 From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 
-image:media/OnStage/StagePerfLeft.jpg[scaledwidth=45.0%]
-image:media/OnStage/StagePerfRight.jpg[scaledwidth=45.0%]
+[cols="2", frame="none", grid="none"]
+|===
+|image:media/OnStage/StagePerfLeft.jpg[width=230]
+|image:media/OnStage/StagePerfRight.jpg[width=230]
+|===
 
 [[judging-overview]]
 == Judging Overview
@@ -511,9 +514,11 @@ If any of the team leaders/mentors are not present at the team meetings to discu
 [[appendix-a]]
 == Appendix A
 
-[title="Exemplary layout of the stage."]
-image::media/OnStage/ExemplaryStage.png[]
-image::media/OnStage/StageLayout.png[]
+[cols="2", frame="none", grid="none"]
+|===
+|image:media/OnStage/ExemplaryStage.png[width=250]
+|image:media/OnStage/StageLayout.png[width=150]
+|===
 
 
 [discrete]
