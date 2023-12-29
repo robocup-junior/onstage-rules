@@ -51,7 +51,7 @@
   <l:i18n xmlns:l="http://docbook.sourceforge.net/xmlns/l10n/1.0">
     <l:l10n xmlns:l="http://docbook.sourceforge.net/xmlns/l10n/1.0" language="en">
      <l:context name="xref-number-and-title">
-        <l:template name="section" text="Rule %n, %t"/>
+        <l:template name="section" text="Section %n, %t"/>
       </l:context>
     </l:l10n>
   </l:i18n>

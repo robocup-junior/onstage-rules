@@ -11,14 +11,20 @@ set REPO_PATH=%REPO_PATH:C:=/mnt/c%
 
 echo Running commands in WSL...
 
-REM Check if dos2unix is installed in WSL
-wsl dos2unix --version >nul 2>&1
-if %errorlevel% neq 0 (
-    echo Installing dos2unix...
-    REM Add installation command for dos2unix here
-    wsl sudo apt-get update
-    wsl sudo apt-get install dos2unix
+echo dos2unix is required to build the rules. Do you want to check if dos2unix is installed and install if necessary?
+set /p performCheck=Type 'y' for yes otherwise press ENTER: 
+
+if /i "%performCheck%"=="y" (
+    wsl dos2unix --version >nul 2>&1
+    if %errorlevel% neq 0 (
+        echo Installing dos2unix...
+        wsl sudo apt-get update
+        wsl sudo apt-get install dos2unix
+    )
+) else (
+    echo Skipped dos2unix check and installation.
 )
+
 
 REM Create temporary copies of .sh scripts with Linux-style line endings using wsl cp (because Github checkout might automatically change them to Windows style which will stop the scripts from working)
 wsl cp %REPO_PATH%/.ci/adoc-to-tex.sh %REPO_PATH%/.ci/adoc-to-tex-temp.sh
