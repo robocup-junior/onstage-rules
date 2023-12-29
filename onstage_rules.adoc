@@ -19,7 +19,7 @@ endif::basebackend-html[]
 
 These are the official rules for the RoboCupJunior OnStage events in 2024.
 
-Major changes from the 2023 OnStage rules are written in [red]#red#.
+Major changes from the 2023 OnStage rules are written in *[red]#red#*.
 
 *Teams should make sure to review _ALL_ pages of these rules.* The rules have been changed to deepen and broaden the educational benefits of competing in RoboCupJunior. It focuses on the evolving technologies available in our time.
 
