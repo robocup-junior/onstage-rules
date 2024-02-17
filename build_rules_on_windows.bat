@@ -15,8 +15,8 @@ echo dos2unix is required to build the rules. Do you want to check if dos2unix i
 set /p performCheck=Type 'y' for yes otherwise press ENTER: 
 
 if /i "%performCheck%"=="y" (
-    wsl dos2unix --version >nul 2>&1
-    if %errorlevel% neq 0 (
+    wsl /usr/bin/dos2unix --version > /dev/null 2>&1
+    if %ERRORLEVEL% NEQ 0 (
         echo Installing dos2unix...
         wsl sudo apt-get update
         wsl sudo apt-get install dos2unix
