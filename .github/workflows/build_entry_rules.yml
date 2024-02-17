@@ -14,8 +14,8 @@ jobs:
 
       - name: build the rules
         run: |
-          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_rules
-          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_rules
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_rules
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_rules
           mkdir -p dist/${GITHUB_REF#refs/heads/}/
           cp -R ./media rules_documents/* dist/${GITHUB_REF#refs/heads/}/
 

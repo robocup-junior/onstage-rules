@@ -14,7 +14,7 @@ dblatex -T db2latex $OUTPUT_FILE.xml -t tex --texstyle=./manual.sty -p ../custom
 # (marked by the \mainmatter command) and create a file without it.
 cat $OUTPUT_FILE.tex | awk 'f;/\\mainmatter/{f=1}'  > $OUTPUT_FILE"_without_preamble.tex"
 # Concat the standardized preamble with the "without_preamble" version of the file
-cat "../specific_preamble_"$OUTPUT_FILE".tex" ../preamble.tex $OUTPUT_FILE"_without_preamble.tex" > $OUTPUT_FILE.tex
+cat "../preamble.tex" "../"$OUTPUT_FILE"/header_footer.tex" "../"$OUTPUT_FILE"/title.tex" "../committee_list.tex" $OUTPUT_FILE"_without_preamble.tex" > $OUTPUT_FILE.tex
 texliveonfly $OUTPUT_FILE.tex
 pdflatex $OUTPUT_FILE.tex
 pdflatex $OUTPUT_FILE.tex
