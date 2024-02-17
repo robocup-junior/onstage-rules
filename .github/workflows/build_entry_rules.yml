@@ -1,9 +1,10 @@
 on:
   push:
     paths:
-      - 'onstage_entry_rules.adoc'
+      - 'onstage_entry_rules/rules.adoc'
+      - 'onstage_entry_rules/header_footer.tex'
+      - 'onstage_entry_rules/title.tex'
       - 'preamble.tex'
-      - 'specific_preamble_onstage_entry_rules.tex'
 
 jobs:
   build:
