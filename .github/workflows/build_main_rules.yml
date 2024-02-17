@@ -1,4 +1,10 @@
-on: [push]
+on:
+  push:
+    paths:
+      - 'onstage_rules.adoc'
+      - 'preamble.tex'
+      - 'specific_preamble_onstage_rules.tex'
+
 jobs:
   build:
     name: build
