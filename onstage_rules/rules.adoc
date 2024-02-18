@@ -17,14 +17,13 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official rules for the RoboCupJunior OnStage events in 2024.
+These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage events in 2024.
+
+*The International Original Rules (in English) have priority over [.underline]#any# translations.*
 
 Major changes from the 2023 OnStage rules are written in *[red]#red#*.
 
 *Teams should make sure to review _ALL_ pages of these rules.* The rules have been changed to deepen and broaden the educational benefits of competing in RoboCupJunior. It focuses on the evolving technologies available in our time.
-
-*The International Original Rules (in English) have priority over [.underline]#any# translations.*
-These rules are the official rules of the RoboCup Federation.
 
 *The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of these documents prior to the competition, as changes may be made at any moment. Teams are encouraged to study all documents in detail.
 
