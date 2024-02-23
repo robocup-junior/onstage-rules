@@ -20,6 +20,8 @@ endif::basebackend-html[]
 These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage entry events in 2024.
 There will be *no OnStage entry competition at the international level*. The rules are meant to be used at regional and super-regional events.
 
+Regional and super-regional tournament organizers may use these rules, make changes specific to their regions or not run Entry leagues at all. Contact your regions or super-regions tournament organizers to find out which rules are going to be used at your tournament.
+
 //Add line below again once a new version is released
 //Major changes from the 2023 OnStage rules are written in *[red]#red#*.
 
@@ -44,9 +46,9 @@ RoboCupJunior OnStage invites teams to design, build and program creative and au
 [[judging-overview]]
 == Judging Overview
 
-All teams are judged in the following areas: Poster, Interview and the Performance. Teams must highlight three of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we think took us the most time to prepare for the performance.
+All teams are judged in the following areas: Poster, Interview and the Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - "What are you most proud of and what do you want to be judged on?" The features have to be of technical nature. 
 
-Teams should describe their three chosen features in the Poster, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
+Teams should describe their four chosen features in the Poster, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
 
 For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the RoboCupJunior Forum.
 
@@ -56,14 +58,13 @@ For clarification on a teams’ features, please do not hesitate to reach out to
 It is the responsibility of the participating team(s) and regional representatives to verify the participants' eligibility requirements, which are as follows:
 
 [[team-size-membership]]
-=== Team Size & Membership
+=== Team Size, Membership and age requirement
 
-Each team must have *2 to 6 members*. Each team member needs to carry a role within the team. Each participant can join only one team. No members can, be shared between teams and/or leagues.
+The team size and age requirements will be specified by the local organizers.
 
-[[age-requirement]]
-=== Age requirement
+Each team member needs to carry a role within the team. Each participant can join only one team. No members can, be shared between teams and/or leagues.
 
-All team members must be below the age of 14 years (ages as of 1st of July). Older participants are not allowed to take part in the entry league.
+Please note that age and team size restrictions will apply to international competitions for the main OnStage competition.
 
 [[onstage-performance]]
 == OnStage Performance (50% of total score)
@@ -77,11 +78,13 @@ Teams are encouraged to be as creative and entertaining as they can.
 [[stage-performance]]
 === Stage performance
 
-Teams have at least to two opportunities to perform before the judges.
+The format of the competition will be announced before or during the team briefing. A standard competition consists of two performances.
 
 The duration of the performance routine must be no less than 1:00 minute.
 
 Each team has a total of seven minutes on the stage. This time includes stage set-up, introduction, performance routine and the time for clearing the stage.
+
+If the time limit is exceeded due to circumstances outside the team’s control (for example problems with starting the music) there will be no penalty. The judges have the final say on any time penalties.
 
 Teams wait on the side of the stage before being welcomed on stage.
 
@@ -90,9 +93,11 @@ Teams are strongly encouraged to use the time while they are setting up on the s
 [[restarts]]
 === Restarts
 
-Teams can restart their routine if necessary.
+Teams can restart their routine if necessary. Penalty marks will be deducted from the score.
 
 The team must leave the stage after their time on stage has expired.
+
+Te restart must be clearly signaled verbally by a team member on stage.
 
 [[music-and-multimedia-presentations]]
 === Music and Multimedia presentations
@@ -171,7 +176,7 @@ Participants should design their robot(s) to be a size that they can easily carr
 To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee through the forum when in doubt).
 
 [[onstage-interview]]
-== OnStage Interview (30% of total score)
+== OnStage Interview (40% of total score)
 
 The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against technical criteria. Judges are interested in determining students' understanding of the robots they have used.
 
@@ -194,7 +199,7 @@ The Technical Interviews take place in the main language of the event. If teams 
 Extra time will not be given for teams with a translator.
 
 [[onstage-poster]]
-== OnStage Poster (20% of total score)
+== OnStage Poster (10% of total score)
 
 Each team is required to bring a Poster. The purpose of the poster is to explain the technology used, as well as to showcase the robots’ software and hardware.
 
@@ -224,11 +229,6 @@ Teams must read the Score Sheets to make sure they create their materials accord
 The total score of each team is calculated by combining the scores from the team’s Interview, Poster and the Performance.
 
 If more than one performance is scheduled, the highest of all performance scores will be used.
-
-[[feedback]]
-== Feedback
-
-A final ranking that includes all teams and their scoring will not be provided to the teams.
 
 [[mentors]]
 == Mentors
