@@ -288,8 +288,6 @@ Robots with flying capabilities, such as drones, {~~that can fly at a height of 
 
 To protect participants and comply with occupational health and safety regulations, routines may not include {~~projectiles~>anything that could be considered a projectile~~}, explosions, smoke, or flame, use of water, or any other hazardous substances {++(contact the committee through the forum when in doubt)++}.
 
-{++Performances may not include the depiction of drugs or their consumption either by robots or by participants.++}
-
 A team whose routine includes any situation that could be deemed hazardous, including the possibility of damaging the stage, must submit a report outlining the content of their performance to the committee two weeks before the competition. The Committee may also request further explanation and a demonstration of the activity before the stage performance. Teams not conforming to this rule may not be allowed to present their routine.
 
 [[onstage-technical-interview]]

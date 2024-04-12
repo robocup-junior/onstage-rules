@@ -22,6 +22,8 @@ There will be *no OnStage entry competition at the international level*. The rul
 
 Regional and super-regional tournament organizers may use these rules, make changes specific to their regions or not run Entry leagues at all. Contact your regions or super-regions tournament organizers to find out which rules are going to be used at your tournament.
 
+{++Although it is recomended to apply these rules to teams in the age from 10 to 14 years, the final decision about the admission criteria is up to the local organizers.++} 
+
 //Add line below again once a new version is released
 //Major changes from the 2023 OnStage rules are written in *[red]#red#*.
 
@@ -171,9 +173,9 @@ Under no circumstances can *mains electricity* be used during the performance. E
 
 Lithium batteries must be transported or moved in safety bags. 
 
-Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.
+{++Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.++}
 
-To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee through the forum when in doubt).
+{++To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee through the forum when in doubt).++}
 
 [[onstage-interview]]
 == OnStage Interview (40% of total score)
