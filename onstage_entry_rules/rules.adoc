@@ -228,9 +228,11 @@ Teams will be given public space to display their Technical Poster.
 [[demonstration-procedure]]
 === Demonstration procedure
 
-{++The duration of the performance routine should be approximately 5 minutes.++}
+{++The duration of the demonstration should be approximately 5 minutes.++}
 
 {++Each team has a total of seven minutes on the stage. This time includes stage set-up, the demonstration, and the time for packing up and clearing the stage. The timer only stops when the entire stage is clear with no remnants from the previous demonstration.++}
+
+{++After the seven minutes have expired the team will be asked to clear the stage and judging will be stopped.++}
 
 {++The technical capabilities of their robots should be demonstrated by both describing what has been developed and demonstrating this capability. This could cover any aspect of the performance or technical capabilities of the robot(s), such as interaction with humans, interactions with other robots or the use of a particular sensor.++}
 
