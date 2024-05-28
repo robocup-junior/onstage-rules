@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage Entry events in 2024.
+These are the recommended rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage Entry events in 2024.
 There will be *no OnStage Entry competition at the international level*. The rules are meant to be used at regional and super-regional events.
 
 Regional and super-regional tournament organizers may use these rules, make changes specific to their regions or not run Entry leagues at all. Contact your regions or super-regions tournament organizers to find out which rules are going to be used at your tournament.
@@ -27,7 +27,7 @@ Regional and super-regional tournament organizers may use these rules, make chan
 //Add line below again once a new version is released
 //Major changes from the 2023 OnStage rules are written in *[red]#red#*.
 
-*The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of these documents prior to the competition, as changes may be made at any moment. Teams are encouraged to study all documents in detail.
+*The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of the offical rules of the specific event it participates in. Teams are encouraged to study all documents in detail.
 
 [discrete]
 == RoboCupJunior Forum
@@ -48,9 +48,9 @@ RoboCupJunior OnStage invites teams to design, build and program creative and au
 [[judging-overview]]
 == Judging Overview
 
-All teams are judged in the following areas: Poster, Interview, Open Technical Demonstration and the Performance. Teams must highlight two of their robot(s) *features* in the work they present to the judges. Ask the following question - "What are you most proud of and what do you want to be judged on?" The features have to be of technical nature. 
+All teams are judged in the following areas: Poster, Interview, Open Technical Demonstration and OnStage Performance. Teams must highlight two of their robot(s) *features* in the work they present to the judges. Ask the following question - "What are you most proud of and what do you want to be judged on?" The features have to be of technical nature. 
 
-Teams should describe their two chosen features in the Poster, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview and Open Technical Demonstration.
+Teams should describe their two chosen features in the Poster. In addition, teams should demonstrate their understanding of their robots' in the Technical Interview and Open Technical Demonstration.
 
 For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the RoboCupJunior Forum.
 
@@ -175,12 +175,12 @@ Lithium batteries must be transported or moved in safety bags.
 
 {++Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.++}
 
-{++To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee through the forum when in doubt).++}
+{++To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee when in doubt).++}
 
 [[onstage-interview]]
 == Interview (30% of total score)
 
-The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against technical criteria. Judges are interested in determining students' understanding of the robots they have used.
+The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against technical criteria. Judges are interested in determining students' understanding of the robots they have developed.
 
 [[interview-procedure]]
 === Interview procedure
@@ -203,7 +203,7 @@ Extra time will not be given for teams with a translator.
 [[onstage-poster]]
 == Poster (10% of total score)
 
-Each team is required to bring a Poster. The purpose of the poster is to explain the technology used, as well as to showcase the robots’ software and hardware.
+Each team is required to bring a poster. The purpose of the poster is to explain the technology used, as well as to showcase the robots’ software and hardware.
 
 {++Teams must submit a digital copy of their poster in PDF format (≤ 10 MB)++}.
 
@@ -216,12 +216,12 @@ Areas that are useful to be included in the poster are:
 {++- a description of the features that should be judged during the performance++}
 - annotated pictures of the development process
 
-Teams will be given public space to display their Technical Poster.
+If possible, teams will be given public space to display their Technical Poster.
 
 [[open-technical-demonstration]]
 == Open Technical Demonstration (10% of total score)
 
-{++The description of the robots’ capabilities should explain to the judges and audience how the robot’s capabilities have been achieved.++} 
+{++Through the Open Technical Demonstration, teams should showcase their robots' capabilities and explain how they have been achieved..++} 
 
 {++It's recomended to use slides to introduce the project.++}
 
@@ -234,7 +234,7 @@ Teams will be given public space to display their Technical Poster.
 
 {++After the seven minutes have expired the team will be asked to clear the stage and judging will be stopped.++}
 
-{++The technical capabilities of their robots should be demonstrated by both describing what has been developed and demonstrating this capability. This could cover any aspect of the performance or technical capabilities of the robot(s), such as interaction with humans, interactions with other robots or the use of a particular sensor.++}
+{++Teams should showcase their robots' technical capabilities by both describing and demonstrating what has been developed. This could cover any aspect of the performance or technical capabilities of the robot(s), such as interaction with humans, interactions with other robots or the use of a particular sensor.++}
 
 {++Teams are encouraged to remove robots’ costumes for showing detailed design.++}
 
@@ -244,9 +244,9 @@ Teams will be given public space to display their Technical Poster.
 [[judging-criteria]]
 === Judging criteria
 
-The judging criteria and allocation of marks are given in the respective score sheets.
+The judging criteria and allocation of marks are provided in the respective score sheets.
 
-Teams must read the Score Sheets to make sure they create their materials according to the judging criteria.
+Teams must read the Score Sheets carefully so that their robot performance covers as much judging criteria as possible.
 
 [[totaling]]
 === Totaling
@@ -263,7 +263,7 @@ If more than one performance is scheduled, the highest of all performance scores
 [[mentors]]
 == Mentors
 
-Mentors are not allowed in the student work area.
+Mentors are not allowed in the team work area.
 
 [[additional-information]]
 == Additional information

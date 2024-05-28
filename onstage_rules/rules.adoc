@@ -399,7 +399,7 @@ Teams will be given public space to display their Technical Poster.
 
 The judging criteria and allocation of marks are given in the respective score sheets.
 
-{++Teams must read the Score Sheets to make sure they create their materials according to the judging criteria.++}
+{++Teams must read the Score Sheets carefully so that their robot performance covers as much judging criteria as possible,++}
 
 [[totaling]]
 === Totaling
