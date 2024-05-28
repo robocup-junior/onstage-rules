@@ -1,0 +1,28 @@
+on:
+  push:
+    paths:
+      - 'onstage_entry_rules/rules.adoc'
+      - 'onstage_entry_rules/header_footer.tex'
+      - 'onstage_entry_rules/title.tex'
+      - 'preamble.tex'
+
+jobs:
+  build:
+    name: build entry rules
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: build entry rules
+        run: |
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_rules
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_rules
+          mkdir -p dist/${GITHUB_REF#refs/heads/}/
+          cp -R ./media rules_documents/* dist/${GITHUB_REF#refs/heads/}/
+
+      - name: publish entry rules
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN  }}
+          publish_dir: ./dist
+          keep_files: True

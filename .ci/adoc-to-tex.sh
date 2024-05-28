@@ -4,7 +4,8 @@ mkdir -p tmp rules_documents
 set -euo pipefail
 
 OUTPUT_FILE=$1
-cp $1.adoc tmp/$1.adoc
+
+cp $OUTPUT_FILE/rules.adoc tmp/$OUTPUT_FILE.adoc
 
 cd tmp
 

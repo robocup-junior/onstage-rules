@@ -17,14 +17,13 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official rules for the RoboCupJunior OnStage events in 2024.
+These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage events in 2024.
+
+*The International Original Rules (in English) have priority over [.underline]#any# translations.*
 
 Major changes from the 2023 OnStage rules are written in *[red]#red#*.
 
 *Teams should make sure to review _ALL_ pages of these rules.* The rules have been changed to deepen and broaden the educational benefits of competing in RoboCupJunior. It focuses on the evolving technologies available in our time.
-
-*The International Original Rules (in English) have priority over [.underline]#any# translations.*
-These rules are the official rules of the RoboCup Federation.
 
 *The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of these documents prior to the competition, as changes may be made at any moment. Teams are encouraged to study all documents in detail.
 
@@ -41,7 +40,7 @@ Examples of good performances and documentation can be found on the *Official Ro
 [discrete]
 == Overview
 
-RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create either a live or streamed, robotic performance that uses a wide variety of technology to engage an audience. This includes a range of possible performances, such as dance, storytelling, theater, or art installations. The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.
+RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance that uses a wide variety of technology to engage an audience. This includes a range of possible performances, such as dance, storytelling, theater, or art installations. The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.
 
 An OnStage performance should make use of innovative technologies or use technology in new innovative ways not previously developed in OnStage performances, while adding value to the performance. Innovation can be achieved with clear evidence of testing, research and development and can be an inspiration for future competitors.
 
@@ -102,7 +101,7 @@ All RoboCupJunior OnStage Teams must also comply with the RoboCupJunior General 
 {++Teams should inform the judges if robotic components have been featured in previous competitions. To gain marks, teams should be prepared to provide insight on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. Teams should specify how innovations have been done with their technologies and provide documentation to support their claims.++}
 
 [[onstage-performance]]
-== OnStage Performance (40% of total score)
+== Performance (40% of total score)
 
 The OnStage Performance is an opportunity to demonstrate the design, construction, and technical aspects of the robot(s) through a performance or stage show. For example, this could be a magic show, theater performance, story, comedy show, dance, or art installation. Teams are encouraged to be creative, innovative and take risks in their use of technology and materials when creating their performances. 
 
@@ -292,7 +291,7 @@ To protect participants and comply with occupational health and safety regulatio
 A team whose routine includes any situation that could be deemed hazardous, including the possibility of damaging the stage, must submit a report outlining the content of their performance to the committee two weeks before the competition. The Committee may also request further explanation and a demonstration of the activity before the stage performance. Teams not conforming to this rule may not be allowed to present their routine.
 
 [[onstage-technical-interview]]
-== OnStage Technical Interview (30% of total score)
+== Technical Interview (30% of total score)
 
 The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against technical criteria. Creative and innovative technical features chosen by the team will be rewarded with higher scores. Judges are interested in determining students' understanding of the robotic technologies they have used. Teams must show authenticity and originality regarding their robots and performance in this interview. {--Teams should inform the judges if robotic components have been featured in previous competitions. To gain marks, teams should be prepared to provide insight on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. Teams should specify how innovations have been done with their technologies and provide documentation to support their claims.--}
 
