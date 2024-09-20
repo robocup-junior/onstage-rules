@@ -364,6 +364,8 @@ Areas that are useful to be included in the poster are:
 - abstract/summary/performance description
 - annotated pictures
 - system diagrams of the systems and robot(s) under development at various stages
+- {++interconnection of robots (examples could include: network connection diagram, exploded views of robots, ...)++}
+- {++flowchart of performance (Robot A triggers Robot B, Robot B communicates to Robot C++}
 - an explanation of the innovative robot technologies used
 - a description of the features that should be judged during the performance
 - QR-codes to repositories, videos, or team websites
