@@ -265,11 +265,11 @@ A team whose routine may be deemed inappropriate to any particular group will be
 [[saftety-and-power-considerations]]
 === Safety and Power Considerations
 
-Under no circumstances can *mains electricity* be used during the performance. Every robot should be equipped with some sort of battery power, with a maximum of 15 volts. 
+Under no circumstances can *mains electricity* be used during the performance. {--Every robot should be equipped with some sort of battery power, with a maximum of 15 volts.--}
 
-Lead-acid batteries are not considered appropriate unless the team has gained permission from the OnStage League Committee *before* attending the competition for a specific reason. Failure to declare batteries may result in disciplinary actions, including deductions.
+{--Lead-acid batteries are not considered appropriate unless the team has gained permission from the OnStage League Committee *before* attending the competition for a specific reason. Failure to declare batteries may result in disciplinary actions, including deductions.--}
 
-Teams should be aware of the proper handling of lithium batteries to ensure safety.
+Teams should be aware of the proper handling of {--lithium--} batteries to ensure safety.
 
 Lithium batteries must be transported or moved in safety bags. 
 
