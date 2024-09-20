@@ -21,7 +21,7 @@ These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_
 
 *The International Original Rules (in English) have priority over [.underline]#any# translations.*
 
-Major changes from the 2023 OnStage rules are written in *[red]#red#*.
+Major changes from the previous years OnStage rules are written in *[red]#red#*.
 
 *Teams should make sure to review _ALL_ pages of these rules.* The rules have been changed to deepen and broaden the educational benefits of competing in RoboCupJunior. It focuses on the evolving technologies available in our time.
 
