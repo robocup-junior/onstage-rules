@@ -5,6 +5,7 @@ on:
       - 'onstage_entry_rules/header_footer.tex'
       - 'onstage_entry_rules/title.tex'
       - 'preamble.tex'
+      - 'committee_list.tex'
 
 jobs:
   build:
