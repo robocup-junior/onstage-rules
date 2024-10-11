@@ -59,7 +59,7 @@ From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 [[judging-overview]]
 == Judging Overview
 
-All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)?” The aim should be to present how the chosen features are integrated to enhance the quality of the performance in unique and innovative ways. Examples of features include, but are not limited to:
+All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? {++Why/how does our project stand out from other teams’ projects?++}” The aim should be to present how the chosen features are integrated to enhance the quality of the performance in unique and innovative ways. Examples of features include, but are not limited to:
 [compact]
 - Locomotion
 - Object/human detection and avoidance
@@ -70,7 +70,9 @@ All teams are judged in the following areas: Technical Description Poster, Techn
 
 Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their Technical Demonstration Video, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
 
-For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the RoboCupJunior Forum.
+{++More information on the selection of features can be found in the Article++} *How to Decide on Your OnStage Robotic Features* (https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html).
+
+For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the *RoboCupJunior Forum* (https://junior.forum.robocup.org/c/robocupjunior-onstage).
 
 [[general]]
 == General
@@ -133,7 +135,11 @@ Teams must indicate the end of their performance clearly once it’s over (e.g. 
 [[restarts]]
 === Restarts
 
-Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. Penalty marks will be deducted from the score.
+Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. {--Penalty marks will be deducted from the score.--}
+
+{++The team can restart without reentering the stage and with a clear countdown (3-2-1) to the judges.++}
+
+{++Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.++}
 
 The team must leave the stage after their time on stage has expired.
 
@@ -145,9 +151,9 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 
 Teams are encouraged to provide a visual or multimedia presentation as part of their performance. This can take the form of a video, animation, slideshow, etc. However, the content should be made by the team themselves.
 
-Interaction between the robots and the visual display is allowed and encouraged. 
+Interaction between the robots and the visual display is allowed and encouraged.
 
- A projector and screen or LED-screen is provided. The organizers cannot guarantee the height above the stage or the size of the screen.
+A projector and screen or LED-screen is provided. The organizers cannot guarantee the height above the stage or the size of the screen.
 
 A HDMI and 3.5 mm AUX cable is available on stage through which a laptop or other device can be connected to the display device. The length of the cable cannot be guaranteed.
 
@@ -159,7 +165,7 @@ If music is used, teams must provide their own audio music source. The preferred
 The size of the performance stage area is a rectangular area of 5 x 4 meters (m) for robots with the 5 meter side facing the judges.
 
 //TO DO: fix link to appendix in PDF
-There is a line marking the edge of the 5 x 4 meter stage. See <<appendix-a>>.
+There is a line marking the edge of the 5 x 4 meter stage. See appendix a.
 
 The floor provided shall be made of a flat (non-glossy) white surface, for example, painted MDF (compressed wood fiber). While floor joints will be made to be as smooth as possible, robots must be prepared for irregularities of up to 5 mm in the floor surface. Whilst every effort will be made to make the stage flat, this may not be possible, and teams should be prepared to cope with this uncertainty.
 
@@ -200,7 +206,7 @@ Interactive props can be used to add value to the performance.
 
 The kind of props that are considered "interactive" are:
 
-1. Props that interact with robots via sensors
+1. Props that interact with robots via sensors {++(mounted either on the robot or the props)++}
 2. Props that interact with robots via communication
 
 Robots can sense static props to perform a certain task or trigger an action provided that they are placed on the defined stage performance area.
@@ -212,7 +218,7 @@ Static props which do not form an integral part of the performance are discourag
 
 Robots may be started manually by human contact, sensor interaction or with remote control at the beginning of the performance.
 
-During the performance, remote control of a robot is prohibited, including pressing buttons (including keyboards or phone applications) or similar interactions with touch-like sensors. Touch-like sensors are defined as passive sensors that have a logical single function dependent on human actions.
+During the performance, remote control of a robot is prohibited, including pressing buttons, keyboards, phone applications or similar interactions with touch-like sensors. Touch-like sensors are defined as passive sensors that have a logical single function dependent on human actions.
 
 Humans directly influencing sensors to trigger the progression of the performance will not be rewarded highly.
 
@@ -234,12 +240,13 @@ In order to keep the focus on the robots, humans on stage should make sure to fo
 [[deductions]]
 === Deductions
 
-Refer to the scoresheet for the list of deductions. 
+Refer to the scoresheet for the list of deductions.
 All robot movements or interactions that happen outside the performance area will not be considered for the scoring, but will not lead to deductions.
 
 Teams are reminded that humans triggering the progress of the performance via touch-based sensors will be considered remote-controlled interaction and therefore will be considered an unplanned human interaction.
 
 Teams reusing robots without informing the judges in any way will be subject to deductions. 
+
 [[preparations-for-the-stage-performance]]
 === Preprarations for the stage performance
 
@@ -295,7 +302,7 @@ The Technical Interview is a live interview between the team and the judges, in 
 
 All teams will have up to 20 minutes of technical interview judging during the competition. Which will take place as an in-person meeting with the judges in a separate room at the venue.
 
-Interviews will be judged by at least two RoboCupJunior officials.
+Interviews will be judged by at least two RoboCupJunior officials {++who have also scored the teams poster beforehand++}.
 
 The Interview Score Sheet is used in the interview judging. It is strongly suggested for teams to read the Technical Interview Score Sheet before the interview to make effective use of the interview.
 
@@ -333,7 +340,7 @@ If the judges consider it necessary, teams may be asked to complete a second tec
 
 Teams are required to submit a recorded demonstration to showcase the capabilities of their robots. The aim of the technical demonstration is to showcase how well the team integrated their robotics creations into a perfect performance. They should demonstrate and describe the capabilities of their robots such as interaction with humans or with each other using mechanisms, sensor systems, and algorithms that have been developed by the team.
 
-The maximum length of the video is 5 minutes. If it is longer than 5 minutes, it will be cut to that time for judging.
+The maximum length of the video is {~~5~>6~~} minutes. If it is longer than {~~5~>6~~} minutes, it will be cut to that time for judging.
 
 Robots should be presented without their costumes and key features of the technologies used should be visible to the audience.
 
@@ -365,7 +372,7 @@ Areas that are useful to be included in the poster are:
 - annotated pictures
 - system diagrams of the systems and robot(s) under development at various stages
 - {++interconnection of robots (examples could include: network connection diagram, exploded views of robots, ...)++}
-- {++flowchart of performance (Robot A triggers Robot B, Robot B communicates to Robot C++}
+- {++flowchart of performance (Robot A triggers Robot B, Robot B communicates to Robot C)++}
 - an explanation of the innovative robot technologies used
 - a description of the features that should be judged during the performance
 - QR-codes to repositories, videos, or team websites
