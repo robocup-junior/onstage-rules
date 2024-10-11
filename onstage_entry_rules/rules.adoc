@@ -17,12 +17,12 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the recommended rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage Entry events in 2024.
+These are the recommended rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage Entry events in 2025.
 There will be *no OnStage Entry competition at the international level*. The rules are meant to be used at regional and super-regional events.
 
 Regional and super-regional tournament organizers may use these rules, make changes specific to their regions or not run Entry leagues at all. Contact your regions or super-regions tournament organizers to find out which rules are going to be used at your tournament.
 
-{++Although it is recomended to apply these rules to teams in the age from 10 to 14 years, the final decision about the admission criteria is up to the local organizers.++} 
+Although it is recomended to apply these rules to teams in the age from 10 to 14 years, the final decision about the admission criteria is up to the local organizers.
 
 //Add line below again once a new version is released
 //Major changes from the 2023 OnStage rules are written in *[red]#red#*.
@@ -173,9 +173,9 @@ Under no circumstances can *mains electricity* be used during the performance. E
 
 Lithium batteries must be transported or moved in safety bags. 
 
-{++Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.++}
+Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.
 
-{++To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee when in doubt).++}
+To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee when in doubt).
 
 [[onstage-interview]]
 == Interview (30% of total score)
@@ -205,7 +205,7 @@ Extra time will not be given for teams with a translator.
 
 Each team is required to bring a poster. The purpose of the poster is to explain the technology used, as well as to showcase the robots’ software and hardware.
 
-{++Teams must submit a digital copy of their poster in PDF format (≤ 10 MB)++}.
+Teams must submit a digital copy of their poster in PDF format (≤ 10 MB).
 
 The size of the poster should be no larger than A1 (60 x 84 cm).
 
@@ -213,7 +213,7 @@ Areas that are useful to be included in the poster are:
 
 - team name and region
 - performance description
-{++- a description of the features that should be judged during the performance++}
+- a description of the features that should be judged during the performance
 - annotated pictures of the development process
 
 If possible, teams will be given public space to display their Technical Poster.
@@ -221,22 +221,22 @@ If possible, teams will be given public space to display their Technical Poster.
 [[open-technical-demonstration]]
 == Open Technical Demonstration (10% of total score)
 
-{++Through the Open Technical Demonstration, teams should showcase their robots' capabilities and explain how they have been achieved..++} 
+Through the Open Technical Demonstration, teams should showcase their robots' capabilities and explain how they have been achieved.
 
-{++It's recomended to use slides to introduce the project.++}
+It's recomended to use slides to introduce the project.
 
 [[demonstration-procedure]]
 === Demonstration procedure
 
-{++The duration of the demonstration should be approximately 5 minutes.++}
+The duration of the demonstration should be approximately 5 minutes.
 
-{++Each team has a total of seven minutes on the stage. This time includes stage set-up, the demonstration, and the time for packing up and clearing the stage. The timer only stops when the entire stage is clear with no remnants from the previous demonstration.++}
+Each team has a total of seven minutes on the stage. This time includes stage set-up, the demonstration, and the time for packing up and clearing the stage. The timer only stops when the entire stage is clear with no remnants from the previous demonstration.
 
-{++After the seven minutes have expired the team will be asked to clear the stage and judging will be stopped.++}
+After the seven minutes have expired the team will be asked to clear the stage and judging will be stopped.
 
-{++Teams should showcase their robots' technical capabilities by both describing and demonstrating what has been developed. This could cover any aspect of the performance or technical capabilities of the robot(s), such as interaction with humans, interactions with other robots or the use of a particular sensor.++}
+Teams should showcase their robots' technical capabilities by both describing and demonstrating what has been developed. This could cover any aspect of the performance or technical capabilities of the robot(s), such as interaction with humans, interactions with other robots or the use of a particular sensor.
 
-{++Teams are encouraged to remove robots’ costumes for showing detailed design.++}
+Teams are encouraged to remove robots’ costumes for showing detailed design.
 
 [[judging]]
 == Judging
@@ -251,14 +251,14 @@ Teams must read the Score Sheets carefully so that their robot performance cover
 [[totaling]]
 === Totaling
 
-The total score of each team is calculated by combining the scores from the team’s Interview, Poster{++, Open Technical Demonstartion++} and the Performance.
+The total score of each team is calculated by combining the scores from the team’s Interview, Poster, Open Technical Demonstartion and the Performance.
 
 If more than one performance is scheduled, the highest of all performance scores will be used.
 
 [[juding-panel]]
 === Judging panel
 
-{++All aspects will be judged by a panel of at least three officials. At least one of these judges is a RoboCupJunior official who has judged the Technical interview and documentation as well.++}
+All aspects will be judged by a panel of at least three officials. At least one of these judges is a RoboCupJunior official who has judged the Technical interview and documentation as well.
 
 [[mentors]]
 == Mentors
