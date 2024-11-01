@@ -56,6 +56,10 @@ From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 |image:media/OnStage/StagePerfRight.jpg[width=230]
 |===
 
+[discrete]
+== General rules
+{++Refer to the general RoboCupJunior rules (https://junior.robocup.org/robocupjunior-general-rules/) for additional restrictions and requirements.++}
+
 [[judging-overview]]
 == Judging Overview
 
@@ -187,13 +191,13 @@ A team may have and use any number of robots. Robots may be of any size. However
 [[communication-and-localization]]
 === Communication and Localization
 
-Teams are encouraged to design their robots to interact with a communication function. Robots are encouraged to communicate with each other during the performance. Suggested and allowed communication protocols are infrared (IR), Bluetooth (LE and classic), ZigBee, RFID or other localization platforms.
+Teams are encouraged to design their robots to interact with a communication function. Robots are encouraged to communicate with each other during the performance. Suggested {--and allowed--} communication protocols are infrared (IR), Bluetooth (LE and classic), ZigBee, RFID or other localization platforms.
 
 There must be no communication between off-stage and on-stage devices. 
 
 It is the team’s responsibility to make sure that their communication function does not interfere with other teams' robots when practicing or performing. 
 
-No team is permitted to use other radio frequency (RF) signals (like Wi-Fi or Z waves) as this may interfere with robots in other RoboCup leagues. If you are unsure, please check with the OnStage League Committee before your performance.
+{--No team is permitted to use other radio frequency (RF) signals (like Wi-Fi or Z waves) as this may interfere with robots in other RoboCup leagues. If you are unsure, please check with the OnStage League Committee before your performance.--}
 
 Teams should prepare for disruptions in communication protocols and unavailability of Wifi (as outlined in the general rules) before and during the setup and stage time.
 
@@ -272,7 +276,7 @@ A team whose routine may be deemed inappropriate to any particular group will be
 [[saftety-and-power-considerations]]
 === Safety and Power Considerations
 
-Under no circumstances can *mains electricity* be used during the performance. {--Every robot should be equipped with some sort of battery power, with a maximum of 15 volts.--}
+{--Under no circumstances can *mains electricity* be used during the performance. Every robot should be equipped with some sort of battery power, with a maximum of 15 volts.--}
 
 {--Lead-acid batteries are not considered appropriate unless the team has gained permission from the OnStage League Committee *before* attending the competition for a specific reason. Failure to declare batteries may result in disciplinary actions, including deductions.--}
 
@@ -363,7 +367,7 @@ Each team is required to submit a Technical Description Poster by the deadline s
 
 Teams must submit a digital copy of their poster in PDF format (≤ 10 MB). 
 
-The size of the poster should be no larger than A1 (60 x 84 cm).
+{--The size of the poster should be no larger than A1 (60 x 84 cm).--}
 
 Areas that are useful to be included in the poster are:
 
