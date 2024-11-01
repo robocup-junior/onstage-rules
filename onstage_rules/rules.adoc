@@ -33,6 +33,11 @@ Major changes from the previous years OnStage rules are written in *[red]#red#*.
 For inquiries and questions about the rules or competition updates, the *Official RoboCupJunior forum* (https://junior.forum.robocup.org/) can be used to contact the OnStage League Committee. All official communication from the committee will be published here before and during the competition season.
 
 [discrete]
+== RoboCupJunior OnStage Community Website
+
+Ressources for participating in the OnStage league can be found on the OnStage community website: https://robocup-junior.github.io/onstage
+
+[discrete]
 == RoboCupJunior OnStage YouTube channel
 
 Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
