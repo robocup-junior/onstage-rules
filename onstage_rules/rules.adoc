@@ -46,7 +46,7 @@ An OnStage performance should make use of innovative technologies or use technol
 
 An OnStage Performance must showcase the implementation and integration of robotic features in ways that visually enhance or add value and contribute to the theme or story being portrayed. More information about the selection of the features can be found in <<judging-overview>>.
 
-During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by a group of two or more cooperating teams from different regions. The SuperTeams spend a short period of time for the collaborative performance creation. More details will be released before the International RoboCupJunior competition .
+During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by a group of two or more cooperating teams from different regions. The SuperTeams spend a short period of time for the collaborative performance creation. More details will be released before the International RoboCupJunior competition.
 
 From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 
@@ -245,6 +245,7 @@ In order to keep the focus on the robots, humans on stage should make sure to fo
 === Deductions
 
 Refer to the scoresheet for the list of deductions.
+
 All robot movements or interactions that happen outside the performance area will not be considered for the scoring, but will not lead to deductions.
 
 Teams are reminded that humans triggering the progress of the performance via touch-based sensors will be considered remote-controlled interaction and therefore will be considered an unplanned human interaction.
@@ -256,7 +257,8 @@ Teams reusing robots without informing the judges in any way will be subject to 
 
 It is the responsibility of the team to ensure that the music and video/presentation is playing correctly before their first performance by liaising with the RoboCupJunior OnStage officials.
 
-Depending on the configuration of the stage and the sound system at the venue, it is possible that the human starting the robot will not be able to see the RoboCupJunior OnStage official starting the audio source and vice versa. Teams should come prepared for these conditions. 
+Depending on the configuration of the stage and the sound system at the venue, it is possible that the human starting the robot will not be able to see the RoboCupJunior OnStage official starting the audio source and vice versa. Teams should come prepared for these conditions.
+
 [[practice-on-the-main-stage]]
 === Practice on the Main Stage
 
