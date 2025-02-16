@@ -15,7 +15,7 @@ steps:
 2. `CriticMarked AsciiDoc` -> **HTML**
 3. `CriticMarked AsciiDoc` -> `LaTeX` (for formatting purposes)
 4. `LaTeX` -> `LaTeX + RCJ Soccer formatting` (_to ensure uniformity of the output_)
-5. `LaTeX + RCJ Soccer formatting` -> **PDF**
+5. `LaTeX + RCJ formatting` -> **PDF**
 
 At the end of this process we end up with a **HTML** and a **PDF** version of
 the AsciiDoc file we started with.
