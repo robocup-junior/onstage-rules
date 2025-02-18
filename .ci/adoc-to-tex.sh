@@ -6,7 +6,6 @@ set -euo pipefail
 OUTPUT_FILE=$1
 
 cp $OUTPUT_FILE/rules.adoc tmp/$OUTPUT_FILE.adoc
-cp general-rules/general-rules.adoc tmp
 
 cd tmp
 
