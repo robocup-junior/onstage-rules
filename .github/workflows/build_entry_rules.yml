@@ -16,7 +16,6 @@ jobs:
 
       - name: build entry rules
         run: |
-          ls -R
           docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_rules
           docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_rules
           mkdir -p dist/${GITHUB_REF#refs/heads/}/
