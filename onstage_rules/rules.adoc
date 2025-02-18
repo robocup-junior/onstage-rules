@@ -61,8 +61,6 @@ From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 |image:media/OnStage/StagePerfRight.jpg[width=230]
 |===
 
-//test
-
 [[general-rules]]
 include::general-rules.adoc[]
 
