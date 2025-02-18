@@ -42,7 +42,7 @@ Ressources for participating in the OnStage league can be found on the OnStage c
 
 Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
 
-[discrete]
+[[general-overview]]
 == Overview
 
 RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance that uses a wide variety of technology to engage an audience. This includes a range of possible performances, such as dance, storytelling, theater, or art installations. The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.
@@ -61,9 +61,8 @@ From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 |image:media/OnStage/StagePerfRight.jpg[width=230]
 |===
 
-[discrete]
-== General rules
-{++Refer to the general RoboCupJunior rules (https://junior.robocup.org/robocupjunior-general-rules/) for additional restrictions and requirements.++}
+[[general-rules]]
+include::../general-rules/general-rules.adoc[]
 
 [[judging-overview]]
 == Judging Overview
@@ -83,29 +82,8 @@ Teams should describe and provide reasoning for their four chosen features in th
 
 For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the *RoboCupJunior Forum* (https://junior.forum.robocup.org/c/robocupjunior-onstage).
 
-[[general]]
-== General
-
-It is the responsibility of the participating team(s) and regional representatives to verify the participants' eligibility requirements, which are as follows:
-
-[[team-size-membership]]
-=== Team Size & Membership
-
-Each team must have *2 to 5 members*. Each team member needs to carry a technical role within the team, such as Electrical, Mechanical, Software etc. Each participant can join only one team. No members can be shared between teams and/or leagues.
-
-[[age-requirement]]
-=== Age requirement
-
-All team members must be aged 14 to 19 years old (ages as of 1st of July).
-
-[[general-robocupjunior-rules]]
-=== General RoboCupJunior Rules
-
-All RoboCupJunior OnStage Teams must also comply with the RoboCupJunior General Rules which can be found at: https://junior.robocup.org/robocupjunior-general-rules/
-
-
 [[authenticity-and-originality]]
-=== Authenticity and originality
+== Authenticity and originality
 
 Teams who, in the opinion of the judges, have knowingly produced duplicate robots, costumes, or performance movements (duplicate music is allowed) of another team will be subject to penalties. This applies to any previous RoboCupJunior Dance or OnStage performance. In case of doubts, the team must be able to provide clear documentation of their preparations and how they have come to their idea.
 
@@ -173,8 +151,7 @@ If music is used, teams must provide their own audio music source. The preferred
 
 The size of the performance stage area is a rectangular area of 5 x 4 meters (m) for robots with the 5 meter side facing the judges.
 
-//TO DO: fix link to appendix in PDF
-There is a line marking the edge of the 5 x 4 meter stage. See appendix a.
+There is a line marking the edge of the 5 x 4 meter stage. See <<appendix-a>>.
 
 The floor provided shall be made of a flat (non-glossy) white surface, for example, painted MDF (compressed wood fiber). While floor joints will be made to be as smooth as possible, robots must be prepared for irregularities of up to 5 mm in the floor surface. Whilst every effort will be made to make the stage flat, this may not be possible, and teams should be prepared to cope with this uncertainty.
 
@@ -204,7 +181,7 @@ It is the team’s responsibility to make sure that their communication function
 
 {--No team is permitted to use other radio frequency (RF) signals (like Wi-Fi or Z waves) as this may interfere with robots in other RoboCup leagues. If you are unsure, please check with the OnStage League Committee before your performance.--}
 
-Teams should prepare for disruptions in communication protocols and unavailability of Wifi (as outlined in the general rules) before and during the setup and stage time.
+Teams should prepare for disruptions in communication protocols before and during the setup and stage time.
 
 Any localization beacons or markers for a robot's localization system should be placed within the confines of the stage.
 
@@ -357,7 +334,7 @@ Robots should be presented without their costumes and key features of the techno
 
 The team should explain how the capabilities have been developed, the challenges overcome, and the technologies integrated. Teams should also provide examples of solutions to any problems/issues during their project development.
 
-Teams will also be required to outline what they believe are their chosen four features that they wish to be scored on during their OnStage performance (See <<Overview>>).
+Teams will also be required to outline what they believe are their chosen four features that they wish to be scored on during their OnStage performance (See <<general-overview>>).
 
 Video editing is allowed and should be used to create a technically engaging and informative demonstration of all robots. Teams may wish to include full English subtitles or transcripts.
 
@@ -450,25 +427,6 @@ It is expected that all participants, students, and mentors, will respect the Ro
 
 It is not whether you win or lose, but how much you learn that counts. Choosing not to take this opportunity to collaborate with students and mentors from all over the world means missing out on a lifelong learning experience. Remember this is a unique moment!
 
-[[fair-play]]
-=== Fair play
-
-It is expected that the aim of all teams is to participate in a fair and clean competition.
-
-Humans that may cause deliberate interference with robots, robots' performance and/or damage to the stage will be subject to disciplinary action. This will be decided by the OnStage League Committee and RoboCupJunior Officials.
-
-Remember, helping those in need and demonstrating friendship and cooperation is the spirit of RoboCupJunior, as well as helping make the world a better place.
-
-Participants are encouraged to help each other.
-
-[[behavior]]
-=== Behavior
-
-All behavior is to be of a subdued nature while at the competition. It is expected that every participant behaves in a respectful manner towards each other.
-
-Participants are not allowed to enter team- areas of other leagues or other teams unless expressly invited to do so by other team members. Participants who misbehave may have disciplinary action taken against them.
-
-A team who is not punctual will be penalized. If the team repeats unpunctual behavior, they risk disciplinary action.
 
 [[robocupjunior-officials]]
 === RoboCupJunior Officials
@@ -481,8 +439,6 @@ The RoboCupJunior officials shall not have a close relationship with any of the 
 === Mentors
 
 Each team is required to have a mentor to assist with the communication among the team and facilitate their learning. The mentor receives communications from the committee leading up to and during the competition via the email address used for their registration.
-
-Mentors (defined as teachers, parents, chaperones, translators, or any other adult non-team members) are not allowed in the student work area except to assist in carrying equipment in or out of the area on the arrival and departure days.
 
 If a problem is encountered that is beyond the team’s capabilities and is clearly beyond the reasonable ability level of a student to repair, mentors may request assistance from the OnStage League Committee, including supervised support to conduct repairs.
 
@@ -497,8 +453,6 @@ Disciplinary action will be taken should a mentor be found mending, building and
 === Sharing
 
 It is understood that RoboCupJunior events with rich technological and curricular developments should be shared with other participants.
-
-Team materials may be published on the RoboCupJunior media platforms during the event.
 
 Sharing information furthers the mission of RoboCupJunior as an educational initiative.
 
@@ -523,7 +477,6 @@ If special circumstances occur, such as unforeseen problems or capabilities of a
 
 If any of the team leaders/mentors are not present at the team meetings to discuss the problems and the resulting rule modifications, they consent to the rule modifications and are not permitted to challenge them at a later time.
 
-[discrete]
 [[appendix-a]]
 == Appendix A
 
@@ -534,7 +487,6 @@ If any of the team leaders/mentors are not present at the team meetings to discu
 |===
 
 
-[discrete]
 [[appendix-b]]
 == Appendix B - Ressources to be released during the season
 [compact]
