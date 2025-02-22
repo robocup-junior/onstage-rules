@@ -55,11 +55,13 @@ for /d %%i in (*) do (
             if /i "!folderName!" neq "media" (
                 if /i "!folderName!" neq "rules_documents" (
                     if /i "!folderName!" neq "general-rules" (
-                        if /i "!folderName!" neq "tmp" (
-                            echo [!folderIndex!] %%i
-                            rem Store folder name in array with corresponding index
-                            set "folderArray[!folderIndex!]=%%i"
-                            set /a "folderIndex+=1"
+                        if /i "!folderName!" neq "onstage-entry-general-rules" (
+                            if /i "!folderName!" neq "tmp" (
+                                echo [!folderIndex!] %%i
+                                rem Store folder name in array with corresponding index
+                                set "folderArray[!folderIndex!]=%%i"
+                                set /a "folderIndex+=1"
+                            )
                         )
                     )
                 )

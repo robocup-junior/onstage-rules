@@ -24,9 +24,6 @@ Regional and super-regional tournament organizers may use these rules, make chan
 
 Although it is recomended to apply these rules to teams in the age from 10 to 14 years, the final decision about the admission criteria is up to the local organizers.
 
-//Add line below again once a new version is released
-//Major changes from the 2023 OnStage rules are written in *[red]#red#*.
-
 *The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of the offical rules of the specific event it participates in. Teams are encouraged to study all documents in detail.
 
 [discrete]
@@ -45,6 +42,9 @@ RoboCupJunior OnStage invites teams to design, build and program creative and au
 |image:media/OnStage/StagePerfRight.jpg[width=230]
 |===
 
+[[general-rules]]
+include::../onstage-entry-general-rules/general-rules.adoc[]
+
 [[judging-overview]]
 == Judging Overview
 
@@ -53,20 +53,6 @@ All teams are judged in the following areas: Poster, Interview, Open Technical D
 Teams should describe their two chosen features in the Poster. In addition, teams should demonstrate their understanding of their robots' in the Technical Interview and Open Technical Demonstration.
 
 For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the RoboCupJunior Forum.
-
-[[general]]
-== General
-
-It is the responsibility of the participating team(s) and regional representatives to verify the participants' eligibility requirements, which are as follows:
-
-[[team-size-membership]]
-=== Team Size, Membership and age requirement
-
-The team size and age requirements will be specified by the local organizers.
-
-Each team member needs to carry a role within the team. Each participant can join only one team. No members can, be shared between teams and/or leagues.
-
-Please note that age and team size restrictions will apply to international competitions for the main OnStage competition.
 
 [[onstage-performance]]
 == Performance (50% of total score)
@@ -129,7 +115,7 @@ Teams are encouraged to *design costumes for their robot*. If a team wants to us
 [[communication-and-localization]]
 === Communication and Localization
 
-Robots are encouraged to communicate with each other during the performance. Suggested and allowed communication protocols are infrared (IR), Bluetooth (LE and classic), ZigBee, RFID or other localization platforms.
+Robots are encouraged to communicate with each other during the performance.
 
 There must be no communication between off-stage and on-stage devices.
 
@@ -169,10 +155,6 @@ Performances should not include violent, military, threatening, or criminal elem
 [[saftety-and-power-considerations]]
 === Safety and Power Considerations
 
-Under no circumstances can *mains electricity* be used during the performance. Every robot should be equipped with some sort of battery power, with a maximum of 15 volts. 
-
-Lithium batteries must be transported or moved in safety bags. 
-
 Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.
 
 To protect participants and comply with occupational health and safety regulations, routines may not include anything that could be considered a projectile, explosions, smoke, or flame, use of water, or any other hazardous substances (contact the committee when in doubt).
@@ -203,11 +185,7 @@ Extra time will not be given for teams with a translator.
 [[onstage-poster]]
 == Poster (10% of total score)
 
-Each team is required to bring a poster. The purpose of the poster is to explain the technology used, as well as to showcase the robots’ software and hardware.
-
 Teams must submit a digital copy of their poster in PDF format (≤ 10 MB).
-
-The size of the poster should be no larger than A1 (60 x 84 cm).
 
 Areas that are useful to be included in the poster are:
 
@@ -259,11 +237,6 @@ If more than one performance is scheduled, the highest of all performance scores
 === Judging panel
 
 All aspects will be judged by a panel of at least three officials. At least one of these judges is a RoboCupJunior official who has judged the Technical interview and documentation as well.
-
-[[mentors]]
-== Mentors
-
-Mentors are not allowed in the team work area.
 
 [[additional-information]]
 == Additional information
