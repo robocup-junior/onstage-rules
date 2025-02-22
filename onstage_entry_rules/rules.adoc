@@ -1,4 +1,4 @@
-= RoboCupJunior OnStage Entry Rules 2025 - DRAFT
+= RoboCupJunior OnStage Entry Rules 2025
 {docdate}
 :toc: left
 :sectanchors:
