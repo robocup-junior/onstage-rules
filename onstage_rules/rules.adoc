@@ -260,18 +260,7 @@ A team whose routine may be deemed inappropriate to any particular group will be
 [[saftety-and-power-considerations]]
 === Safety and Power Considerations
 
-{--Under no circumstances can *mains electricity* be used during the performance. Every robot should be equipped with some sort of battery power, with a maximum of 15 volts.--}
-
 {--Lead-acid batteries are not considered appropriate unless the team has gained permission from the OnStage League Committee *before* attending the competition for a specific reason. Failure to declare batteries may result in disciplinary actions, including deductions.--}
-
-Teams should be aware of the proper handling of {--lithium--} batteries to ensure safety.
-
-Lithium batteries must be transported or moved in safety bags. 
-
-Teams should design their robot in consideration of safety. Relative to the size and capabilities of the robots, teams should consider:
-[compact]
-- Power Management - Cabling, batteries, emergency stop capabilities
-- Electromechanical System Risks - Exposed pinch points, leaks, sharp edges, tripping hazards, appropriate actuators
 
 Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.
 
@@ -351,8 +340,6 @@ Each team is required to submit a Technical Description Poster by the deadline s
 
 Teams must submit a digital copy of their poster in PDF format (≤ 10 MB). 
 
-{--The size of the poster should be no larger than A1 (60 x 84 cm).--}
-
 Areas that are useful to be included in the poster are:
 
 - team name and region
@@ -364,23 +351,6 @@ Areas that are useful to be included in the poster are:
 - an explanation of the innovative robot technologies used
 - a description of the features that should be judged during the performance
 - QR-codes to repositories, videos, or team websites
-
-Teams will be given public space to display their Technical Poster.
-
-[[bill-of-material]]
-=== Bill of material
-
-Each team will be asked to complete a bill of materials including all major components and materials prior to the event.
-
-The list has to include the following:
-[compact]
-- Name / Description (e.g. part number, …)
-- Source
-- Is the component new or has it been used before
-- Is the component part of a kit or has it been developed by the team
-- Price of component
-
-A template will be provided and has to be used for the submission.
 
 [[judging]]
 == Judging

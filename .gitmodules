@@ -1,3 +1,6 @@
 [submodule "general-rules"]
 	path = general-rules
 	url = https://github.com/robocup-junior/general-rules.git
+[submodule "onstage-entry-general-rules"]
+	path = onstage-entry-general-rules
+	url = https://github.com/robocup-junior/onstage-entry-general-rules

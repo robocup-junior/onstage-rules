@@ -7,7 +7,6 @@ on:
       - 'preamble.tex'
       - 'committee_list.tex'
 
-
 jobs:
   build:
     name: build main rules

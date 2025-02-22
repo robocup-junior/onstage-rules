@@ -11,8 +11,12 @@ jobs:
   build:
     name: build entry rules
     runs-on: ubuntu-20.04
+    
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: true
 
       - name: build entry rules
         run: |
