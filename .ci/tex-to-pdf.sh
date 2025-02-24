@@ -24,7 +24,7 @@ for FILE in *.tex; do
     TITLE_LINE=$(echo "$ORIGINAL_TITLE_LINE" | sed 's/\\title{\(.*\)}/\\title{\\vspace{-5ex}\1\\vspace{-9ex}}/')
 
     # Concat the standardized preamble with the "without_preamble" version of the file + additional content
-    if [[ "$FILE_NAME" == 00_* ]]; then
+    if [[ "$FILE_NAME" == 00_* || ! "$FILE_NAME" =~ ^[0-9]{2}_ ]]; then
         # For file starting with "00_", include committee list
         cat "../preamble.tex" \
         "../${INPUT_DIR}/header_footer.tex" \
