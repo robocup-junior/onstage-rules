@@ -1,0 +1,83 @@
+= OnStage [.underline]#Performance# Score Sheet 2025
+{docdate}
+:toc: left
+:sectanchors:
+:sectlinks:
+:xrefstyle: full
+:section-refsig: Section 
+:sectnums:
+
+ifdef::basebackend-html[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://hypothes.is/embed.js" async></script>
+++++
+endif::basebackend-html[]
+
+:icons: font
+:numbered:
+
+
+[cols="8,40,>.>3"] 
+|===
+|Category |Examples of how high marks may be achieved are: |Mark
+
+|*Visual Impact and Quality of the Whole Performance*
+a|*The robotic performance is engaging. For example:*
+[compact]
+* The theme is clearly shown throughout the performance.
+* Performance entertains and triggers an emotional response from the audience.
+* The performance area and set are used effectively.
+* Robot costumes add value to the performance.[compact]
+|/12
+
+|*Robotic Interaction and System Integration*
+a|[compact]
+* Complex or challenging movements that fit the theme and add value to the performance.
+* Interesting, smooth, natural interaction between robots and/or humans.
+* Humans ensure they never distract the audience from robot actions, and their movements enhance the overall robotic performance.
+* All robotic systems (e.g. sensors, motors) are used effectively, in multiple ways, and throughout the performance.
+* Props are interactive and add value to the performance.
+|/12
+
+|*Effective implementation of features presented by the team.*
+a|*Implementation of four chosen features:*
+
+Excellent implementation, visibility, and impact - features works as expected and add extensive value to the performance:
+
+[cols="3,>1"]
+!===
+
+! Feature 1:
+!/4
+
+! Feature 2:
+!/4
+
+! Feature 3:
+!/4
+
+! Feature 4:
+!/4
+
+!===
+
+|/16
+
+
+|*Deductions* _(-3 for each at discretion of the judges)_
+|-3 for each unplanned human intervention inside the marked stage area (including remote or human controlled actions)
+
+-3 for each restart
+
+-3 each 10 seconds over the allotted time (on stage or performance) Performances that do not reach the minimum performance time will be scored zero
+
+_If a problem is not the fault of a team no deductions will be applied_
+|
+
+|*Total Score*
+|
+|*/40*
+|===
+
+_Teams that infringe the rules will be warned that such infringements will not be allowed in the second performance._
