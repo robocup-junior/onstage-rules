@@ -21,7 +21,7 @@ for FILE in *.tex; do
     cat "$FILE" | awk 'f;/\\mainmatter/{f=1}'  > "${FILE_NAME}_without_preamble.tex"
 
     ORIGINAL_TITLE_LINE=$(grep -m 1 '^\\title' "$FILE")
-    TITLE_LINE=$(echo "$ORIGINAL_TITLE_LINE" | sed 's/\\title{\(.*\)}/\\title{\\vspace{-5ex}\1\\vspace{-9ex}}/')
+    TITLE_LINE=$(echo "$ORIGINAL_TITLE_LINE" | sed 's/\\title{\(.*\)}/\\title{\\vspace{0pt}\1\\vspace{-80pt}}/')
 
     # Concat the standardized preamble with the "without_preamble" version of the file + additional content
     if [[ "$FILE_NAME" == 00_* || ! "$FILE_NAME" =~ ^[0-9]{2}_ ]]; then
