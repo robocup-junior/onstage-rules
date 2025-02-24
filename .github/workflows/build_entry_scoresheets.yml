@@ -1,0 +1,31 @@
+on:
+  push:
+    paths:
+      - 'onstage_entry_scoresheets/**'
+      - 'preamble.tex'
+      - 'committee_list.tex'
+
+jobs:
+  build:
+    name: build main rules
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: build main rules
+        run: |
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_scoresheets
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_scoresheets
+          mkdir -p dist/${GITHUB_REF#refs/heads/}/
+          cp -R ./media rules_documents/* dist/${GITHUB_REF#refs/heads/}/
+
+      - name: publish entry scoresheets
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN  }}
+          publish_dir: ./dist
+          keep_files: True
