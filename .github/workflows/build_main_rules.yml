@@ -1,9 +1,7 @@
 on:
   push:
     paths:
-      - 'onstage_rules/rules.adoc'
-      - 'onstage_rules/header_footer.tex'
-      - 'onstage_rules/title.tex'
+      - 'onstage_rules/**'
       - 'preamble.tex'
       - 'committee_list.tex'
 
