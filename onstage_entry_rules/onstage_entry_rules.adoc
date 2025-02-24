@@ -32,6 +32,16 @@ Although it is recomended to apply these rules to teams in the age from 10 to 14
 For inquiries and questions about the rules or competition updates, the *Official RoboCupJunior forum* (https://junior.forum.robocup.org/) can be used to contact the OnStage League Committee. All official communication from the committee will be published here before and during the competition season.
 
 [discrete]
+== RoboCupJunior OnStage Community Website
+
+Ressources for participating in the OnStage league can be found on the OnStage community website: https://robocup-junior.github.io/onstage
+
+[discrete]
+== RoboCupJunior OnStage YouTube channel
+
+Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
+
+[discrete]
 == Overview
 
 RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance. This includes a range of possible performances, such as dance, storytelling, theater, or art installations. The performance may involve music, but this is optional.
