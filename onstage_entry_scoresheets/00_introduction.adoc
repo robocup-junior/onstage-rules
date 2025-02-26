@@ -1,4 +1,4 @@
-= RoboCupJunior OnStage Score Sheets 2025
+= RoboCupJunior OnStage Entry Score Sheets 2025
 {docdate}
 :toc: left
 :sectanchors:
