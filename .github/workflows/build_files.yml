@@ -1,0 +1,82 @@
+on:
+  push:
+    paths:
+      - 'onstage_entry_rules/**'
+      - 'onstage_entry_scoresheets/**'
+      - 'onstage_rules/**'
+      - 'onstage_scoresheets/**'
+      - 'preamble.tex'
+      - 'committee_list.tex'
+
+jobs:
+  build:
+    name: Build and Publish Rules
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Determine Changed Files
+        id: changed-files
+        uses: dorny/paths-filter@v2
+        with:
+          filters: |
+            entry_rules:
+              - 'onstage_entry_rules/**'
+              - 'preamble.tex'
+              - 'committee_list.tex'
+            entry_scoresheets:
+              - 'onstage_entry_scoresheets/**'
+              - 'preamble.tex'
+              - 'committee_list.tex'
+            main_rules:
+              - 'onstage_rules/**'
+              - 'preamble.tex'
+              - 'committee_list.tex'
+            main_scoresheets:
+              - 'onstage_scoresheets/**'
+              - 'preamble.tex'
+              - 'committee_list.tex'
+
+      - name: Build Entry Rules
+        if: steps.changed-files.outputs.entry_rules == 'true'
+        run: |
+          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_entry_rules
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_rules
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_rules
+
+      - name: Build Entry Scoresheets
+        if: steps.changed-files.outputs.entry_scoresheets == 'true'
+        run: |
+          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_entry_scoresheets
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_scoresheets
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_scoresheets
+
+      - name: Build Main Rules
+        if: steps.changed-files.outputs.main_rules == 'true'
+        run: |
+          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_rules
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_rules
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_rules
+
+      - name: Build Main Scoresheets
+        if: steps.changed-files.outputs.main_scoresheets == 'true'
+        run: |
+          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_scoresheets
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_scoresheets
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_scoresheets
+
+      - name: Prepare Distribution Folder
+        run: |
+          mkdir -p dist/${GITHUB_REF#refs/heads/}/
+          cp -R ./media rules_documents/* dist/${GITHUB_REF#refs/heads/}/
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          keep_files: true
