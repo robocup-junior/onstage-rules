@@ -23,8 +23,7 @@ jobs:
         id: changed-files
         uses: dorny/paths-filter@v2
         with:
-          # Compare to the last commit (GITHUB_SHA refers to the latest commit)
-          base: ${{ github.sha }}
+          base: ${{ github.event.before }}
           filters: |
             entry_rules:
               - 'onstage_entry_rules/**'
