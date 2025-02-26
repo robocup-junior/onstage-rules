@@ -1,0 +1,59 @@
+= OnStage [.underline]#Technical Demonstration Video# Score Sheet 2025
+{docdate}
+:toc: left
+:sectanchors:
+:sectlinks:
+:xrefstyle: full
+:section-refsig: Section 
+:sectnums:
+
+ifdef::basebackend-html[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://hypothes.is/embed.js" async></script>
+++++
+endif::basebackend-html[]
+
+:icons: font
+:numbered:
+
+
+[cols="8,40,>.>3"] 
+|===
+|Category |Examples of how high marks may be achieved are: |Mark
+
+|*Robotic Demonstration and Features*
+a|*Demonstration of a fully working robotic system including the four chosen features.*
+[compact]
+* Demonstrates the overall capabilities of the robot(s), including the four chosen features
+* Demonstrates fully working robotic systems without costumes
+* Explanations of how the four chosen features were selected by the team.
+|/6
+
+|*Design Process*
+a|*Explain the design processes used during the development of the robotic systems including electromechanical, sensor, communication and software design choices.*
+[compact]
+* Highlights how the team overcame challenges in their design process, especially focusing on team’s problem solving and teamwork
+* Communicates team member’s roles and the contributions to the different systems (electromechanical, software etc.)
+|/3
+
+|*Presentation*
+a|*Clarity and quality of the presentation.*
+[compact]
+* Presents a well-polished demonstration. Graphics and accompanying materials are clearly explained and presented.
+* Effectively communicates the technical capabilities of the robot to the audience in a concise and clear manner.
+* Technically unusual, creative, or ambitious concepts in the team’s robotic performance are clearly explained.
+|/3
+
+|*Innovation and Sustainability*
+a|*Illustrating new and/or innovative technology to the OnStage competition.*
+[compact]
+* Innovation achieved with clear evidence of testing, research and development of the four chosen features.
+* Innovation can be an inspiration for future competitors.
+* Teams are able to explain how they considered sustainable practices during the development of their project.
+|/3
+
+|*Total Score*
+|
+|*/15*
+|===

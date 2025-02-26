@@ -1,0 +1,49 @@
+= OnStage [.underline]#Technical Description Poster# Score Sheet 2025
+{docdate}
+:toc: left
+:sectanchors:
+:sectlinks:
+:xrefstyle: full
+:section-refsig: Section 
+:sectnums:
+
+ifdef::basebackend-html[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://hypothes.is/embed.js" async></script>
+++++
+endif::basebackend-html[]
+
+:icons: font
+:numbered:
+
+
+[cols="8,40,>.>3"] 
+|===
+|Category |Examples of how high marks may be achieved are: |Mark
+
+|*Abstract and Performance Description*
+a|[compact]
+* Clear overview of the performance idea and how the chosen technology adds to the performance as described in the abstract
+* Demonstrates authenticity in the project and performance development
+|/6
+
+|*Technology and Innovation*
+a|[compact]
+* Electromechanical, sensors, communication, and software choices are clearly described
+* Clear definition of the four chosen features with evidence of learning through the use of words, diagrams and images
+* Depth and understanding of the four chosen features and how the chosen features add value to the performance
+|/6
+
+|*Poster design*
+a|[compact]
+* Poster submitted using the correct format in paper format and virtually
+* The Poster should be presented in the style of a research poster
+* The Poster is easy to read and understand
+* The Poster is pleasing to look at (good contrast, good balance between wording and imagery)
+|/3
+
+|*Total Score*
+|
+|*/15*
+|===

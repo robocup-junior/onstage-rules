@@ -1,0 +1,92 @@
+= OnStage [.underline]#Technical Interview# Score Sheet 2025
+{docdate}
+:toc: left
+:sectanchors:
+:sectlinks:
+:xrefstyle: full
+:section-refsig: Section 
+:sectnums:
+
+ifdef::basebackend-html[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://hypothes.is/embed.js" async></script>
+++++
+endif::basebackend-html[]
+
+:icons: font
+:numbered:
+
+
+[cols="8,40,>.>3"] 
+|===
+|Category |Examples of how high marks may be achieved are: |Mark
+
+|*Programming*
+a|*Ability to explain the program and the interactions between the hardware and software:*
+[compact]
+* Choice of programming language
+* Difficulties with the software
+* Development of appropriate models, datasets and/or libraries to solve programming solutions
+* Efficient and optimized programming with clear documentation and commenting with evidence of version control
+* Development of calibration, testing and debugging functionalities
+* Usage of AI / AR technology
+|/7
+
+|*Electro- mechanical Systems*
+a|*Ability to explain why electromechanical design choices were made:*
+[compact]
+* Choice of materials, microcontrollers and actuators
+* Development of custom electronics (including PCBs)
+* Power management, regulation, and battery choices
+* Design choices are made to ensure systems are reliable and durable
+* Sustainable design choices including the choice of materials
+
+*Explain how systems are fit for purpose - examples include:*
+[compact]
+* Complex mobility - omnidirectional/legged robots
+* Stable builds, system kinematics and design of custom components
+* High precision systems including pneumatics
+* Functional arms/hands/faces
+* Robotic arms for manipulation
+* Automatic balance system
+|/7
+
+|*Sensor and Communication Systems*
+a|*Ability to explain the role of sensors and communication in the systems and how the robots interact with the stage environment:*
+[compact]
+* Robot systems can dynamically respond to unplanned events
+* Robots can sense their environment and use the information to dynamically respond with an action
+* Integration of multi sensor systems to develop solutions
+* Development of communication between sensors
+* Creation of communication architectures (asymmetric communication)
+
+*Explain how systems are fit for purpose - examples include:*
+[compact]
+* Visual/Audio recognition
+* Developed guidance, navigation, and control systems
+* Robot-Robot and/or [.underline]Natural Robot-Human interaction
+* Stage/Robot localization systems
+|/7
+
+|*Innovation and Feature Development*
+a|*Ability to explain and showcase innovative features or robotic components*
+[compact]
+* Innovation achieved with clear evidence of testing, research and development. Innovations that can inspire future competitors
+* Teams are able to explain developments based on past feedback and performance results
+|/6
+
+|*Teamwork and Collegiality*
+|Evidence of team collaboration, problem solving and spirit in the performance and competition.
+|/3
+
+|*Deductions* _(At discretion of judges up to -15)_
+|Judges believe the work was not done by team members
+
+Team members are unable to explain their technical involvement with the robot
+|
+
+|*Total Score*
+|
+|*/30*
+|===
