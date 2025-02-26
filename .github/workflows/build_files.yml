@@ -7,6 +7,9 @@ on:
       - 'onstage_scoresheets/**'
       - 'preamble.tex'
       - 'committee_list.tex'
+      - 'media/**'
+      - 'general-rules/**'
+      - 'onstage-entry-general-rules/**'
 
 jobs:
   build:
@@ -29,18 +32,24 @@ jobs:
               - 'onstage_entry_rules/**'
               - 'preamble.tex'
               - 'committee_list.tex'
+              - 'media/**'    
+              - 'onstage-entry-general-rules/**'
             entry_scoresheets:
               - 'onstage_entry_scoresheets/**'
               - 'preamble.tex'
               - 'committee_list.tex'
+              - 'media/**'
             main_rules:
               - 'onstage_rules/**'
               - 'preamble.tex'
               - 'committee_list.tex'
+              - 'media/**'
+              - 'general-rules/**'
             main_scoresheets:
               - 'onstage_scoresheets/**'
               - 'preamble.tex'
               - 'committee_list.tex'
+              - 'media/**'
 
       - name: Build Entry Rules
         if: steps.changed-files.outputs.entry_rules == 'true'
