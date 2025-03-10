@@ -56,6 +56,10 @@
     </l:l10n>
   </l:i18n>
 
+  <xsl:template match="itemizedlist">
+    <xsl:text>\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>\end{itemize}</xsl:text>
+  </xsl:template>
+
 </xsl:stylesheet>
-
-
