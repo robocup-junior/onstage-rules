@@ -57,7 +57,8 @@
   </l:i18n>
 
 <xsl:template match="itemizedlist">
-    <xsl:text>\vspace{0pt}\noindent\begin{minipage}{\linewidth}</xsl:text>
+    <xsl:text>\noindent\begin{minipage}{\linewidth}</xsl:text>
+    <xsl:text>\vspace{2pt}</xsl:text>  <!-- Space before the list -->
     <xsl:text>\begin{itemize}
         \setlength{\itemsep}{2pt}     <!-- Space between individual list items -->
         \setlength{\parskip}{0pt}
@@ -67,7 +68,7 @@
     </xsl:text>
     <xsl:apply-templates/>
     <xsl:text>\end{itemize}</xsl:text>
-    <xsl:text>\end{minipage}\vspace{3pt}</xsl:text>
+    <xsl:text>\end{minipage}\vspace{2pt}</xsl:text>
 </xsl:template>
 
 
