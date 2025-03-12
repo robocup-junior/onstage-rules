@@ -28,7 +28,7 @@ a|*The robotic performance is engaging. For example:*
 * The theme is clearly shown throughout the performance.
 * Performance entertains and triggers an emotional response from the audience.
 * The performance area and set are used effectively.
-* Robot costumes add value to the performance.[compact]
+* Robot costumes add value to the performance.
 |/12
 
 |*Robotic Interaction and System Integration*
