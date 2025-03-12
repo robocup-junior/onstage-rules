@@ -59,7 +59,7 @@
 <xsl:template match="itemizedlist">
     <xsl:text>\vspace{0pt}\noindent\begin{minipage}{\linewidth}</xsl:text>
     <xsl:text>\begin{itemize}
-        \setlength{\itemsep}{2pt}     <!-- Spce between individual list items -->
+        \setlength{\itemsep}{2pt}     <!-- Space between individual list items -->
         \setlength{\parskip}{0pt}
         \setlength{\topsep}{0pt}
         \setlength{\partopsep}{0pt}
