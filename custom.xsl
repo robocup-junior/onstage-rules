@@ -57,9 +57,11 @@
   </l:i18n>
 
   <xsl:template match="itemizedlist">
-    <xsl:text>\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}</xsl:text>
-    <xsl:apply-templates/>
+      <xsl:text>\vspace{-6pt}</xsl:text> <!-- Reduce space before list -->
+      <xsl:text>\begin{itemize}\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}\setlength{\topsep}{0pt}\setlength{\partopsep}{0pt}</xsl:text>
+      <xsl:apply-templates/>
     <xsl:text>\end{itemize}</xsl:text>
+      <xsl:text>\vspace{-6pt}</xsl:text> <!-- Reduce space after list -->
   </xsl:template>
 
 </xsl:stylesheet>
