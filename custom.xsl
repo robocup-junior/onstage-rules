@@ -56,12 +56,19 @@
     </l:l10n>
   </l:i18n>
 
-  <xsl:template match="itemizedlist">
-      <xsl:text>\vspace{-6pt}</xsl:text> <!-- Reduce space before list -->
-      <xsl:text>\begin{itemize}\setlength{\itemsep}{2pt}\setlength{\parskip}{0pt}\setlength{\topsep}{0pt}\setlength{\partopsep}{0pt}</xsl:text>
-      <xsl:apply-templates/>
+<xsl:template match="itemizedlist">
+    <xsl:text>\vspace{0pt}\noindent\begin{minipage}{\linewidth}</xsl:text>
+    <xsl:text>\begin{itemize}
+        \setlength{\itemsep}{2pt}     <!-- Spce between individual list items -->
+        \setlength{\parskip}{0pt}
+        \setlength{\topsep}{0pt}
+        \setlength{\partopsep}{0pt}
+        \setlength{\parsep}{0pt}
+    </xsl:text>
+    <xsl:apply-templates/>
     <xsl:text>\end{itemize}</xsl:text>
-      <xsl:text>\vspace{-6pt}</xsl:text> <!-- Reduce space after list -->
-  </xsl:template>
+    <xsl:text>\end{minipage}\vspace{3pt}</xsl:text>
+</xsl:template>
+
 
 </xsl:stylesheet>
