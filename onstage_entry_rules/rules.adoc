@@ -22,7 +22,11 @@ There will be *no OnStage Entry competition at the international level*. The rul
 
 Regional and super-regional tournament organizers may use these rules, make changes specific to their regions or not run Entry leagues at all. Contact your regions or super-regions tournament organizers to find out which rules are going to be used at your tournament.
 
-Although it is recomended to apply these rules to teams in the age from 10 to 14 years, the final decision about the admission criteria is up to the local organizers.
+{++The OnStage Entry League is open to students in the age from 10 to 16 years (age as of 1st of July).++}
+
+{++A participant may only participate twice in an Entry league competition of a regional RCJ qualification final (e.g. German Open, Portuguese Open, etc.). A participant is allowed to participate in a qualification competition for a regional final without restrictions.++}
+
+*The final decision about the admission criteria is up to the local organizers.*
 
 *The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of the offical rules of the specific event it participates in. Teams are encouraged to study all documents in detail.
 
@@ -78,10 +82,18 @@ Teams wait on the side of the stage before being welcomed on stage.
 
 Teams are strongly encouraged to use the time while they are setting up on the stage to introduce to the audience the performance and the features of their robots.
 
+Teams must indicate the start of their performance clearly with a “3-2-1" countdown to the judges.
+
+Teams must indicate the end of their performance clearly once it’s over (e.g. everyone coming to the front of the stage / thanking the audience for their attention / …).
+
 [[restarts]]
 === Restarts
 
-Teams can restart their routine if necessary. Penalty marks will be deducted from the score.
+Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. Penalty marks will be deducted from the score.
+
+The team can restart without reentering the stage and with a clear countdown (3-2-1) to the judges.
+
+Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.
 
 The team must leave the stage after their time on stage has expired.
 
@@ -141,6 +153,17 @@ Interaction between robots and/or humans may be used to dynamically alter the ro
 Human team members may perform with their robots on the stage during the performance. They should make sure not to hide important components of their robot performance from the judges/audience.
 
 Humans may use the stage area to illustrate the robots movements through acting.
+
+[[deductions]]
+=== Deductions
+
+Refer to the scoresheet for the list of deductions.
+
+{~~All movements or interactions that happen outside the performance area~>All movements or interactions of and with robots that don't have any point of contact within the performance area~~} will not be considered for the scoring, but will not lead to deductions.
+
+{++Robots started from outside the performance area will not be considered for judging during the whole performance.++}
+
+Teams reusing robots without informing the judges in any way will be subject to deductions. 
 
 [[preparations-for-the-stage-performance]]
 === Preprarations for the stage performance
