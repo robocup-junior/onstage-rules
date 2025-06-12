@@ -13,8 +13,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
     name: Build and Publish Documents
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout repository with submodules
