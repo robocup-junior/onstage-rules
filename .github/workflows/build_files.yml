@@ -13,8 +13,8 @@ on:
 
 jobs:
   build:
-    name: Build and Publish Rules
     runs-on: ubuntu-20.04
+    name: Build and Publish Documents
 
     steps:
       - name: Checkout repository with submodules
@@ -28,56 +28,46 @@ jobs:
         with:
           base: ${{ github.event.before }}
           filters: |
-            entry_rules:
+            onstage_entry_rules:
               - 'onstage_entry_rules/**'
               - 'preamble.tex'
               - 'committee_list.tex'
               - 'media/**'    
               - 'onstage-entry-general-rules/**'
-            entry_scoresheets:
+            onstage_entry_scoresheets:
               - 'onstage_entry_scoresheets/**'
               - 'preamble.tex'
               - 'committee_list.tex'
               - 'media/**'
-            main_rules:
+            onstage_rules:
               - 'onstage_rules/**'
               - 'preamble.tex'
               - 'committee_list.tex'
               - 'media/**'
               - 'general-rules/**'
-            main_scoresheets:
+            onstage_scoresheets:
               - 'onstage_scoresheets/**'
               - 'preamble.tex'
               - 'committee_list.tex'
               - 'media/**'
 
-      - name: Build Entry Rules
-        if: steps.changed-files.outputs.entry_rules == 'true'
+      - name: Build Documents
+        env:
+          DIRS: |
+            onstage_entry_rules
+            onstage_entry_scoresheets
+            onstage_rules
+            onstage_scoresheets
         run: |
-          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_entry_rules
-          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_rules
-          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_rules
-
-      - name: Build Entry Scoresheets
-        if: steps.changed-files.outputs.entry_scoresheets == 'true'
-        run: |
-          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_entry_scoresheets
-          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_entry_scoresheets
-          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_entry_scoresheets
-
-      - name: Build Main Rules
-        if: steps.changed-files.outputs.main_rules == 'true'
-        run: |
-          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_rules
-          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_rules
-          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_rules
-
-      - name: Build Main Scoresheets
-        if: steps.changed-files.outputs.main_scoresheets == 'true'
-        run: |
-          rm -rf dist/${GITHUB_REF#refs/heads/}/onstage_scoresheets
-          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_scoresheets
-          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_scoresheets
+          set -e
+          for dir in $DIRS; do
+            if [ "${{ steps.changed-files.outputs[$dir] }}" = "true" ]; then
+              echo "Building $dir ..."
+              rm -rf "dist/${GITHUB_REF#refs/heads/}/$dir"
+              docker run -v "$(pwd):/documents" asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh "$dir"
+              docker run -v "$(pwd):/documents" mrshu/texlive-dblatex .ci/tex-to-pdf.sh "$dir"
+            fi
+          done
 
       - name: Prepare Distribution Folder
         run: |
