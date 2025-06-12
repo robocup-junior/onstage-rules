@@ -25,7 +25,7 @@ This Award Criteria and Rubrics Document is guaranteed to be used for the Intern
 
 Major changes from the previous years OnStage award guidelines are written in *[red]#red#*.
 
-*The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of these documents prior to the competition, as changes may be made at any moment. Teams are encouraged to study all documents in detail.
+*The rules, scoresheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of these documents prior to the competition, as changes may be made at any moment. Teams are encouraged to study all documents in detail.
 
 [discrete]
 == RoboCupJunior Forum
@@ -45,39 +45,164 @@ Examples of good performances and documentation can be found on the *Official Ro
 [[general-overview]]
 == Award Types
 
-Two kinds of awards are given out at the international tournament:
-- Trophy awards
-- Certificate awards
-- League certificate
+Three kinds of awards are given out at the international tournament:
 
-Trophy and Certificate awards will be given during the official RoboCupJunior award ceremony.
-League certificates will be given during an league internal season end ceremony.
+* Trophy awards
+* Certificate awards
+* League certificates
+
+Trophy and Certificate awards are issued by the RoboCup Federation and will be given during the official RoboCupJunior award ceremony.
+League Certificates are issued by the OnStage League Committee and presented during an internal end-of-season league ceremony.
 
 [[general-criteria]]
 == General Award Criteria
-Only one Team or SuperTeam can win each trophy or certificate award.
+Only one Team or SuperTeam can win a trophy or certificate award.
 
 No Team or SuperTeam can win more than one trophy or certificate award.
 
 Teams will be evaluated based on the categories listed in the official scoresheets.
 
-Available trophies and certificates depends on the number of qualified teams for each sub-league. Only 40% of teams attending in each sub-league may be awarded each season.
+Available trophies and certificates depend on the number of qualified teams. Only 40 % of teams attending each league may be awarded each season.
 
-[[Awards]]
+[[awards]]
 == Awards
 
 The following Trophy awards are given:
-- Individual Team 1st Place
-- Individual Team 2nd Place
-- Individual Team 3rd Place
-- SuperTeam 1st Place
-- TBD Award in local language
+
+* Individual Team 1st Place
+* Individual Team 2nd Place
+* Individual Team 3rd Place
+* SuperTeam 1st Place
+* Andorinhas de Ouro
 
 The following Certificate awards are given:
-- Best Technical Interview
-- Best Technical Demonstration Video
-- Best Technical Description Poster
-- Best Feature Integration
-- Best Stage Performance
-- TBD
 
+* Best Technical Interview
+* Best Technical Documentation
+* Best Stage Performance
+
+The following League Certificates are given:
+
+* Most Engaging RCJ OnStage performance selected by participants and mentors
+* Best Feature Integration
+* Best Technical Demonstration Video
+* Best Technical Description Poster
+
+[[award-description]]
+== Award Description
+
+The following section explains what each award is given for.
+
+[[description-individual-1st-2nd-3rd]]
+=== Individual Team 1st, 2nd and 3rd Place
+
+The individual team awards honor the teams that have scored best across all rubrics of the OnStage competition. They have proven not only their ability to come up with a great idea for an OnStage performance, but also to create an entertaining robotic show and to explain every detail clearly.
+
+[[description-superteam-1st]]
+=== SuperTeam 1st Place
+
+The SuperTeam 1st Place award honors the SuperTeam that best utilized the limited time given during the competition to bring together at least three teams from different regions of the world. This SuperTeam has not only created a completely new and entertaining robotic show centered around a given theme, but has also successfully built friendships.
+
+[[description-andorinhas-de-ouro]]
+=== Andorinhas de Ouro
+
+The Andorinhas de Ouro is a special award that will only be given at the international RoboCupJunior event in Brazil in 2025. It honors a special team which, in the opinion of the judges, deserves recognition because it has left a lasting impact on the RoboCupJunior OnStage league but did not qualify for any other award. This may be due to exceptionally collegial behavior, teamwork, technical innovation, or any other outstanding contribution to the OnStage league.
+
+[[description-best-technical-interview]]
+=== Best Technical Interview
+
+The Best Technical Interview Award honors a team in which every member demonstrated a deep understanding of their technical role and the advanced technologies used in their robots and performance.
+
+[[description-best-technical-documentation]]
+=== Best Technical Documentation
+
+The Best Technical Documentation Award honors a team that has created an outstanding technical poster and video. These materials clearly and accurately present the technologies used in their robots and performance, demonstrating a deep understanding of their design, functionality, and purpose.
+
+[[description-best-stage-performance]]
+=== Best Stage Performance
+
+The Best Stage Performance Award honors the team that delivered the most entertaining, creative, and well-executed performance on stage. This team has successfully combined robotics, storytelling, and artistic elements into a coherent and engaging show that impressed both the audience and the judges.
+
+[[description-most-engaging-performance-selected-by-participants-and-mentors]]
+=== Most Engaging RCJ OnStage performance selected by participants and mentors
+
+The Most Engaging RCJ OnStage Performance Award honors the team whose performance was voted the most captivating by fellow participants and mentors. This award recognizes a show that stood out for its energy, creativity, and ability to inspire and connect with the audience.
+
+[[description-best-feature-integration]]
+=== Best Feature Integration
+
+The Best Feature Integration Award honors a team that has selected and implemented its technical features in full alignment with the OnStage league rules. The team has demonstrated how these features were meaningfully integrated into the performance, both technically and artistically.
+
+[[description-best-technical-demonstration-video]]
+=== Best Technical Demonstration Video
+
+The Best Technical Demonstration Video Award honors a team that has produced a clear, well-structured, and informative video explaining the technical aspects of their robots and performance. The video effectively demonstrates how the technologies work and how they contribute to the overall show.#
+
+[[description-best-technical-description-poster]]
+=== Best Technical Description Poster
+
+The Best Technical Description Poster Award honors a team that has created a concise and visually clear poster, accurately describing the technologies used in their robots and their purpose within the performance. The poster reflects a deep technical understanding and communicates it in a way that is accessible to both experts and non-experts.
+
+
+[[selection-criteria]]
+== Selection Criteria
+
+All awards are based on the scores teams have earned across the various rubrics of the competition scoresheets. The only exceptions are awards explicitly decided by the audience or the judges.
+
+With respect to the <<general-criteria, General Award Criteria>>, the order in which awards are selected affects the type of award a qualified individual team may receive. The following order is observed when selecting teams for specific awards based on their scores:
+
+1. 1st, 2nd, and 3rd Place awards
+2. All Certificate Awards
+3. Andorinhas de Ouro
+
+The order in which the Certificate Awards are given is determined by the judging panel.
+
+[[criteria-individual-1st-2nd-3rd]]
+=== Individual Team 1st, 2nd and 3rd Place
+
+The Individual Team 1st, 2nd, and 3rd Place awards are given to the teams that achieved the highest total scores across all scoresheet rubrics. If multiple performances or interviews took place, the rules include specific instructions on how these are scored.
+
+[[criteria-superteam-1st]]
+=== SuperTeam 1st Place
+
+The SuperTeam 1st Place award is given to the SuperTeam that achieved the highest score on the SuperTeam-specific scoresheet. Each team participating in this SuperTeam receives an individual award to take home.
+
+[[criteria-andorinhas-de-ouro]]
+=== Andorinhas de Ouro
+
+The Andorinhas de Ouro special award is given to a team that has not qualified for any other award and is selected based solely on the judges’ opinion.
+
+[[criteria-best-technical-interview]]
+=== Best Technical Interview
+
+The Best Technical Interview Award is given to the team that achieved the highest score on the technical interview scoresheet and has not yet been selected for any other award.
+
+[[criteria-best-technical-documentation]]
+=== Best Technical Documentation
+
+The Best Technical Documentation Award is given to the team that achieved the highest combined score on the Technical Description Poster and Technical Demonstration Video scoresheets and has not yet been selected for any other award.
+
+[[criteria-best-stage-performance]]
+=== Best Stage Performance
+
+The Best Stage Performance Award is given to the team that achieved the highest score on the performance scoresheet and has not yet been selected for any other award.
+
+[[criteria-most-engaging-performance-selected-by-participants-and-mentors]]
+=== Most Engaging RCJ OnStage performance selected by participants and mentors
+
+The Most Engaging RCJ OnStage Performance Certificate is given to the team that receives the highest number of points in a voting process conducted among all OnStage teams and mentors. Each mentor may vote for one team (1 point), and each team may vote for three other teams, awarding 3, 2, and 1 point respectively. Neither teams nor mentors are allowed to vote for their own team.
+
+[[criteria-best-feature-integration]]
+=== Best Feature Integration
+
+The Best Feature Integration Award is selected by the judges and honors the team that, in their opinion, has chosen and implemented its features in the best alignment with the official rules.
+
+[[criteria-best-technical-demonstration-video]]
+=== Best Technical Demonstration Video
+
+The Best Technical Demonstration Video Certificate is given to the team that achieved the highest score on the Technical Demonstration Video scoresheet and has not yet been selected for any other award.
+
+[[criteria-best-technical-description-poster]]
+=== Best Technical Description Poster
+
+The Best Technical Description Poster Certificate is given to the team that achieved the highest score on the Technical Description Poster scoresheet and has not yet been selected for any other award.
