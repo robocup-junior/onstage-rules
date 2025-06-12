@@ -25,7 +25,7 @@ jobs:
           mkdir -p dist/${GITHUB_REF#refs/heads/}/
           cp -R ./media rules_documents/* dist/${GITHUB_REF#refs/heads/}/
 
-      - name: publish entry rules
+      - name: publish award guidelines
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN  }}
