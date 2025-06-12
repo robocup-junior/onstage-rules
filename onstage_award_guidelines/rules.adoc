@@ -1,0 +1,83 @@
+= RoboCupJunior OnStage Award Guidelines 2025
+{docdate}
+:toc: left
+:sectanchors:
+:sectlinks:
+:xrefstyle: full
+:section-refsig: Section 
+:sectnums:
+
+ifdef::basebackend-html[]
+++++
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<script src="https://hypothes.is/embed.js" async></script>
+++++
+endif::basebackend-html[]
+
+:icons: font
+:numbered:
+
+These are the official award guidelines of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage events in 2025.
+
+This Award Criteria and Rubrics Document is guaranteed to be used for the International Tournament only. Each Region may have different methods of awarding teams and determining team rankings. Regional Tournaments may use this as a guideline as is or with modifications for their own competitions. Check with the organizers of the tournaments you are participating in to find out which version they are using.
+
+*The International Original Award Guidelines (in English) have priority over [.underline]#any# translations.*
+
+Major changes from the previous years OnStage award guidelines are written in *[red]#red#*.
+
+*The rules, score sheets, and all forms of documentation can be downloaded from the official RoboCupJunior website* (https://junior.robocup.org). Each team has a responsibility to verify the latest version of these documents prior to the competition, as changes may be made at any moment. Teams are encouraged to study all documents in detail.
+
+[discrete]
+== RoboCupJunior Forum
+
+For inquiries and questions about the rules or competition updates, the *Official RoboCupJunior forum* (https://junior.forum.robocup.org/) can be used to contact the OnStage League Committee. All official communication from the committee will be published here before and during the competition season.
+
+[discrete]
+== RoboCupJunior OnStage Community Website
+
+Ressources for participating in the OnStage league can be found on the OnStage community website: https://robocup-junior.github.io/onstage
+
+[discrete]
+== RoboCupJunior OnStage YouTube channel
+
+Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
+
+[[general-overview]]
+== Award Types
+
+Two kinds of awards are given out at the international tournament:
+- Trophy awards
+- Certificate awards
+- League certificate
+
+Trophy and Certificate awards will be given during the official RoboCupJunior award ceremony.
+League certificates will be given during an league internal season end ceremony.
+
+[[general-criteria]]
+== General Award Criteria
+Only one Team or SuperTeam can win each trophy or certificate award.
+
+No Team or SuperTeam can win more than one trophy or certificate award.
+
+Teams will be evaluated based on the categories listed in the official scoresheets.
+
+Available trophies and certificates depends on the number of qualified teams for each sub-league. Only 40% of teams attending in each sub-league may be awarded each season.
+
+[[Awards]]
+== Awards
+
+The following Trophy awards are given:
+- Individual Team 1st Place
+- Individual Team 2nd Place
+- Individual Team 3rd Place
+- SuperTeam 1st Place
+- TBD Award in local language
+
+The following Certificate awards are given:
+- Best Technical Interview
+- Best Technical Demonstration Video
+- Best Technical Description Poster
+- Best Feature Integration
+- Best Stage Performance
+- TBD
+

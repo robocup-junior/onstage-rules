@@ -1,0 +1,33 @@
+on:
+  push:
+    paths:
+      - 'onstage_award_guidelines/rules.adoc'
+      - 'onstage_award_guidelines/header_footer.tex'
+      - 'onstage_award_guidelines/title.tex'
+      - 'preamble.tex'
+      - 'committee_list.tex'
+
+jobs:
+  build:
+    name: build award guidelines
+    runs-on: ubuntu-20.04
+    
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: build award guidelines
+        run: |
+          docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh onstage_award_guidelines
+          docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh onstage_award_guidelines
+          mkdir -p dist/${GITHUB_REF#refs/heads/}/
+          cp -R ./media rules_documents/* dist/${GITHUB_REF#refs/heads/}/
+
+      - name: publish entry rules
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN  }}
+          publish_dir: ./dist
+          keep_files: True
