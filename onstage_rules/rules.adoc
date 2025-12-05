@@ -1,4 +1,4 @@
-= RoboCupJunior OnStage Rules 2025
+= RoboCupJunior OnStage Draft Rules 2026
 {docdate}
 :toc: left
 :sectanchors:
@@ -45,7 +45,7 @@ Examples of good performances and documentation can be found on the *Official Ro
 [[general-overview]]
 == Overview
 
-RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance that uses a wide variety of technology to engage an audience. This includes a range of possible performances, such as dance, storytelling, theater, or art installations. The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.
+RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance that **uses a wide variety of technology to engage an audience**. This includes a range of possible performances, such as, but not limited to: dance, storytelling, theater, art installations, etc (to find more inspirations). The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.
 
 An OnStage performance should make use of innovative technologies or use technology in new innovative ways not previously developed in OnStage performances, while adding value to the performance. Innovation can be achieved with clear evidence of testing, research and development and can be an inspiration for future competitors.
 
@@ -67,7 +67,7 @@ include::../general-rules/general-rules.adoc[]
 [[judging-overview]]
 == Judging Overview
 
-All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? {++Why/how does our project stand out from other teams’ projects?++}” The aim should be to present how the chosen features are integrated to enhance the quality of the performance in unique and innovative ways. Examples of features include, but are not limited to:
+All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? Why/how does our project stand out from other teams’ projects?” The aim should be to present how the chosen features are integrated to enhance the quality of the performance in unique and innovative ways. Examples of features include, but are not limited to:
 [compact]
 - Locomotion
 - Object/human detection and avoidance
@@ -78,7 +78,7 @@ All teams are judged in the following areas: Technical Description Poster, Techn
 
 Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their Technical Demonstration Video, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
 
-{++More information on the selection of features can be found in the Article++} *How to Decide on Your OnStage Robotic Features* (https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html).
+More information on the selection of features can be found in the Article *How to Decide on Your OnStage Robotic Features* (https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html).
 
 For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the *RoboCupJunior Forum* (https://junior.forum.robocup.org/c/robocupjunior-onstage).
 
@@ -124,9 +124,9 @@ Teams must indicate the end of their performance clearly once it’s over (e.g. 
 
 Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. {--Penalty marks will be deducted from the score.--}
 
-{++The team can restart without reentering the stage and with a clear countdown (3-2-1) to the judges.++}
+The team can restart without reentering the stage and with a clear countdown (3-2-1) to the judges.
 
-{++Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.++}
+Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.
 
 The team must leave the stage after their time on stage has expired.
 
@@ -192,7 +192,7 @@ Interactive props can be used to add value to the performance.
 
 The kind of props that are considered "interactive" are:
 
-1. Props that interact with robots via sensors {++(mounted either on the robot or the props)++}
+1. Props that interact with robots via sensors (mounted either on the robot or the props)
 2. Props that interact with robots via communication
 
 Robots can sense static props to perform a certain task or trigger an action provided that they are placed on the defined stage performance area.
@@ -279,7 +279,7 @@ The Technical Interview is a live interview between the team and the judges, in 
 
 All teams will have up to 20 minutes of technical interview judging during the competition. Which will take place as an in-person meeting with the judges in a separate room at the venue.
 
-Interviews will be judged by at least two RoboCupJunior officials {++who have also scored the teams poster beforehand++}.
+Interviews will be judged by at least two RoboCupJunior officials who have also scored the teams poster beforehand.
 
 The Interview Score Sheet is used in the interview judging. It is strongly suggested for teams to read the Technical Interview Score Sheet before the interview to make effective use of the interview.
 
@@ -346,8 +346,8 @@ Areas that are useful to be included in the poster are:
 - abstract/summary/performance description
 - annotated pictures
 - system diagrams of the systems and robot(s) under development at various stages
-- {++interconnection of robots (examples could include: network connection diagram, exploded views of robots, ...)++}
-- {++flowchart of performance (Robot A triggers Robot B, Robot B communicates to Robot C)++}
+- interconnection of robots (examples could include: network connection diagram, exploded views of robots, ...)
+- flowchart of performance (Robot A triggers Robot B, Robot B communicates to Robot C)
 - an explanation of the innovative robot technologies used
 - a description of the features that should be judged during the performance
 - QR-codes to repositories, videos, or team websites
