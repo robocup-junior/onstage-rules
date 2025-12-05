@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage events in 2025.
+These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage events in 2026.
 
 *The International Original Rules (in English) have priority over [.underline]#any# translations.*
 
@@ -38,6 +38,7 @@ For inquiries and questions about the rules or competition updates, the *Officia
 Ressources for participating in the OnStage league can be found on the OnStage community website: https://robocup-junior.github.io/onstage
 
 [discrete]
+[[rcj-onstage-channel]]
 == RoboCupJunior OnStage YouTube channel
 
 Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
@@ -45,24 +46,26 @@ Examples of good performances and documentation can be found on the *Official Ro
 [[general-overview]]
 == Overview
 
-RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance that **uses a wide variety of technology to engage an audience**. This includes a range of possible performances, such as, but not limited to: dance, storytelling, theater, art installations, etc (to find more inspirations). The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.
+RoboCupJunior OnStage invites teams to design, build, and program creative and autonomous physical robots. The objective is to create a live robotic performance that **uses a wide variety of technologies to engage an audience**. This includes a range of possible performances, such as, but not limited to: dance, storytelling, theater, games, etc. (for more inspiration, check out the <<rcj-onstage-channel>>). The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining in both the design of the robots and the overall performance.
 
-An OnStage performance should make use of innovative technologies or use technology in new innovative ways not previously developed in OnStage performances, while adding value to the performance. Innovation can be achieved with clear evidence of testing, research and development and can be an inspiration for future competitors.
+An OnStage performance should make use of innovative technologies or employ technology in new, previously unexplored ways, adding value to the performance. Innovation can be achieved through clear evidence of testing, research, and development, potentially inspiring future competitors.
 
-An OnStage Performance must showcase the implementation and integration of robotic features in ways that visually enhance or add value and contribute to the theme or story being portrayed. More information about the selection of the features can be found in <<judging-overview>>.
+An OnStage Performance must showcase the implementation and integration of robotic features in ways that visually enhance or add value and contribute to the theme or portrayed story. More information about the selection of the features can be found in <<judging-overview>>.
 
-During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by a group of two or more cooperating teams from different regions. The SuperTeams spend a short period of time for the collaborative performance creation. More details will be released before the International RoboCupJunior competition.
+During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by two or more cooperating teams from different regions. The SuperTeams spend a short time on collaborative performance creation. More details will be released before the International RoboCupJunior competition.
 
 From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 
-[cols="2", frame="none", grid="none"]
+[cols="1", frame="none", grid="none"]
 |===
-|image:media/OnStage/StagePerfLeft.jpg[width=230]
-|image:media/OnStage/StagePerfRight.jpg[width=230]
+|image:media/OnStage/2025_onstage.JPEG[pdfwidth=100vw]
+// |image:media/OnStage/StagePerfRight.jpg[width=230]
 |===
 
+<<<
+    
 [[general-rules]]
-include::../general-rules/general-rules.adoc[]
+include::../general-rules/general-rules_2026.adoc[]
 
 [[judging-overview]]
 == Judging Overview
