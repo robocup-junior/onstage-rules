@@ -1,4 +1,4 @@
-= RoboCupJunior OnStage Draft Rules 2026
+= RoboCupJunior OnStage Rules 2026
 {docdate}
 :toc: left
 :sectanchors:
@@ -129,13 +129,15 @@ Teams are strongly encouraged to use the time while they are setting up on the s
 [[restarts]]
 === Restarts
 
-Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. {--Penalty marks will be deducted from the score.--}
+Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. Penalty marks will be deducted from the score.
 
 The team can restart **without reentering the stage** and with a clear countdown (3-2-1) to the judges.
 
 Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.
 
 The team must leave the stage after their time on stage has expired.
+
+Te restart must be clearly signaled verbally by a team member on stage.
 
 [[music-and-multimedia-presentations]]
 === Music and Multimedia presentations
@@ -186,13 +188,11 @@ A team may have and use any number of robots. Robots may be of any size. However
 [[communication-and-localization]]
 === Communication and Localization
 
-Teams are encouraged to design their robots to interact with a communication function. Robots are encouraged to communicate with each other during the performance. Suggested {--and allowed--} communication protocols are infrared (IR), Bluetooth (LE and classic), ZigBee, RFID or other localization platforms.
+Teams are encouraged to design their robots to interact with a communication function. Robots are encouraged to communicate with each other during the performance. Suggested communication protocols are infrared (IR), Bluetooth (LE and classic), ZigBee, RFID or other localization platforms.
 
 There must be no communication between off-stage and on-stage devices. 
 
 It is the team’s responsibility to make sure that their communication function does not interfere with other teams' robots when practicing or performing. 
-
-{--No team is permitted to use other radio frequency (RF) signals (like Wi-Fi or Z waves) as this may interfere with robots in other RoboCup leagues. If you are unsure, please check with the OnStage League Committee before your performance.--}
 
 Teams should prepare for disruptions in communication protocols before and during the setup and stage time.
 
@@ -241,7 +241,9 @@ In order to keep the focus on the robots, humans on stage should make sure to fo
 
 Refer to the scoresheet for the list of deductions.
 
-All robot movements or interactions that happen outside the performance area will not be considered for the scoring, but will not lead to deductions.
+{~~All movements or interactions that happen outside the performance area~>All movements or interactions of and with robots that don't have any point of contact within the performance area~~} will not be considered for the scoring, but will not lead to deductions.
+
+{++Robots started from outside the performance area will not be considered for judging during the whole performance.++}
 
 Teams are reminded that humans triggering the progress of the performance via touch-based sensors will be considered remote-controlled interaction and therefore will be considered an unplanned human interaction.
 
@@ -272,8 +274,6 @@ A team whose routine may be deemed inappropriate to any particular group will be
 
 [[saftety-and-power-considerations]]
 === Safety and Power Considerations
-
-{--Lead-acid batteries are not considered appropriate unless the team has gained permission from the OnStage League Committee *before* attending the competition for a specific reason. Failure to declare batteries may result in disciplinary actions, including deductions.--}
 
 Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.
 
@@ -330,7 +330,7 @@ If the judges consider it necessary, teams may be asked to complete a second tec
 
 Teams are required to submit a recorded demonstration to showcase the capabilities of their robots. The aim of the technical demonstration is to showcase how well the team integrated their robotics creations into a perfect performance. They should demonstrate and describe the capabilities of their robots such as interaction with humans or with each other using mechanisms, sensor systems, and algorithms that have been developed by the team.
 
-The maximum length of the video is {~~5~>6~~} minutes. If it is longer than {~~5~>6~~} minutes, it will be cut to that time for judging.
+The maximum length of the video is 6 minutes. If it is longer than 6 minutes, it will be cut to that time for judging.
 
 Robots should be presented without their costumes and key features of the technologies used should be visible to the audience.
 
