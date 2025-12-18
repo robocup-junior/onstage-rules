@@ -21,7 +21,7 @@ These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_
 
 *The International Original Rules (in English) have priority over [.underline]#any# translations.*
 
-Major changes from the previous years OnStage rules are written in *[red]#red#*.
+Major changes from the previous years OnStage rules are written in *[red]#red#*. {++Significant deleted content will be recorded in the footnotes.++}
 
 *Teams should make sure to review _ALL_ pages of these rules.* The rules have been changed to deepen and broaden the educational benefits of competing in RoboCupJunior. It focuses on the evolving technologies available in our time.
 
@@ -54,7 +54,7 @@ An OnStage Performance must showcase the implementation and integration of robot
 
 During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by two or more cooperating teams from different regions. The SuperTeams spend a short time on collaborative performance creation. More details will be released before the International RoboCupJunior competition.
 
-From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
+{--From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.--}
 
 [cols="1", frame="none", grid="none"]
 |===
@@ -68,20 +68,7 @@ include::../general-rules/general-rules.adoc[]
 [[judging-overview]]
 == Judging Overview
 
-All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview, and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? Why/how does our project stand out from other teams’ projects?” The aim should be to present how the chosen features are integrated to enhance performance quality in unique and innovative ways. A good feature is one that is specific, clearly defined, and demonstrates innovation, technical complexity, and integration into the performance. A good rule of thumb is that a feature is defined with a short sentence rather than a word or concept.
-
-{++Examples of good features:++}
-[compact]
-- Hand gesture recognition with pretrained dataset for sign-language interpretation and feedback through robot1 movement
-- Robotic arm capable of grabbing door noob (prop) and opening the door and preassure sentitive to not breaking fragile objects
-- PID algorithm for adjusting the car robot's deviation from a team member using ultrasonic sensors as feedback for error
-
-{++Vague features:++}
-[compact]
-- Locomotion
-- Robot-robot communication
-- Dancing Robot
-- Computer Vision
+All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview, and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? Why/how does our project stand out from other teams’ projects?” The aim should be to present how the chosen features are integrated to enhance performance quality in unique and innovative ways. {++A good feature is one that is specific, clearly defined, and demonstrates innovation, technical complexity, and integration into the performance. A good rule of thumb is that a feature is defined with a short sentence rather than a word or concept. For more information about how to choose the features, check the “How to Decide on Your OnStage Robotic Features” document at https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html. Each selected feature must be distinct. Similar or overlapping features will be scored as a single feature. ++}
 
 Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their Technical Demonstration Video, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
 
@@ -94,7 +81,7 @@ For clarification on a teams’ features, please do not hesitate to reach out to
 
 Teams who, in the opinion of the judges, have knowingly produced duplicate robots, costumes, or performance movements (duplicate music is allowed) of another team will be subject to penalties. This applies to any previous RoboCupJunior Dance or OnStage performance. In case of doubts, the team must be able to provide clear documentation of their preparations and how they have come to their idea.
 
-**Teams should inform the judges if robotic components have been featured in previous competitions.** To gain marks, teams should be prepared to provide insight on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. Teams should specify how innovations have been done with their technologies and provide documentation to support their claims.
+**Teams should inform the judges if robotic components have been featured in previous competitions.** To gain marks, teams should be prepared to provide insight on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. Teams should specify how innovations have been done with their technologies and provide documentation to support their claims. {++Teams with questions about previous component usage should contact the committee through the RoboCupJunior forum.++}
 
 [[onstage-performance]]
 == Performance (40% of total score)
@@ -179,7 +166,7 @@ The floor provided shall be made of a flat (non-glossy) white surface, for examp
 
 Robots must perform autonomously.
 
-Laptops, notebooks, mobile phones, tablets, Raspberry Pi, and other similar devices can be used as robotic controllers.
+Laptops, notebooks, mobile phones, tablets, Raspberry Pi, and other similar devices can be used as {++autonomous++} robotic controllers.
 
 Teams should construct their own robot rather than using the instructions that come with a commercial kit. Teams are encouraged to design their robot appearance by themselves. If a team wants to use a famous character as their robot, the team should pay attention to the copyright of the character.
 
@@ -250,7 +237,7 @@ Teams are reminded that humans triggering the progress of the performance via to
 Teams reusing robots without informing the judges in any way will be subject to deductions. 
 
 [[preparations-for-the-stage-performance]]
-=== Preprarations for the stage performance
+=== Preparations for the stage performance
 
 It is the responsibility of the team to ensure that the music and video/presentation is playing correctly before their first performance by liaising with the RoboCupJunior OnStage officials.
 
@@ -299,6 +286,8 @@ The Interview Score Sheet is used in the interview judging. It is strongly sugge
 Teams should have *all* physical robotic systems present at the interview with copies of all their work in a format that can be easily viewed. This includes any programs, CAD/CAM designs, PCB designs, or wiring diagrams. 
 Each team member must be prepared to answer questions about the technical aspects of their involvement in the robot design, construction, and programming.
 
+{++Teams must be prepared to conduct a live demonstration proving that all four selected features are fully working.++}
+
 [[preparation]]
 === Preparation
 
@@ -338,7 +327,7 @@ The team should explain how the capabilities have been developed, the challenges
 
 Teams will also be required to outline what they believe are their chosen four features that they wish to be scored on during their OnStage performance (See <<general-overview>>).
 
-Video editing is allowed and should be used to create a technically engaging and informative demonstration of all robots. Teams may wish to include full English subtitles or transcripts.
+Video editing is allowed and should be used to create a technically engaging and informative demonstration of all robots. {--Teams may wish to include full English subtitles or transcripts.--} {++Teams must present their video in English, including voice-over and on-screen text, with English subtitles or transcripts recommended for clarity.++}
 
 All team members are encouraged to be actively involved in the presentation.
 
@@ -349,7 +338,7 @@ The demonstration needs to be recorded and the video file must be uploaded by th
 [[technical-description-poster]]
 === Technical Description Poster (15% of total score)
 
-Each team is required to submit a Technical Description Poster by the deadline set by the OnStage League Committee, which is before the first performance during the RoboCupJunior competition. The purpose of the poster is to explain the technology used, particularly highlight the four chosen features, as well as to showcase the robots’ software and hardware. Posters should be made in an interesting and engaging format, as they will be viewed not only by the judges but also by other teams and visiting members of the public.
+Each team is required to submit a Technical Description Poster by the deadline set by the OnStage League Committee, which is before the first performance during the RoboCupJunior competition. The purpose of the poster is to explain the technology used, particularly highlight the four chosen features, as well as to showcase the robots’ software and hardware. Posters should be made in an interesting and engaging format, as they will be viewed not only by the judges but also by other teams and visiting members of the public. {++Poster content must be presented in English.++}
 
 Teams must submit a digital copy of their poster in PDF format (≤ 10 MB). 
 
