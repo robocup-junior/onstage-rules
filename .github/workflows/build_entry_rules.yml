@@ -10,11 +10,11 @@ on:
 jobs:
   build:
     name: build entry rules
-    runs-on: ubuntu-20.04
-    
+    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository with submodules
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           submodules: true
 
@@ -26,7 +26,7 @@ jobs:
           cp -R ./media rules_documents/* dist/${GITHUB_REF#refs/heads/}/
 
       - name: publish entry rules
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN  }}
           publish_dir: ./dist
