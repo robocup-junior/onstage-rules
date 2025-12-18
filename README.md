@@ -30,8 +30,8 @@ If you'd like to build the rules on your own computer you have to follow the ins
 
 1. Install [Docker](https://docker.com) with the instructions on the website.
 2. Open a console and run the following commands
-3. `docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh rules`
-4. `docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh rules`
+3. `docker run -v $(pwd):/documents asciidoctor/docker-asciidoctor .ci/adoc-to-tex.sh <FOLDER>`
+4. `docker run -v $(pwd):/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh <FOLDER>`
 
 These commands will make the `rules.adoc` file (in the current working directory --
 that's the `$(pwd)` part) go through the build steps above and generate the files

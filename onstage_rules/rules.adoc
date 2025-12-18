@@ -17,7 +17,7 @@ endif::basebackend-html[]
 :icons: font
 :numbered:
 
-These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage events in 2025.
+These are the official rules of the _RoboCup Federation_ for the _RoboCupJunior_ (RCJ) OnStage events in 2026.
 
 *The International Original Rules (in English) have priority over [.underline]#any# translations.*
 
@@ -38,6 +38,7 @@ For inquiries and questions about the rules or competition updates, the *Officia
 Ressources for participating in the OnStage league can be found on the OnStage community website: https://robocup-junior.github.io/onstage
 
 [discrete]
+[[rcj-onstage-channel]]
 == RoboCupJunior OnStage YouTube channel
 
 Examples of good performances and documentation can be found on the *Official RoboCupJunior OnStage YouTube channel* (https://www.youtube.com/@rcjonstage).
@@ -45,20 +46,20 @@ Examples of good performances and documentation can be found on the *Official Ro
 [[general-overview]]
 == Overview
 
-RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance that uses a wide variety of technology to engage an audience. This includes a range of possible performances, such as dance, storytelling, theater, or art installations. The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.
+RoboCupJunior OnStage invites teams to design, build, and program creative and autonomous physical robots. The objective is to create a live robotic performance that **uses a wide variety of technologies to engage an audience**. This includes a range of possible performances, such as, but not limited to: dance, storytelling, theater, games, etc. (for more inspiration, check out the <<rcj-onstage-channel>>). The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining in both the design of the robots and the overall performance.
 
-An OnStage performance should make use of innovative technologies or use technology in new innovative ways not previously developed in OnStage performances, while adding value to the performance. Innovation can be achieved with clear evidence of testing, research and development and can be an inspiration for future competitors.
+An OnStage performance should make use of innovative technologies or employ technology in new, previously unexplored ways, adding value to the performance. Innovation can be achieved through clear evidence of testing, research, and development, potentially inspiring future competitors.
 
-An OnStage Performance must showcase the implementation and integration of robotic features in ways that visually enhance or add value and contribute to the theme or story being portrayed. More information about the selection of the features can be found in <<judging-overview>>.
+An OnStage Performance must showcase the implementation and integration of robotic features in ways that visually enhance or add value and contribute to the theme or portrayed story. More information about the selection of the features can be found in <<judging-overview>>.
 
-During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by a group of two or more cooperating teams from different regions. The SuperTeams spend a short period of time for the collaborative performance creation. More details will be released before the International RoboCupJunior competition.
+During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by two or more cooperating teams from different regions. The SuperTeams spend a short time on collaborative performance creation. More details will be released before the International RoboCupJunior competition.
 
 From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.
 
-[cols="2", frame="none", grid="none"]
+[cols="1", frame="none", grid="none"]
 |===
-|image:media/OnStage/StagePerfLeft.jpg[width=230]
-|image:media/OnStage/StagePerfRight.jpg[width=230]
+|image:media/OnStage/2025_onstage.JPEG[pdfwidth=100vw]
+// |image:media/OnStage/StagePerfRight.jpg[width=230]
 |===
 
 [[general-rules]]
@@ -67,14 +68,20 @@ include::../general-rules/general-rules.adoc[]
 [[judging-overview]]
 == Judging Overview
 
-All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? Why/how does our project stand out from other teams’ projects?” The aim should be to present how the chosen features are integrated to enhance the quality of the performance in unique and innovative ways. Examples of features include, but are not limited to:
+All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview, and the OnStage Performance. Teams must highlight four of their robot(s) *features* in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? Why/how does our project stand out from other teams’ projects?” The aim should be to present how the chosen features are integrated to enhance performance quality in unique and innovative ways. A good feature is one that is specific, clearly defined, and demonstrates innovation, technical complexity, and integration into the performance. A good rule of thumb is that a feature is defined with a short sentence rather than a word or concept.
+
+{++Examples of good features:++}
+[compact]
+- Hand gesture recognition with pretrained dataset for sign-language interpretation and feedback through robot1 movement
+- Robotic arm capable of grabbing door noob (prop) and opening the door and preassure sentitive to not breaking fragile objects
+- PID algorithm for adjusting the car robot's deviation from a team member using ultrasonic sensors as feedback for error
+
+{++Vague features:++}
 [compact]
 - Locomotion
-- Object/human detection and avoidance
-- Human, robot and/or prop interaction
-- Manipulation (grabbing/grasping)
-- Visual/audio recognition
-- Localization and mapping
+- Robot-robot communication
+- Dancing Robot
+- Computer Vision
 
 Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their Technical Demonstration Video, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
 
@@ -87,7 +94,7 @@ For clarification on a teams’ features, please do not hesitate to reach out to
 
 Teams who, in the opinion of the judges, have knowingly produced duplicate robots, costumes, or performance movements (duplicate music is allowed) of another team will be subject to penalties. This applies to any previous RoboCupJunior Dance or OnStage performance. In case of doubts, the team must be able to provide clear documentation of their preparations and how they have come to their idea.
 
-Teams should inform the judges if robotic components have been featured in previous competitions. To gain marks, teams should be prepared to provide insight on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. Teams should specify how innovations have been done with their technologies and provide documentation to support their claims.
+**Teams should inform the judges if robotic components have been featured in previous competitions.** To gain marks, teams should be prepared to provide insight on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. Teams should specify how innovations have been done with their technologies and provide documentation to support their claims.
 
 [[onstage-performance]]
 == Performance (40% of total score)
@@ -107,7 +114,7 @@ Each team has a total of seven minutes on the stage. This time includes stage se
 
 When a team is asked to come onto the stage, a RoboCupJunior official starts the timer.
 
-If the time limit is exceeded due to circumstances outside the team’s control (for example problems with starting the music) there will be no penalty. The judges have the final say on any time penalties.
+If the time limit is exceeded due to circumstances outside the team’s control (for example problems with starting the music) there will be **no penalty**. The judges have the final say on any time penalties.
 
 Teams wait on the side of the stage before being welcomed on stage. A technician designated by RoboCupJunior officials will start the music and the audiovisual / multimedia presentation for the performance routine.
 
@@ -115,16 +122,16 @@ Performances will not be live-streamed for general public viewing. Recordings wi
 
 Teams are strongly encouraged to use the time while they are setting up on the stage to introduce to the audience the performance and the features of their robots.
 
-Teams must indicate the start of their performance clearly with a “3-2-1" countdown to the judges.
+**Teams must indicate the start of their performance clearly with a “3-2-1" countdown to the judges.**
 
-Teams must indicate the end of their performance clearly once it’s over (e.g. everyone coming to the front of the stage / thanking the audience for their attention / …).
+**Teams must indicate the end of their performance clearly once it’s over (e.g. everyone coming to the front of the stage / thanking the audience for their attention / …).**
 
 [[restarts]]
 === Restarts
 
 Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. Penalty marks will be deducted from the score.
 
-The team can restart without reentering the stage and with a clear countdown (3-2-1) to the judges.
+The team can restart **without reentering the stage** and with a clear countdown (3-2-1) to the judges.
 
 Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.
 
@@ -157,11 +164,15 @@ There is a line marking the edge of the 5 x 4 meter stage. See <<appendix-a>>.
 
 The floor provided shall be made of a flat (non-glossy) white surface, for example, painted MDF (compressed wood fiber). While floor joints will be made to be as smooth as possible, robots must be prepared for irregularities of up to 5 mm in the floor surface. Whilst every effort will be made to make the stage flat, this may not be possible, and teams should be prepared to cope with this uncertainty.
 
-{++Teams which repeatetly damage the stage may risk deductions or disqualification.++}
+{++**Teams should come prepared to calibrate their robots.**++}
 
-Teams should come prepared to calibrate their robots based on the lighting conditions at the venue.
-
-Teams using compass sensors should be aware that metal components of the staging may affect the compass sensor readings. Teams should come prepared to calibrate such sensors.
+{++Examples of things to consider:++}
+[compact]
+- Metal components of the staging may affect the compass sensor readings
+- Venue lighting condition can affect color sensor / image recognition readings
+- Uneven floor surfaces can affect robots' movement and stability
+- Venue sound conditions can affect sound sensor readings
+- Etc.
 
 [[robots]]
 === Robots
