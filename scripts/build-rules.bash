@@ -34,8 +34,8 @@ fi
 TARGET=$1
 
 # Check if the target file exists
-if [[ ! -f "$TARGET.adoc" ]]; then
-  print_error "Target file '$TARGET.adoc' does not exist."
+if [[ ! -f "$TARGET/rules.adoc" ]]; then
+  print_error "Target file '$TARGET/rules.adoc' does not exist."
   exit 1
 fi
 
@@ -57,8 +57,8 @@ docker run -v "$(pwd)":/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh "$TARG
 print_success "PDF conversion complete."
 
 # Serve the files using Python's HTTP server
-echo -e "${YELLOW}See the HTML version at: ${BLUE}http://localhost:$SERVER_PORT/$TARGET.html${RESET}"
-echo -e "${YELLOW}See the PDF version at: ${BLUE}http://localhost:$SERVER_PORT/$TARGET.pdf${RESET}"
+echo -e "${YELLOW}See the HTML version at: ${BLUE}http://localhost:$SERVER_PORT/rules_documents/$TARGET.html${RESET}"
+echo -e "${YELLOW}See the PDF version at: ${BLUE}http://localhost:$SERVER_PORT/rules_documents/$TARGET.pdf${RESET}"
 
 # Clean up ALL temporary files
 print_info "Cleaning up temporary files..."
