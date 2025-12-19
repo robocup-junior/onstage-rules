@@ -40,19 +40,19 @@ GitHub now has a nice service called [Codespaces](https://github.com/features/co
 
 4. To actually build rules as a PDF and/or HTML, you can execute the following:
 
-        bash scripts/build-rules.bash onstage_rules/rules
+        bash scripts/build-rules.bash onstage_rules
 
    Or for entry rules:
 
-        bash scripts/build-rules.bash onstage_entry_rules/rules
+        bash scripts/build-rules.bash onstage_entry_rules
 
-5. After the script has run, you will see the final output files created in the source directory (e.g., `onstage_rules/rules.html` and `onstage_rules/rules.pdf`).
+5. After the script has run, you will see the final output files created in the rules_documents directory (e.g., `onstage_rules.html` and `onstage_rules.pdf`).
 
 6. To serve the files in a browser, you can run:
 
         python -m http.server 12345
 
-   Then access the files at `http://localhost:12345/onstage_rules/rules.html` and similar URLs.
+   Then access the files at `http://localhost:12345/rules_documents/onstage_rules.html` and similar URLs.
 
 ### Linux or MacOS System
 
