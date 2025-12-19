@@ -26,6 +26,34 @@ takes place.
 
 If you'd like to build the rules on your own computer you have to follow the instructions below.
 
+## Use GitHub Codespaces to edit and build these files
+
+GitHub now has a nice service called [Codespaces](https://github.com/features/codespaces) which allows us to spin up a "development environment" without having to install various dependencies without having to leave the web browser.
+
+### Building rules in Codespaces
+
+1. First, navigate to the top part of the repository.
+
+2. Click on **Code** and then on **Create codespace on 2026-draft**
+
+3. You should now be able to navigate the rule files in the various directories (`onstage_rules/rules.adoc`, `onstage_entry_rules/rules.adoc`) and edit them as you like.
+
+4. To actually build rules as a PDF and/or HTML, you can execute the following:
+
+        bash scripts/build-rules.bash onstage_rules/rules
+
+   Or for entry rules:
+
+        bash scripts/build-rules.bash onstage_entry_rules/rules
+
+5. After the script has run, you will see the final output files created in the source directory (e.g., `onstage_rules/rules.html` and `onstage_rules/rules.pdf`).
+
+6. To serve the files in a browser, you can run:
+
+        python -m http.server 12345
+
+   Then access the files at `http://localhost:12345/onstage_rules/rules.html` and similar URLs.
+
 ### Linux or MacOS System
 
 1. Install [Docker](https://docker.com) with the instructions on the website.
