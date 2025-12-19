@@ -1,2 +1,6 @@
 tmp/*
 rules_documents/*
+onstage_rules/*.html
+onstage_rules/*.pdf
+onstage_entry_rules/*.html
+onstage_entry_rules/*.pdf
