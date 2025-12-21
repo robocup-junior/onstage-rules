@@ -57,8 +57,7 @@ docker run -v "$(pwd)":/documents mrshu/texlive-dblatex .ci/tex-to-pdf.sh "$TARG
 print_success "PDF conversion complete."
 
 # Serve the files using Python's HTTP server
-echo -e "${YELLOW}See the HTML version at: ${BLUE}http://localhost:$SERVER_PORT/rules_documents/$TARGET.html${RESET}"
-echo -e "${YELLOW}See the PDF version at: ${BLUE}http://localhost:$SERVER_PORT/rules_documents/$TARGET.pdf${RESET}"
+echo -e "${YELLOW}See generated version at: ${BLUE}http://localhost:$SERVER_PORT/rules_documents${RESET}"
 
 # Clean up ALL temporary files
 print_info "Cleaning up temporary files..."
@@ -79,4 +78,4 @@ fi
 print_success "Build complete!"
 echo -e "${YELLOW}HTML version: ${BLUE}${HTML_FILE}${RESET}"
 echo -e "${YELLOW}PDF version: ${BLUE}${PDF_FILE}${RESET}"
-echo -e "${YELLOW}To serve files, run: ${BLUE}python -m http.server $SERVER_PORT${RESET}"
+echo -e "${YELLOW}To serve files, run: ${BLUE}python -m http.server $SERVER_PORT --directory rules_documents${RESET}"
