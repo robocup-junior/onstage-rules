@@ -158,12 +158,12 @@ There is a line marking the edge of the 5 x 4 meter stage. See <<appendix-a>>.
 
 The floor provided shall be made of a flat (non-glossy) white surface, for example, painted MDF (compressed wood fiber). While floor joints will be made to be as smooth as possible, robots must be prepared for irregularities of up to 5 mm in the floor surface. Whilst every effort will be made to make the stage flat, this may not be possible, and teams should be prepared to cope with this uncertainty.
 
-{++Teams should come prepared to calibrate their robots for the venue condition. Examples of things to consider:
+{++Teams should come prepared to calibrate their robots for the venue condition. Examples of things to consider:++}
 [compact]
-- Metal components of the staging may affect the compass sensor readings
-- Venue lighting condition can affect color sensor / image recognition readings
-- Uneven floor surfaces can affect robots' movement and stability
-- Venue sound conditions can affect sound sensor readings, etc.++}
+- {++Metal components of the staging may affect the compass sensor readings++}
+- {++Venue lighting condition can affect color sensor / image recognition readings++}
+- {++Uneven floor surfaces can affect robots' movement and stability++}
+- {++Venue sound conditions can affect sound sensor readings, etc.++}
 
 [[robots]]
 === Robots
