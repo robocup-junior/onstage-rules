@@ -75,7 +75,7 @@ All teams are judged in the following areas: Technical Description Poster, Techn
 
 Teams must highlight four robot *features* in the work they present to the judges. Teams should present how the chosen features are integrated to enhance performance quality in unique and innovative ways. 
 
-Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their  Technical Demonstration Video {++and interview++} {--before being judged on the implementation of these features during the Performance--}. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
+Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their  Technical Demonstration Video {++and Technical Interview++} {--before being judged on the implementation of these features during the Performance--}. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.
 
 More information on the selection of features can be found in the Article *How to Decide on Your OnStage Robotic Features* (https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html).
 
@@ -413,7 +413,7 @@ It is not whether you win or lose, but how much you learn that counts. Choosing 
 
 
 [[judges]]
-=== {--RoboCupJunior Officials--}{++Judges++}
+=== Judges
 
 The {~~officials~>judges~~} will act within the spirit of the event.
 
@@ -476,7 +476,7 @@ If any of the team leaders/mentors are not present at the team meetings to discu
 [[appendix-b]]
 == Appendix B - Resources
 
-{++Supplementary resources are available on the RoboCupJunior OnStage Community Website (https://robocup-junior.github.io/onstage), including: ++}
+{++Supplementary resources are available on the RoboCupJunior OnStage Community Website (https://robocup-junior.github.io/onstage), including\: ++}
 [compact]
 - How to get started with OnStage
 - How to Decide on Your OnStage Robotic Features
