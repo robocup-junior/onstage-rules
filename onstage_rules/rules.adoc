@@ -381,7 +381,7 @@ The total score of each team is calculated by {~~combining the scores~>combining
 
 If more than one performance is scheduled, the highest of all performance scores will be used.
 
-{++RoboCupJunior OnStage competition aims to promote awareness of and encourage sustainable practices in robotics and technology. To support this goal, we have established a *Sustainability Scoring* criterion encouraging all participants to consider environmental impact when developing their projects. Sustainability will be evaluated through all judging criteria during the competition. Unlike other judging criteria that are weighted, sustainability scores are awarded as direct bonus points added to your final score. This means every sustainable choice teams make, from material selection to energy-efficient design, can boost your overall score and contribute to a better future.++}
+{++RoboCupJunior OnStage competition aims to promote awareness of and encourage sustainable practices in robotics and technology. To support this goal, we have established a pass:[<u>Sustainability Scoring</u>] criterion encouraging all participants to consider environmental impact when developing their projects. Sustainability will be evaluated through all judging criteria during the competition. Unlike other judging criteria that are weighted, sustainability scores are awarded as direct bonus points added to your final score. This means every sustainable choice teams make, from material selection to energy-efficient design, can boost your overall score and contribute to a better future.++}
 
 [[juding-panel]]
 === Judging panel
