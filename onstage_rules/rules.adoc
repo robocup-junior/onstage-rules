@@ -46,7 +46,7 @@ Examples of good performances and documentation can be found on the *Official Ro
 [[general-overview]]
 == Overview
 
-RoboCupJunior OnStage invites teams to design, build, and program creative and autonomous physical robots. The objective is to create a live robotic performance that **uses a wide variety of technologies to engage an audience**. This includes a range of possible performances, such as, but not limited to: dance, storytelling, theater, games, etc. (for more inspiration, check out the <<rcj-onstage-channel>>). The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining in both the design of the robots and the overall performance.
+RoboCupJunior OnStage invites teams to design, build, and program creative and autonomous physical robots. The objective is to create a live robotic performance that **uses a wide variety of technologies to engage an audience**. This includes a range of possible performances, such as, but not limited to: dance, storytelling, theater, games, etc. (for more inspiration, check out the <<rcj-onstage-channel>> ). The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining in both the design of the robots and the overall performance.
 
 An OnStage performance should make use of innovative technologies or employ technology in new, previously unexplored ways, adding value to the performance. Innovation can be achieved through clear evidence of testing, research, and development, potentially inspiring future competitors.
 
@@ -68,7 +68,7 @@ include::../general-rules/general-rules.adoc[]
 [[judging-overview]]
 == Judging Overview
 
-All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview, and the OnStage Performance. 
+All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview, the OnStage Performance {++and sustainability (10 bonus marks)++}. 
 
 [[robot-features]]
 === Robot Features
@@ -123,7 +123,7 @@ Teams are strongly encouraged to use the time while they are setting up on the s
 [[restarts]]
 === Restarts
 
-Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. Penalty marks will be deducted from the score.
+Teams can restart their performance if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. Penalty marks will be deducted from the score.
 
 The team can restart **without reentering the stage** and with a clear countdown (3-2-1) to the judges.
 
@@ -154,16 +154,16 @@ If music is used, teams must provide their own audio music source. The preferred
 
 The size of the performance stage area is a rectangular area of 5 x 4 meters (m) for robots with the 5 meter side facing the judges.
 
-There is a line marking the edge of the 5 x 4 meter stage. See <<appendix-a>>.
+There is a {++black+} line marking {++with a minimum of 19 mm width outside++} the edge of the 5 x 4 meter stage. See <<appendix-a>>.
 
 The floor provided shall be made of a flat (non-glossy) white surface, for example, painted MDF (compressed wood fiber). While floor joints will be made to be as smooth as possible, robots must be prepared for irregularities of up to 5 mm in the floor surface. Whilst every effort will be made to make the stage flat, this may not be possible, and teams should be prepared to cope with this uncertainty.
 
-{++Teams should come prepared to calibrate their robots for the venue condition. Examples of things to consider:
+{++Teams should come prepared to calibrate their robots for the venue condition. Examples of things to consider:++}
 [compact]
-- Metal components of the staging may affect the compass sensor readings
-- Venue lighting condition can affect color sensor / image recognition readings
-- Uneven floor surfaces can affect robots' movement and stability
-- Venue sound conditions can affect sound sensor readings, etc.++}
+- {++Metal components of the staging may affect the compass sensor readings++}
+- {++Venue lighting condition can affect color sensor / image recognition readings++}
+- {++Uneven floor surfaces can affect robots' movement and stability++}
+- {++Venue sound conditions can affect sound sensor readings, etc.++}
 
 [[robots]]
 === Robots
@@ -237,7 +237,7 @@ In order to keep the focus on the robots, humans on stage should make sure to fo
 
 Refer to the scoresheet for the list of deductions.
 
-{~~All movements or interactions that happen outside the performance area~>Any part of the robots and the interactive props that are outside the performance area~~} will not be considered for the scoring, but will not lead to deductions.
+All robot movements or interactions that happen outside the performance area will not be considered for the scoring, but will not lead to deductions.
 
 {++Robots started from outside the performance area will not be considered for judging during the whole performance.++}
 
@@ -262,7 +262,7 @@ Every team who practices on the main stage is responsible for cleaning it after 
 [[content]]
 === Content
 
-Performances should not include violent, military, threatening, criminal elements, {++or offensive or discriminatory elements targeting any group of people or culture.++}. This includes inappropriate or offensive words (including music) and/or images. 
+Performances should not include violent, military, threatening, criminal elements, {++or offensive or discriminatory elements targeting any group of people or culture.++} This includes inappropriate or offensive words (including music) and/or images. 
 
 Participants are asked to carefully consider the wording and messages communicated in any aspect of their performance. What seems acceptable to one group may be offensive to friends from a different country or culture. 
 
@@ -282,20 +282,20 @@ A team whose routine includes any situation that could be deemed hazardous, incl
 [[onstage-technical-interview]]
 == Technical Interview (30% of total score)
 
-The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against technical criteria. Creative and innovative technical features chosen by the team will be rewarded with higher scores. Judges are interested in learning students' understanding of the robotic technologies they have used. Teams must show authenticity and originality of their robots and performance in this interview. 
+The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against scoresheet's criteria. Creative and innovative technical features chosen by the team will be rewarded with higher scores. Judges are interested in learning students' understanding of the robotic technologies they have used. Teams must show authenticity and originality of their robots and performance in this interview. 
 [[interview-procedure]]
 === Interview procedure
 
 All teams will have up to {~~20~>25~~} minutes of technical interview judging during the competition. Which will take place as an in-person meeting with the judges in a separate room at the venue.
 
-Interviews will be judged by at least two RoboCupJunior officials who have also scored the teams poster beforehand.
+Interviews will be judged by at least two {~~RoboCupJunior officials~>judges~~} who have also scored the {~~teams poster~>technical description poster and technical demonstration video~~} beforehand.
 
 The Interview Score Sheet is used in the interview judging. It is strongly suggested for teams to review the Technical Interview Score Sheet before the interview to make effective use of the interview.
 
-Teams should have *all* physical robotic systems present at the interview with copies of all their work in a format that can be easily viewed. This includes any programs, CAD/CAM designs, PCB designs, or wiring diagrams. 
+Teams should have *all* physical robotic systems present at the interview with copies of all their work in a format that can be easily viewed. This includes any programs, CAD/CAM designs, PCB designs, or wiring diagrams, {++in the formats that are easy for judges to review during the interview.++}
 Each team member must be prepared to answer questions about the technical aspects of their involvement in the robot design, construction, and programming.
 
-{++Teams must be prepared to conduct a live demonstration proving that all four selected features are fully working.++}
+{++Teams must be prepared to conduct a live demonstration proving that all four chosen features are fully working. Teams are asked to do a live demonstration of the four features and other functions of the robots during the interview. The goal of the live demonstration is for judges to review how the team execute the four chosen features and robotic functions.++}
 
 [[preparation]]
 === Preparation
@@ -306,7 +306,7 @@ The files may be changed in between their submission and the competition when ne
 
 The code is expected to be documented and include comments that explain the basic purpose of its functions/methods.
 
-Teams need to clarify which third party code and/or libraries were used for their performance and why.
+Teams need to clarify which third party code and/or libraries, {++including the use of AI,++} were used for their performance and why.
 
 [[translator]]
 === Translator
@@ -330,11 +330,11 @@ Teams are required to submit a recorded demonstration to showcase the capabiliti
 
 The maximum length of the video is 6 minutes. If it is longer than 6 minutes, it will be cut to that time for judging.
 
-Robots should be presented without their costumes and key {++four++} features of the technologies used should be visible to the audience.
+Robots should be presented without their costumes and {++the four++} features used should be visible to the audience.
 
 The team should explain how the capabilities have been developed, the challenges overcome, and the technologies integrated. Teams should also provide examples of solutions to any problems/issues during their project development.
 
-Teams will also be required to outline what they believe are their chosen four features that they wish to be scored on during their OnStage performance (See <<general-overview>>).
+Teams will also be required to outline their chosen four features that they wish to be scored on during their OnStage performance (See <<general-overview>>).
 
 Video editing is allowed and should be used to create a technically engaging and informative demonstration of all robots. {--Teams may wish to include full English subtitles or transcripts.--} {++Teams must present their video in English, including voice-over and on-screen text, with English subtitles or transcripts recommended for clarity.++}
 
@@ -347,14 +347,15 @@ The demonstration needs to be recorded and the video file must be uploaded by th
 [[technical-description-poster]]
 === Technical Description Poster (15% of total score)
 
-Each team is required to submit a Technical Description Poster by the deadline set by the OnStage League Committee, which is before the first performance during the RoboCupJunior competition. The purpose of the poster is to explain the technology used, particularly highlight the four chosen features, as well as to showcase the robots’ software and hardware. Posters should be made in an interesting and engaging format, as they will be viewed not only by the judges but also by other teams and visiting members of the public. {++Poster content must be presented in English.++}
+Each team is required to submit a Technical Description Poster by the deadline set by the OnStage League Committee, which is before {--the first performance during--} the RoboCupJunior competition. The purpose of the poster is to explain the technology used, particularly highlight the four chosen features, as well as to showcase the robots’ software and hardware. Posters should be made in an interesting and engaging format, as they will be viewed not only by the judges but also by other teams and visiting members of the public. {++Poster content must be presented in English.++}
 
 Teams must submit a digital copy of their poster in PDF format (≤ 10 MB). 
 
 Areas that are useful to be included in the poster are:
 
 - team name and region
-- abstract/summary/performance description
+- summary (abstract)
+- performance description
 - annotated pictures
 - system diagrams of the systems and robot(s) under development at various stages
 - interconnection of robots (examples could include: network connection diagram, exploded views of robots, ...)
@@ -371,14 +372,16 @@ Areas that are useful to be included in the poster are:
 
 The judging criteria and allocation of marks are given in the respective score sheets.
 
-Teams must read the Score Sheets carefully so that their robot performance{++, technical video, poster and interview++} cover as much judging criteria as possible,
+Teams must read the Score Sheets carefully so that their robot performance{++, technical demonstration video, technical description poster and interview++} cover as much judging criteria as possible,
 
 [[totaling]]
 === Totaling
 
-The total score of each team is calculated by {~~combining the scores~>combining the weighted scores as described in the scoresheet document~~} from the team’s Technical Interview, the Technical Demonstration, and the OnStage Performance.
+The total score of each team is calculated by {~~combining the scores~>combining the weighted scores as described in the scoresheet document~~} from the team’s Technical Interview, {--the Technical Demonstration--}{++the Technical Demonstration Video, the Technical Description Poster++}, and the OnStage Performance.
 
 If more than one performance is scheduled, the highest of all performance scores will be used.
+
+{++RoboCupJunior OnStage competition aims to promote awareness of and encourage sustainable practices in robotics and technology. To support this goal, we have established a *Sustainability Scoring* criterion encouraging all participants to consider environmental impact when developing their projects. Sustainability will be evaluated through all judging criteria during the competition. Unlike other judging criteria that are weighted, sustainability scores are awarded as direct bonus points added to your final score. This means every sustainable choice teams make, from material selection to energy-efficient design, can boost your overall score and contribute to a better future.++}
 
 [[juding-panel]]
 === Judging panel
@@ -409,12 +412,12 @@ It is expected that all participants, students, and mentors, will respect the Ro
 It is not whether you win or lose, but how much you learn that counts. Choosing not to take this opportunity to collaborate with students and mentors from all over the world means missing out on a lifelong learning experience. Remember this is a unique moment!
 
 
-[[robocupjunior-officials]]
-=== RoboCupJunior Officials
+[[judges]]
+=== {--RoboCupJunior Officials--}{++Judges++}
 
-The officials will act within the spirit of the event.
+The {~~officials~>judges~~} will act within the spirit of the event.
 
-The RoboCupJunior officials shall not have a close relationship with any of the teams in the league they judge.
+The {~~RoboCupJunior officials~>judges~~} shall not have a close relationship with any of the teams in the league they judge.
 
 [[mentors]]
 === Mentors
@@ -422,6 +425,8 @@ The RoboCupJunior officials shall not have a close relationship with any of the 
 Each team is required to have a mentor to assist with the communication among the team and facilitate their learning. The mentor receives communications from the committee leading up to and during the competition via the email address used for their registration.
 
 If a problem is encountered that is beyond the team’s capabilities and is clearly beyond the reasonable ability level of a student to repair, mentors may request assistance from the OnStage League Committee, including supervised support to conduct repairs.
+
+{++Mentors are not allowed in the student work area and interview room except to assist in carrying equipment in or out of the area on the arrival and departure days.++}
 
 Mentors are not allowed to set up equipment on stage, as this should be the responsibility of team members. Teams should design all robots and any additional equipment to be carried by team members only.
 
@@ -459,7 +464,7 @@ If special circumstances occur, such as unforeseen problems or capabilities of a
 If any of the team leaders/mentors are not present at the team meetings to discuss the problems and the resulting rule modifications, they consent to the rule modifications and are not permitted to challenge them at a later time.
 
 [[appendix-a]]
-== Appendix A
+== Appendix A -{++Layout of the stage++}
 
 [cols="2", frame="none", grid="none"]
 |===
@@ -469,10 +474,11 @@ If any of the team leaders/mentors are not present at the team meetings to discu
 
 
 [[appendix-b]]
-== Appendix B - Ressources to be released during the season
+== Appendix B - Resources
+
+{++Supplementary resources are available on the RoboCupJunior OnStage Community Website (https://robocup-junior.github.io/onstage), including: ++}
 [compact]
-- Video: How to get started with OnStage
-- Supplemental Document: How to create a good technical demonstration video and description poster, What is innovative?
-- Video: How to create valuable human robot interactions
-- Explanation: How to select a good feature
-- Glossary: stage set, scenery, props, music, sound effects, etc.
+- How to get started with OnStage
+- How to Decide on Your OnStage Robotic Features
+- How to create a good technical demonstration video and description poster (to be released during the season)
+- What is innovative? (to be released during the season)
