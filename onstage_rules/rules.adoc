@@ -464,7 +464,7 @@ If special circumstances occur, such as unforeseen problems or capabilities of a
 If any of the team leaders/mentors are not present at the team meetings to discuss the problems and the resulting rule modifications, they consent to the rule modifications and are not permitted to challenge them at a later time.
 
 [[appendix-a]]
-== Appendix A -{++Layout of the stage++}
+== Appendix A - Layout of the stage
 
 [cols="2", frame="none", grid="none"]
 |===
@@ -476,7 +476,7 @@ If any of the team leaders/mentors are not present at the team meetings to discu
 [[appendix-b]]
 == Appendix B - Resources
 
-{++Supplementary resources are available on the RoboCupJunior OnStage Community Website (https://robocup-junior.github.io/onstage), including\: ++}
+{++Supplementary resources are available on the RoboCupJunior OnStage Community Website (https://robocup-junior.github.io/onstage), including++}:
 [compact]
 - How to get started with OnStage
 - How to Decide on Your OnStage Robotic Features
