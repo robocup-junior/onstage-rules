@@ -206,7 +206,7 @@ The kind of props that are considered "interactive" are:
 
 {--Robots can sense static props to perform a certain task or trigger an action provided that they are placed on the defined stage performance area.--} {++All props must be in the performance area.++}
 
-{--Static--} Props which are not form an integral part of the performance are discouraged since the focus of the performance should be on robots.
+{--Static--} Props which are not an integral part of the performance are discouraged since the focus of the performance should be on robots.
 
 [[robot-autonomy-and-interaction]]
 === Robot Autonomy and Interaction
