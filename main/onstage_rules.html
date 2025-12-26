@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
-<meta name="author" content="2025-02-26">
-<title>RoboCupJunior OnStage Rules 2025</title>
+<meta name="generator" content="Asciidoctor 2.0.26">
+<meta name="author" content="2025-12-26">
+<title>RoboCupJunior OnStage Rules 2026</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -117,7 +117,6 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
@@ -220,6 +219,7 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
 .listingblock:hover code[data-lang]::before{display:block}
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
@@ -437,23 +437,28 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>RoboCupJunior OnStage Rules 2025</h1>
+<h1>RoboCupJunior OnStage Rules 2026</h1>
 <div class="details">
-<span id="author" class="author">2025-02-26</span><br>
+<span id="author" class="author">2025-12-26</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#general-overview">1. Overview</a></li>
-<li><a href="#general-rules">2. RoboCupJunior International 2025 General Rules</a>
+<li><a href="#general-rules">2. RoboCupJunior International 2026 General Rules</a>
 <ul class="sectlevel2">
-<li><a href="#_team_requirements">2.1. Team requirements</a></li>
-<li><a href="#_robot_requirements">2.2. Robot Requirements</a></li>
-<li><a href="#_documentation_and_sharing_requirements">2.3. Documentation and Sharing requirements</a></li>
-<li><a href="#_spirit_and_behavior">2.4. Spirit and Behavior</a></li>
+<li><a href="#_team_requirements">2.1. Team Requirements</a></li>
+<li><a href="#_international_team_qualification_process">2.2. International Team Qualification Process</a></li>
+<li><a href="#_robot_requirements">2.3. Robot Requirements</a></li>
+<li><a href="#_documentation_and_sharing_requirements">2.4. Documentation and Sharing Requirements</a></li>
+<li><a href="#_spirit_and_behavior">2.5. Spirit and Behavior</a></li>
 </ul>
 </li>
-<li><a href="#judging-overview">3. Judging Overview</a></li>
+<li><a href="#judging-overview">3. Judging Overview</a>
+<ul class="sectlevel2">
+<li><a href="#robot-features">3.1. Robot Features</a></li>
+</ul>
+</li>
 <li><a href="#authenticity-and-originality">4. Authenticity and originality</a></li>
 <li><a href="#onstage-performance">5. Performance (40% of total score)</a>
 <ul class="sectlevel2">
@@ -463,11 +468,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#Stage">5.4. Stage</a></li>
 <li><a href="#robots">5.5. Robots</a></li>
 <li><a href="#communication-and-localization">5.6. Communication and Localization</a></li>
-<li><a href="#scenery">5.7. Scenery</a></li>
+<li><a href="#props">5.7. Props</a></li>
 <li><a href="#robot-autonomy-and-interaction">5.8. Robot Autonomy and Interaction</a></li>
 <li><a href="#humans-on-stage">5.9. Humans on stage</a></li>
 <li><a href="#deductions">5.10. Deductions</a></li>
-<li><a href="#preparations-for-the-stage-performance">5.11. Preprarations for the stage performance</a></li>
+<li><a href="#preparations-for-the-stage-performance">5.11. Preparations for the stage performance</a></li>
 <li><a href="#practice-on-the-main-stage">5.12. Practice on the Main Stage</a></li>
 <li><a href="#content">5.13. Content</a></li>
 <li><a href="#saftety-and-power-considerations">5.14. Safety and Power Considerations</a></li>
@@ -498,7 +503,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#code-of-conduct">10. Code of conduct</a>
 <ul class="sectlevel2">
 <li><a href="#spirit">10.1. Spirit</a></li>
-<li><a href="#robocupjunior-officials">10.2. RoboCupJunior Officials</a></li>
+<li><a href="#judges">10.2. Judges</a></li>
 <li><a href="#mentors">10.3. Mentors</a></li>
 </ul>
 </li>
@@ -510,8 +515,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#special-circumstances">11.4. Special Circumstances</a></li>
 </ul>
 </li>
-<li><a href="#appendix-a">12. Appendix A</a></li>
-<li><a href="#appendix-b">13. Appendix B - Ressources to be released during the season</a></li>
+<li><a href="#appendix-a">12. Appendix A - Layout of the stage</a></li>
+<li><a href="#appendix-b">13. Appendix B - Resources</a></li>
 </ul>
 </div>
 </div>
@@ -521,13 +526,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://hypothes.is/embed.js" async></script>
 <div class="paragraph">
-<p>These are the official rules of the <em>RoboCup Federation</em> for the <em>RoboCupJunior</em> (RCJ) OnStage events in 2025.</p>
+<p>These are the official draft rules of the <em>RoboCup Federation</em> for the <em>RoboCupJunior</em> (RCJ) OnStage events in 2026.</p>
 </div>
 <div class="paragraph">
 <p><strong>The International Original Rules (in English) have priority over <span class="underline">any</span> translations.</strong></p>
 </div>
 <div class="paragraph">
-<p>Major changes from the previous years OnStage rules are written in <strong><span class="red">red</span></strong>.</p>
+<p>Major changes from the previous years OnStage rules are written in <strong><span class="red">red</span></strong>. <a id="addition-1"></a>
+<strong><span class="red">As the deleted content reflects significant changes, it is documented in the footnotes for reference.</span></strong></p>
 </div>
 <div class="paragraph">
 <p><strong>Teams should make sure to review <em>ALL</em> pages of these rules.</strong> The rules have been changed to deepen and broaden the educational benefits of competing in RoboCupJunior. It focuses on the evolving technologies available in our time.</p>
@@ -543,7 +549,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>Ressources for participating in the OnStage league can be found on the OnStage community website: <a href="https://robocup-junior.github.io/onstage" class="bare">https://robocup-junior.github.io/onstage</a></p>
 </div>
-<h2 id="_robocupjunior_onstage_youtube_channel" class="discrete">RoboCupJunior OnStage YouTube channel</h2>
+<h2 id="rcj-onstage-channel" class="discrete">RoboCupJunior OnStage YouTube channel</h2>
 <div class="paragraph">
 <p>Examples of good performances and documentation can be found on the <strong>Official RoboCupJunior OnStage YouTube channel</strong> (<a href="https://www.youtube.com/@rcjonstage" class="bare">https://www.youtube.com/@rcjonstage</a>).</p>
 </div>
@@ -553,40 +559,40 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="general-overview"><a class="anchor" href="#general-overview"></a><a class="link" href="#general-overview">1. Overview</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>RoboCupJunior OnStage invites teams to design, build and program creative and autonomous physical robots. The objective is to create a live robotic performance that uses a wide variety of technology to engage an audience. This includes a range of possible performances, such as dance, storytelling, theater, or art installations. The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining, in both the design of the robots and in the design of the overall performance.</p>
+<p>RoboCupJunior OnStage invites teams to design, build, and program creative and autonomous physical robots. The objective is to create a live robotic performance that <strong>uses a wide variety of technologies to engage an audience</strong>. This includes a range of possible performances, such as, but not limited to: dance, storytelling, theater, games, etc. (for more inspiration, check out the <a href="#rcj-onstage-channel">RoboCupJunior OnStage YouTube channel</a> ). The performance may involve music, but this is optional. The league is intended to be open-ended. Teams are encouraged to be creative, innovative, and entertaining in both the design of the robots and the overall performance.</p>
 </div>
 <div class="paragraph">
-<p>An OnStage performance should make use of innovative technologies or use technology in new innovative ways not previously developed in OnStage performances, while adding value to the performance. Innovation can be achieved with clear evidence of testing, research and development and can be an inspiration for future competitors.</p>
+<p>An OnStage performance should make use of innovative technologies or employ technology in new, previously unexplored ways, adding value to the performance. Innovation can be achieved through clear evidence of testing, research, and development, potentially inspiring future competitors.</p>
 </div>
 <div class="paragraph">
-<p>An OnStage Performance must showcase the implementation and integration of robotic features in ways that visually enhance or add value and contribute to the theme or story being portrayed. More information about the selection of the features can be found in <a href="#judging-overview">Section 3, &#8220;Judging Overview&#8221;</a>.</p>
+<p>An OnStage Performance must showcase the implementation and integration of <a id="addition-2"></a>
+<strong><span class="red">four</span></strong> robotic features in ways that visually enhance or add value and contribute to the theme or portrayed story. <a id="addition-3"></a>
+<strong><span class="red">The four chosen features must be clearly seen by the judges during the performance.</span></strong> More information about the selection of the features can be found in <a href="#judging-overview">Section 3, &#8220;Judging Overview&#8221;</a>.</p>
 </div>
 <div class="paragraph">
-<p>During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by a group of two or more cooperating teams from different regions. The SuperTeams spend a short period of time for the collaborative performance creation. More details will be released before the International RoboCupJunior competition.</p>
+<p>During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by two or more cooperating teams from different regions. The SuperTeams spend a short time on collaborative performance creation. More details will be released before the International RoboCupJunior competition.</p>
 </div>
-<div class="paragraph">
-<p>From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage.</p>
+<div id="deletion-1" class="paragraph">
+<p><sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
 </div>
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
+<col style="width: 100%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/OnStage/StagePerfLeft.jpg" alt="StagePerfLeft" width="230"></span></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/OnStage/StagePerfRight.jpg" alt="StagePerfRight" width="230"></span></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><span class="image"><img src="media/OnStage/2025_onstage.JPEG" alt="2025 onstage"></span></p></td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 <div class="sect1">
-<h2 id="general-rules"><a class="anchor" href="#general-rules"></a><a class="link" href="#general-rules">2. RoboCupJunior International 2025 General Rules</a></h2>
+<h2 id="general-rules"><a class="anchor" href="#general-rules"></a><a class="link" href="#general-rules">2. RoboCupJunior International 2026 General Rules</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>These rules apply to the international RoboCupJunior competition.
-However, regional, super-regional, and local tournaments may have
+However, regional, SuperRegional, and local tournaments may have
 variations or adaptations to these rules to suit their specific
 competition needs. It is important to check with the organizers of the
 tournaments you are participating in to confirm which exact rules will
@@ -597,8 +603,12 @@ be in use.</p>
 League Rules, they are encouraged to inquire via the official
 RoboCupJunior Forum for clarification: <a href="https://junior.forum.robocup.org/" class="bare">https://junior.forum.robocup.org/</a></p>
 </div>
+<div class="paragraph">
+<p>For questions regarding any of the rules or RoboCupJunior in general, teams
+can also reach out to the RoboCupJunior community through the <a href="https://robocup-junior.github.io/soccer-rules/discord/">official Discord Server</a>.</p>
+</div>
 <div class="sect2">
-<h3 id="_team_requirements"><a class="anchor" href="#_team_requirements"></a><a class="link" href="#_team_requirements">2.1. Team requirements</a></h3>
+<h3 id="_team_requirements"><a class="anchor" href="#_team_requirements"></a><a class="link" href="#_team_requirements">2.1. Team Requirements</a></h3>
 <div class="sect3">
 <h4 id="_team_size"><a class="anchor" href="#_team_size"></a><a class="link" href="#_team_size">2.1.1. Team Size</a></h4>
 <div class="paragraph">
@@ -618,27 +628,40 @@ RoboCupJunior Forum for clarification: <a href="https://junior.forum.robocup.org
 </ul>
 </div>
 <div class="paragraph">
+<p>Regional and SuperRegional competitions may define their own team sizes depending on their venue capacity and regional variations. Teams attending the International competition will only be able to have the maximum number of registered participants in the qualifying team.</p>
+</div>
+<div class="paragraph">
 <p><strong>Shared Members and Robots</strong>: No team member(s) or robot(s) may be
 shared between teams.</p>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_team_supervision"><a class="anchor" href="#_team_supervision"></a><a class="link" href="#_team_supervision">2.1.2. Team Supervision</a></h4>
 <div class="paragraph">
 <p><strong>Junior Mentor Requirement</strong>: Each Junior team must have at least
 one Junior Mentor registered and attending with the team.</p>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_age_requirements"><a class="anchor" href="#_age_requirements"></a><a class="link" href="#_age_requirements">2.1.2. Age Requirements</a></h4>
 <div class="paragraph">
-<p><strong>Junior Student Members:</strong> Must be between 14 and 19 years old as of
-July 1 of the competition year.</p>
+<p>Mentors and Parent/Chaperones are responsible for supervising their teams
+and maintain a duty of care/well being for their team members, as appropriate for their home region&#8217;s regulations.
+Any concerns regarding team member welfare should be brought to the attention of the event organizers immediately.</p>
 </div>
 <div class="paragraph">
-<p><strong>Junior Mentors and Parent/Chaperones:</strong> Must be 19 years or older as
-of the competition start date.</p>
+<p>The Junior Mentor is expected to be present during all official competition events with their team.
+They must not interact in an imposing manner with teams, robots, judges, or the judging process. Any incident considered inappropriate will be handled by the event organizers and may lead to disciplinary actions.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_team_members"><a class="anchor" href="#_team_members"></a><a class="link" href="#_team_members">2.1.3. Team Members</a></h4>
+<h4 id="_age_requirements"><a class="anchor" href="#_age_requirements"></a><a class="link" href="#_age_requirements">2.1.3. Age Requirements</a></h4>
+<div class="paragraph">
+<p><strong>Junior Student Members:</strong> Must be between 14 and 19 years old as of July 1st of the competition year.</p>
+</div>
+<div class="paragraph">
+<p><strong>Junior Mentors and Parent/Chaperones:</strong> Must be 19 years or older as of July 1st of the competition year.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_team_members"><a class="anchor" href="#_team_members"></a><a class="link" href="#_team_members">2.1.4. Team Members</a></h4>
 <div class="paragraph">
 <p><strong>Entry Leagues</strong>: RoboCupJunior Entry leagues and other "Primary"
 divisions (where minimum age may vary) are not run at the international
@@ -652,13 +675,35 @@ be able to explain their role during technical judging.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_robot_requirements"><a class="anchor" href="#_robot_requirements"></a><a class="link" href="#_robot_requirements">2.2. Robot Requirements</a></h3>
+<h3 id="_international_team_qualification_process"><a class="anchor" href="#_international_team_qualification_process"></a><a class="link" href="#_international_team_qualification_process">2.2. International Team Qualification Process</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>To qualify for the International competition, each region’s Regional Representative will complete the Slot Allocation Process at the start of the Competition year. Regional Representatives can be found at the <a href="https://junior.robocup.org/gettingstarted/">Official Website</a>.</p>
+</li>
+<li>
+<p>After the region’s local qualifying tournament, the Regional Representative
+will assign slots. Once confirmed by the RoboCupJunior organizers, the qualified teams will be invited to register through the official RoboCup Federation registration system.</p>
+</li>
+<li>
+<p>The qualification process differs depending on the size of each region,
+but slot allocation must strongly reflect results from regional competitions.</p>
+</li>
+<li>
+<p>If a region does not use or releases its allocated slots, Regional Representatives
+may request additional slots during a later stage of the allocation process.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_robot_requirements"><a class="anchor" href="#_robot_requirements"></a><a class="link" href="#_robot_requirements">2.3. Robot Requirements</a></h3>
 <div class="sect3">
-<h4 id="_robot_communication"><a class="anchor" href="#_robot_communication"></a><a class="link" href="#_robot_communication">2.2.1. Robot Communication</a></h4>
+<h4 id="_robot_communication"><a class="anchor" href="#_robot_communication"></a><a class="link" href="#_robot_communication">2.3.1. Robot Communication</a></h4>
 <div class="paragraph">
 <p><strong>Permitted Communication</strong>: Communication between robots during
 gameplay is allowed as long as it uses the 2.4GHz spectrum and its power
-output does not exceed 100 mW EIRP under any circumstances.</p>
+output does not exceed 100 mW EIRP (Effective Isotropic Radiated Power) under any circumstances.</p>
 </div>
 <div class="paragraph">
 <p><strong>Responsibility</strong>: Teams are responsible for managing their robot
@@ -666,7 +711,7 @@ communication. Spectrum availability is not guaranteed.</p>
 </div>
 <div class="paragraph">
 <p><strong>Component Communication</strong>: Communication between components of the
-same robot is permitted under the general guidelines.</p>
+same robot is permitted.</p>
 </div>
 <div class="paragraph">
 <p><strong>League Adaptability</strong>: Each league may modify the robot communication
@@ -674,7 +719,7 @@ rules to ensure they meet their specific requirements.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_safety_and_power_requirements"><a class="anchor" href="#_safety_and_power_requirements"></a><a class="link" href="#_safety_and_power_requirements">2.2.2. Safety and Power Requirements</a></h4>
+<h4 id="_safety_and_power_requirements"><a class="anchor" href="#_safety_and_power_requirements"></a><a class="link" href="#_safety_and_power_requirements">2.3.2. Safety and Power Requirements</a></h4>
 <div class="paragraph">
 <p><strong>Electrical Power</strong>:</p>
 </div>
@@ -684,7 +729,7 @@ rules to ensure they meet their specific requirements.</p>
 <p>Robots must not use mains electricity.</p>
 </li>
 <li>
-<p>Maximum allowed voltage: 48V DC or 25V AC RMS.</p>
+<p>Maximum allowed voltage: 48V DC or 25V AC RMS (Root Mean Square).</p>
 </li>
 <li>
 <p>Voltage must be easily measured during inspections, and measuring
@@ -723,21 +768,21 @@ Actuators must be appropriate for the robot’s size and function.</p>
 </li>
 <li>
 <p><strong>Hazardous Behavior</strong>: Teams must report potentially dangerous robot
-behaviors at least two weeks before the event.</p>
+behaviors at least two weeks before a RoboCupJunior event.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_documentation_and_sharing_requirements"><a class="anchor" href="#_documentation_and_sharing_requirements"></a><a class="link" href="#_documentation_and_sharing_requirements">2.3. Documentation and Sharing requirements</a></h3>
+<h3 id="_documentation_and_sharing_requirements"><a class="anchor" href="#_documentation_and_sharing_requirements"></a><a class="link" href="#_documentation_and_sharing_requirements">2.4. Documentation and Sharing Requirements</a></h3>
 <div class="sect3">
-<h4 id="_rcj_team_posters"><a class="anchor" href="#_rcj_team_posters"></a><a class="link" href="#_rcj_team_posters">2.3.1. RCJ Team Posters</a></h4>
+<h4 id="_robocupjunior_team_posters"><a class="anchor" href="#_robocupjunior_team_posters"></a><a class="link" href="#_robocupjunior_team_posters">2.4.1. RoboCupJunior Team Posters</a></h4>
 <div class="paragraph">
 <p><strong>Purpose</strong>: Posters are a tool for sharing robot designs and insights
 with judges, teams, and the public. Posters will be hung in public
 competition areas in the venue and digital copies or photographs will be
-shared by RCJ after the competition.</p>
+shared by RoboCupJunior after the competition.</p>
 </div>
 <div class="paragraph">
 <p><strong>Size</strong>: Posters must be no larger than A1 size (60 x 84 cm).</p>
@@ -748,7 +793,7 @@ robot’s capabilities in an engaging format.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_technical_description_video_see_league_documentation"><a class="anchor" href="#_technical_description_video_see_league_documentation"></a><a class="link" href="#_technical_description_video_see_league_documentation">2.3.2. Technical Description Video (See League Documentation)</a></h4>
+<h4 id="_technical_description_video_see_league_documentation"><a class="anchor" href="#_technical_description_video_see_league_documentation"></a><a class="link" href="#_technical_description_video_see_league_documentation">2.4.2. Technical Description Video (See League Documentation)</a></h4>
 <div class="paragraph">
 <p><strong>Content</strong>:</p>
 </div>
@@ -778,7 +823,7 @@ league.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_sharing_team_resources"><a class="anchor" href="#_sharing_team_resources"></a><a class="link" href="#_sharing_team_resources">2.3.3. Sharing Team Resources</a></h4>
+<h4 id="_sharing_team_resources"><a class="anchor" href="#_sharing_team_resources"></a><a class="link" href="#_sharing_team_resources">2.4.3. Sharing Team Resources</a></h4>
 <div class="paragraph">
 <p><strong>Sharing</strong>: Materials submitted by teams as part of the documentation
 submission will be shared on GitHub repositories for the leagues:
@@ -791,7 +836,7 @@ learning.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_plagiarism_guidelines"><a class="anchor" href="#_plagiarism_guidelines"></a><a class="link" href="#_plagiarism_guidelines">2.3.4. Plagiarism Guidelines</a></h4>
+<h4 id="_plagiarism_guidelines"><a class="anchor" href="#_plagiarism_guidelines"></a><a class="link" href="#_plagiarism_guidelines">2.4.4. Plagiarism Guidelines</a></h4>
 <div class="paragraph">
 <p><strong>External Code Use</strong>: Teams are allowed to use external code but must
 credit the original creators.</p>
@@ -802,9 +847,9 @@ complete solutions from others. Always pay attention to licensing rules.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_bill_of_materials_bom"><a class="anchor" href="#_bill_of_materials_bom"></a><a class="link" href="#_bill_of_materials_bom">2.3.5. Bill of Materials (BOM)</a></h4>
+<h4 id="_bill_of_materials_bom"><a class="anchor" href="#_bill_of_materials_bom"></a><a class="link" href="#_bill_of_materials_bom">2.4.5. Bill of Materials (BOM)</a></h4>
 <div class="paragraph">
-<p><strong>Submission</strong>: Teams must submit a BOM listing major components and
+<p><strong>Submission</strong>: Teams must submit a BOM (Bill of Materials) listing major components and
 materials used.</p>
 </div>
 <div class="paragraph">
@@ -837,9 +882,9 @@ league documentation submissions for the international competition.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_spirit_and_behavior"><a class="anchor" href="#_spirit_and_behavior"></a><a class="link" href="#_spirit_and_behavior">2.4. Spirit and Behavior</a></h3>
+<h3 id="_spirit_and_behavior"><a class="anchor" href="#_spirit_and_behavior"></a><a class="link" href="#_spirit_and_behavior">2.5. Spirit and Behavior</a></h3>
 <div class="sect3">
-<h4 id="_behavior"><a class="anchor" href="#_behavior"></a><a class="link" href="#_behavior">2.4.1. Behavior</a></h4>
+<h4 id="_behavior"><a class="anchor" href="#_behavior"></a><a class="link" href="#_behavior">2.5.1. Behavior</a></h4>
 <div class="paragraph">
 <p>All participants are expected to behave themselves and be considerate and polite
 especially but not only towards other participants, volunteers, referees and
@@ -847,29 +892,54 @@ organizers of all Junior and Major Leagues as well as the host venue.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_mentoring_sponsorships_and_component_reuse"><a class="anchor" href="#_mentoring_sponsorships_and_component_reuse"></a><a class="link" href="#_mentoring_sponsorships_and_component_reuse">2.4.2. Mentoring, Sponsorships and Component Reuse</a></h4>
+<h4 id="_code_of_conduct"><a class="anchor" href="#_code_of_conduct"></a><a class="link" href="#_code_of_conduct">2.5.2. Code of Conduct</a></h4>
+<div class="paragraph">
+<p>All organisers, volunteers, team members, mentors, supporters and visitors must abide by the RoboCup Federation Code of Conduct. Any instances where, a situation occurs that does not meet the code of conduct must be reported to a RoboCup Federation organisation member and will be investigated.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_mentoring_and_onsite_assistance"><a class="anchor" href="#_mentoring_and_onsite_assistance"></a><a class="link" href="#_mentoring_and_onsite_assistance">2.5.3. Mentoring and Onsite Assistance</a></h4>
 <div class="paragraph">
 <p>Support from other teams, mentors, teachers, parents, sponsors, internet
-communities etc. is a core part of how teams learn and grow. To ensure fair
-competition and maximize learning it is required that none of the support they
+communities etc. is a core part of how teams learn and grow.</p>
+</div>
+<div class="paragraph">
+<p>To ensure fair competition and maximize learning it is required that none of the support they
 receive does the work of competing for the team. A good indication is the team&#8217;s
 ability to explain not only what their robots' components do but also how they
 do it.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_onsite_help"><a class="anchor" href="#_onsite_help"></a><a class="link" href="#_onsite_help">2.4.3. Onsite help</a></h4>
-<div class="paragraph">
-<p>Teams are only allowed to receive help from other teams during the competition.
-To this end only student team members are allowed into the student work area
-except with temporary organizer permission. Anyone else is forbidden from
-touching the robots or their code, especially for repairs, changes, programming.</p>
+<h4 id="_teams_onsite"><a class="anchor" href="#_teams_onsite"></a><a class="link" href="#_teams_onsite">2.5.4. Teams Onsite</a></h4>
+<div class="ulist">
+<ul>
+<li>
+<p>During the competition, only the official team members (maximum 4/5 depending on league)
+can represent the team at registration, setup-day, and have access to the competition areas for rounds and interviews.</p>
+</li>
+<li>
+<p>There must be at least 2 team members on-site, unless a team can present evidence of extenuating circumstances, including proof of travel for other team members. Teams where only one participant presents at the venue will be able to compete, but will not be eligible for finals or awards.</p>
+</li>
+<li>
+<p>It is the teams' responsibility to ensure that team member are present at the correct time and location for all scheduled activities.</p>
+</li>
+<li>
+<p>Teams are not allowed to communicate with or receive help virtually from external parties with the intention of impacting the team&#8217;s performance during the competition areas. Virtually communicating includes but is not limited to extended phone calls, video calls, remote desktop control etc.</p>
+</li>
+<li>
+<p>Any team found to be in breach of these rules may be subject to disciplinary action.</p>
+</li>
+<li>
+<p>Teams are recommended  to seek help from other teams, or organizers if they are struggling with any issues onsite.</p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_violations"><a class="anchor" href="#_violations"></a><a class="link" href="#_violations">2.4.4. Violations</a></h4>
+<h4 id="_violations"><a class="anchor" href="#_violations"></a><a class="link" href="#_violations">2.5.5. Violations</a></h4>
 <div class="paragraph">
-<p>Teams that repeatedly conduct themselves in an unacceptable way may be
+<p>Teams, Team Mentors/Supporters or Team Members that repeatedly conduct themselves in an unacceptable way or in violation to the General or League Rules may be
 disqualified from the tournament and asked to leave the venue.</p>
 </div>
 </div>
@@ -880,50 +950,41 @@ disqualified from the tournament and asked to leave the venue.</p>
 <h2 id="judging-overview"><a class="anchor" href="#judging-overview"></a><a class="link" href="#judging-overview">3. Judging Overview</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview and the OnStage Performance. Teams must highlight four of their robot(s) <strong>features</strong> in the work they present to the judges. Ask the following question - “What do we believe are our best system/sensor integration, electromechanical design, interaction, or software solutions implemented on our robot(s)? <a id="addition-1"></a>
-<strong><span class="red">Why/how does our project stand out from other teams’ projects?</span></strong>” The aim should be to present how the chosen features are integrated to enhance the quality of the performance in unique and innovative ways. Examples of features include, but are not limited to:</p>
+<p>All teams are judged in the following areas: Technical Description Poster, Technical Demonstration Video, Technical Interview, the OnStage Performance <a id="addition-4"></a>
+<strong><span class="red">and sustainability (10 bonus marks)</span></strong>.</p>
 </div>
-<div class="ulist compact">
-<ul class="compact">
-<li>
-<p>Locomotion</p>
-</li>
-<li>
-<p>Object/human detection and avoidance</p>
-</li>
-<li>
-<p>Human, robot and/or prop interaction</p>
-</li>
-<li>
-<p>Manipulation (grabbing/grasping)</p>
-</li>
-<li>
-<p>Visual/audio recognition</p>
-</li>
-<li>
-<p>Localization and mapping</p>
-</li>
-</ul>
+<div class="sect2">
+<h3 id="robot-features"><a class="anchor" href="#robot-features"></a><a class="link" href="#robot-features">3.1. Robot Features</a></h3>
+<div class="paragraph">
+<p>Teams must highlight four robot <strong>features</strong> in the work they present to the judges. Teams should present how the chosen features are integrated to enhance performance quality in unique and innovative ways.</p>
 </div>
 <div class="paragraph">
-<p>Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their Technical Demonstration Video, before being judged on the implementation of these features during the Performance. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.</p>
+<p>Teams should describe and provide reasoning for their four chosen features in the Technical Description Poster and during their  Technical Demonstration Video <a id="addition-5"></a>
+<strong><span class="red">and Technical Interview</span></strong> <a id="deletion-2"></a>
+<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup>. In addition, teams should demonstrate their understanding of their systems in the Technical Interview.</p>
 </div>
-<div id="addition-2" class="paragraph">
-<p><strong><span class="red">More information on the selection of features can be found in the Article</span></strong> <strong>How to Decide on Your OnStage Robotic Features</strong> (<a href="https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html" class="bare">https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html</a>).</p>
+<div class="paragraph">
+<p>More information on the selection of features can be found in the Article <strong>How to Decide on Your OnStage Robotic Features</strong> (<a href="https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html" class="bare">https://robocup-junior.github.io/onstage/resources/teams/how_to_features.html</a>).</p>
+</div>
+<div class="paragraph">
+<p>Each selected feature must be distinct. Similar or overlapping features will be scored as a single feature.</p>
 </div>
 <div class="paragraph">
 <p>For clarification on a teams’ features, please do not hesitate to reach out to the OnStage League committee using the <strong>RoboCupJunior Forum</strong> (<a href="https://junior.forum.robocup.org/c/robocupjunior-onstage" class="bare">https://junior.forum.robocup.org/c/robocupjunior-onstage</a>).</p>
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
 <h2 id="authenticity-and-originality"><a class="anchor" href="#authenticity-and-originality"></a><a class="link" href="#authenticity-and-originality">4. Authenticity and originality</a></h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Teams who, in the opinion of the judges, have knowingly produced duplicate robots, costumes, or performance movements (duplicate music is allowed) of another team will be subject to penalties. This applies to any previous RoboCupJunior Dance or OnStage performance. In case of doubts, the team must be able to provide clear documentation of their preparations and how they have come to their idea.</p>
+<div id="addition-6" class="paragraph">
+<p><strong><span class="red">Teams should develop their performance with their original ideas.</span></strong> Teams who, in the opinion of the judges, have knowingly produced duplicate robots, costumes, or performance movements (duplicate music is allowed) of another team will be subject to penalties. This applies to any previous RoboCupJunior Dance or OnStage performance. In case of doubts, the team must be able to provide clear documentation of their preparations and how they have come to their idea.</p>
 </div>
 <div class="paragraph">
-<p>Teams should inform the judges if robotic components have been featured in previous competitions. To gain marks, teams should be prepared to provide insight on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. Teams should specify how innovations have been done with their technologies and provide documentation to support their claims.</p>
+<p><strong>Teams must inform the judges if robotic components have been used in previous competitions.</strong> To gain marks, teams should be prepared to provide the documentation on how substantial changes have been made between competitions as evidence of the students’ continuing development of the technologies. <a id="deletion-3"></a>
+<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> <a id="addition-7"></a>
+<strong><span class="red">Teams with questions about previous component usage should contact the committee through the RoboCupJunior forum.</span></strong></p>
 </div>
 </div>
 </div>
@@ -931,10 +992,10 @@ disqualified from the tournament and asked to leave the venue.</p>
 <h2 id="onstage-performance"><a class="anchor" href="#onstage-performance"></a><a class="link" href="#onstage-performance">5. Performance (40% of total score)</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The OnStage Performance is an opportunity to demonstrate the design, construction, and technical aspects of the robot(s) through a performance or stage show. For example, this could be a magic show, theater performance, story, comedy show, dance, or art installation. Teams are encouraged to be creative, innovative and take risks in their use of technology and materials when creating their performances.</p>
+<p>The OnStage Performance is an opportunity to demonstrate the design, construction, and technical aspects of the robot(s) through a performance or stage show. For example, this could be a magic show, theater performance, storytelling, comedy show, dance, or art installation. Teams are encouraged to be creative, innovative and take risks in their use of technology and materials when creating their performances.</p>
 </div>
 <div class="paragraph">
-<p>Teams will present a live performance, in which their routine will be judged. Teams will present and demonstrate the four features to be judged, and higher marks will be awarded for the integration of these features and the value that they add to the performance. For more details on this, refer to the OnStage Performance Score Sheet. Teams must show originality, creativity and innovation throughout their performance routine. It is expected that all participating teams perform their best.</p>
+<p>Teams will present a live performance, in which their performance will be judged. Teams will present and demonstrate the four features to be judged, and higher marks will be awarded for the integration of these features into the performance to enhance its quality. For more details on this, refer to the OnStage Performance Score Sheet. Teams must show originality, creativity and innovation throughout their performance routine. It is expected that all participating teams perform their best.</p>
 </div>
 <div class="sect2">
 <h3 id="stage-performance"><a class="anchor" href="#stage-performance"></a><a class="link" href="#stage-performance">5.1. Stage performance</a></h3>
@@ -951,7 +1012,7 @@ disqualified from the tournament and asked to leave the venue.</p>
 <p>When a team is asked to come onto the stage, a RoboCupJunior official starts the timer.</p>
 </div>
 <div class="paragraph">
-<p>If the time limit is exceeded due to circumstances outside the team’s control (for example problems with starting the music) there will be no penalty. The judges have the final say on any time penalties.</p>
+<p>If the time limit is exceeded due to circumstances outside the team’s control (for example problems with starting the music) there will be <strong>no penalty</strong>. The judges have the final say on any time penalties.</p>
 </div>
 <div class="paragraph">
 <p>Teams wait on the side of the stage before being welcomed on stage. A technician designated by RoboCupJunior officials will start the music and the audiovisual / multimedia presentation for the performance routine.</p>
@@ -963,26 +1024,28 @@ disqualified from the tournament and asked to leave the venue.</p>
 <p>Teams are strongly encouraged to use the time while they are setting up on the stage to introduce to the audience the performance and the features of their robots.</p>
 </div>
 <div class="paragraph">
-<p>Teams must indicate the start of their performance clearly with a “3-2-1" countdown to the judges.</p>
+<p><strong>Teams must indicate the start of their performance clearly with a “3-2-1" countdown to the judges.</strong></p>
 </div>
 <div class="paragraph">
-<p>Teams must indicate the end of their performance clearly once it’s over (e.g. everyone coming to the front of the stage / thanking the audience for their attention / …).</p>
+<p><strong>Teams must indicate the end of their performance clearly once it’s over (e.g. everyone coming to the front of the stage / thanking the audience for their attention / …).</strong></p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="restarts"><a class="anchor" href="#restarts"></a><a class="link" href="#restarts">5.2. Restarts</a></h3>
 <div class="paragraph">
-<p>Teams can restart their routine if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. <a id="deletion-1"></a>
-<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p>
+<p>Teams can restart their performance if necessary, at the discretion of the judges. There is no limit on the number of restarts allowed within the stage-time. Penalty marks will be deducted from the score.</p>
 </div>
-<div id="addition-3" class="paragraph">
-<p><strong><span class="red">The team can restart without reentering the stage and with a clear countdown (3-2-1) to the judges.</span></strong></p>
+<div class="paragraph">
+<p>The team can restart <strong>without reentering the stage</strong> and with a clear countdown (3-2-1) to the judges.</p>
 </div>
-<div id="addition-4" class="paragraph">
-<p><strong><span class="red">Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.</span></strong></p>
+<div class="paragraph">
+<p>Scores and deductions are reset to 0 after the team has requested a restart. Deductions for every restart will be applied at the end of the performance according to the scoresheet.</p>
 </div>
 <div class="paragraph">
 <p>The team must leave the stage after their time on stage has expired.</p>
+</div>
+<div class="paragraph">
+<p>Te restart must be clearly signaled verbally by a team member on stage.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1013,16 +1076,34 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <p>The size of the performance stage area is a rectangular area of 5 x 4 meters (m) for robots with the 5 meter side facing the judges.</p>
 </div>
 <div class="paragraph">
-<p>There is a line marking the edge of the 5 x 4 meter stage. See <a href="#appendix-a">Section 12, &#8220;Appendix A&#8221;</a>.</p>
+<p>There is a [[addition-8, Added "black+} line marking {with a minimum of 19 mm width outside"]]
+*[red]#black+} line marking {with a minimum of 19 mm width outside#* the edge of the 5 x 4 meter stage. See <a href="#appendix-a">Section 12, &#8220;Appendix A - Layout of the stage&#8221;</a>.</p>
 </div>
 <div class="paragraph">
 <p>The floor provided shall be made of a flat (non-glossy) white surface, for example, painted MDF (compressed wood fiber). While floor joints will be made to be as smooth as possible, robots must be prepared for irregularities of up to 5 mm in the floor surface. Whilst every effort will be made to make the stage flat, this may not be possible, and teams should be prepared to cope with this uncertainty.</p>
 </div>
-<div class="paragraph">
-<p>Teams should come prepared to calibrate their robots based on the lighting conditions at the venue.</p>
+<div id="addition-9" class="paragraph">
+<p><strong><span class="red">Teams should come prepared to calibrate their robots for the venue condition. Examples of things to consider:</span></strong></p>
 </div>
-<div class="paragraph">
-<p>Teams using compass sensors should be aware that metal components of the staging may affect the compass sensor readings. Teams should come prepared to calibrate such sensors.</p>
+<div class="ulist compact">
+<ul class="compact">
+<li>
+<p><a id="addition-10"></a>
+<strong><span class="red">Metal components of the staging may affect the compass sensor readings</span></strong></p>
+</li>
+<li>
+<p><a id="addition-11"></a>
+<strong><span class="red">Venue lighting condition can affect color sensor / image recognition readings</span></strong></p>
+</li>
+<li>
+<p><a id="addition-12"></a>
+<strong><span class="red">Uneven floor surfaces can affect robots' movement and stability</span></strong></p>
+</li>
+<li>
+<p><a id="addition-13"></a>
+<strong><span class="red">Venue sound conditions can affect sound sensor readings, etc.</span></strong></p>
+</li>
+</ul>
 </div>
 </div>
 <div class="sect2">
@@ -1031,7 +1112,8 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <p>Robots must perform autonomously.</p>
 </div>
 <div class="paragraph">
-<p>Laptops, notebooks, mobile phones, tablets, Raspberry Pi, and other similar devices can be used as robotic controllers.</p>
+<p>Laptops, notebooks, mobile phones, tablets, Raspberry Pi, and other similar devices can be used as <a id="addition-14"></a>
+<strong><span class="red">autonomous</span></strong> robotic controllers.</p>
 </div>
 <div class="paragraph">
 <p>Teams should construct their own robot rather than using the instructions that come with a commercial kit. Teams are encouraged to design their robot appearance by themselves. If a team wants to use a famous character as their robot, the team should pay attention to the copyright of the character.</p>
@@ -1039,12 +1121,15 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <div class="paragraph">
 <p>A team may have and use any number of robots. Robots may be of any size. However, using multiple robots does not necessarily result in obtaining higher points. Large robots do not count for more.</p>
 </div>
+<div id="addition-15" class="paragraph">
+<p><strong><span class="red">Robots started from outside the performance area will not be considered for judging during the whole performance.</span></strong></p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="communication-and-localization"><a class="anchor" href="#communication-and-localization"></a><a class="link" href="#communication-and-localization">5.6. Communication and Localization</a></h3>
-<div class="paragraph">
-<p>Teams are encouraged to design their robots to interact with a communication function. Robots are encouraged to communicate with each other during the performance. Suggested <a id="deletion-2"></a>
-<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> communication protocols are infrared (IR), Bluetooth (LE and classic), ZigBee, RFID or other localization platforms.</p>
+<div id="deletion-4" class="paragraph">
+<p><sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup><a id="addition-16"></a>
+<strong><span class="red">Teams are encouraged to design robots that communicate with each other during the performance.</span></strong> Suggested communication protocols are infrared (IR), Bluetooth (LE and classic), ZigBee, RFID or other localization platforms.</p>
 </div>
 <div class="paragraph">
 <p>There must be no communication between off-stage and on-stage devices.</p>
@@ -1052,20 +1137,20 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <div class="paragraph">
 <p>It is the team’s responsibility to make sure that their communication function does not interfere with other teams' robots when practicing or performing.</p>
 </div>
-<div id="deletion-3" class="paragraph">
-<p><sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup></p>
-</div>
 <div class="paragraph">
-<p>Teams should prepare for disruptions in communication protocols before and during the setup and stage time.</p>
+<p>Teams should prepare for disruptions in communication protocols before and during the setup and stage performance.</p>
 </div>
 <div class="paragraph">
 <p>Any localization beacons or markers for a robot&#8217;s localization system should be placed within the confines of the stage.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="scenery"><a class="anchor" href="#scenery"></a><a class="link" href="#scenery">5.7. Scenery</a></h3>
-<div class="paragraph">
-<p>Interactive props can be used to add value to the performance.</p>
+<h3 id="props"><a class="anchor" href="#props"></a><a class="link" href="#props">5.7. Props</a></h3>
+<div id="deletion-5" class="paragraph">
+<p><sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup></p>
+</div>
+<div id="addition-17" class="paragraph">
+<p><strong><span class="red">Props are optional for the performance. Teams are welcome to add props to their performance, including interactive props to add value to the performance.</span></strong></p>
 </div>
 <div class="paragraph">
 <p>The kind of props that are considered "interactive" are:</p>
@@ -1073,19 +1158,19 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Props that interact with robots via sensors <a id="addition-5"></a>
-<strong><span class="red">(mounted either on the robot or the props)</span></strong></p>
+<p>Props that interact with robots via sensors (mounted either on the robot or the props)</p>
 </li>
 <li>
 <p>Props that interact with robots via communication</p>
 </li>
 </ol>
 </div>
-<div class="paragraph">
-<p>Robots can sense static props to perform a certain task or trigger an action provided that they are placed on the defined stage performance area.</p>
+<div id="deletion-6" class="paragraph">
+<p><sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup> <a id="addition-18"></a>
+<strong><span class="red">All props must be in the performance area.</span></strong></p>
 </div>
-<div class="paragraph">
-<p>Static props which do not form an integral part of the performance are discouraged since the focus of the performance should be on robots.</p>
+<div id="deletion-7" class="paragraph">
+<p><sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup> Props which are not an integral part of the performance are discouraged since the focus of the performance should be on robots.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1115,7 +1200,7 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <div class="sect2">
 <h3 id="humans-on-stage"><a class="anchor" href="#humans-on-stage"></a><a class="link" href="#humans-on-stage">5.9. Humans on stage</a></h3>
 <div class="paragraph">
-<p>Human team members may perform with their robots on the stage during the performance. If so, they should make sure not to hide important key components of their robot counterpart(s) from the judges/audience.</p>
+<p>Human team members may perform with their robots on the stage during the performance. If so, they should make sure not to hide important components of their robot counterpart(s) from the judges/audience.</p>
 </div>
 <div class="paragraph">
 <p>In order to keep the focus on the robots, humans on stage should make sure to follow basic acting guidelines (not blocking the view, not standing with their backs to the audience) and be professional on stage.</p>
@@ -1129,15 +1214,20 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <div class="paragraph">
 <p>All robot movements or interactions that happen outside the performance area will not be considered for the scoring, but will not lead to deductions.</p>
 </div>
-<div class="paragraph">
-<p>Teams are reminded that humans triggering the progress of the performance via touch-based sensors will be considered remote-controlled interaction and therefore will be considered an unplanned human interaction.</p>
+<div id="addition-19" class="paragraph">
+<p><strong><span class="red">Robots started from outside the performance area will not be considered for judging during the whole performance.</span></strong></p>
 </div>
-<div class="paragraph">
-<p>Teams reusing robots without informing the judges in any way will be subject to deductions.</p>
+<div id="substitution-1" class="paragraph">
+<p><strong><span class="red">Humans using a touch-based sensor during a performance</span></strong>
+<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup> will be considered remote-controlled interaction and therefore will be considered an unplanned human interaction.</p>
+</div>
+<div id="deletion-8" class="paragraph">
+<p><sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup><a id="addition-20"></a>
+<strong><span class="red">The performance that violate the rules may not be scored at the judges discretion.</span></strong></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="preparations-for-the-stage-performance"><a class="anchor" href="#preparations-for-the-stage-performance"></a><a class="link" href="#preparations-for-the-stage-performance">5.11. Preprarations for the stage performance</a></h3>
+<h3 id="preparations-for-the-stage-performance"><a class="anchor" href="#preparations-for-the-stage-performance"></a><a class="link" href="#preparations-for-the-stage-performance">5.11. Preparations for the stage performance</a></h3>
 <div class="paragraph">
 <p>It is the responsibility of the team to ensure that the music and video/presentation is playing correctly before their first performance by liaising with the RoboCupJunior OnStage officials.</p>
 </div>
@@ -1157,7 +1247,8 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <div class="sect2">
 <h3 id="content"><a class="anchor" href="#content"></a><a class="link" href="#content">5.13. Content</a></h3>
 <div class="paragraph">
-<p>Performances should not include violent, military, threatening, or criminal elements. This includes inappropriate or offensive words (including music) and/or images.</p>
+<p>Performances should not include violent, military, threatening, criminal elements, <a id="addition-21"></a>
+<strong><span class="red">or offensive or discriminatory elements targeting any group of people or culture.</span></strong> This includes inappropriate or offensive words (including music) and/or images.</p>
 </div>
 <div class="paragraph">
 <p>Participants are asked to carefully consider the wording and messages communicated in any aspect of their performance. What seems acceptable to one group may be offensive to friends from a different country or culture.</p>
@@ -1168,9 +1259,6 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 </div>
 <div class="sect2">
 <h3 id="saftety-and-power-considerations"><a class="anchor" href="#saftety-and-power-considerations"></a><a class="link" href="#saftety-and-power-considerations">5.14. Safety and Power Considerations</a></h3>
-<div id="deletion-4" class="paragraph">
-<p><sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup></p>
-</div>
 <div class="paragraph">
 <p>Participants should design their robot(s) to be a size that they can easily carry by themselves. Robots should be of a weight that team members can carry and lift onto the stage with ease.</p>
 </div>
@@ -1190,23 +1278,32 @@ If a team uses copyrighted music, they should follow the Copyright Law of the re
 <h2 id="onstage-technical-interview"><a class="anchor" href="#onstage-technical-interview"></a><a class="link" href="#onstage-technical-interview">6. Technical Interview (30% of total score)</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against technical criteria. Creative and innovative technical features chosen by the team will be rewarded with higher scores. Judges are interested in determining students' understanding of the robotic technologies they have used. Teams must show authenticity and originality regarding their robots and performance in this interview.</p>
+<p>The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against scoresheet&#8217;s criteria. Creative and innovative technical features chosen by the team will be rewarded with higher scores. Judges are interested in learning students' understanding of the robotic technologies they have used. Teams must show authenticity and originality of their robots and performance in this interview.</p>
 </div>
 <div class="sect2">
 <h3 id="interview-procedure"><a class="anchor" href="#interview-procedure"></a><a class="link" href="#interview-procedure">6.1. Interview procedure</a></h3>
 <div class="paragraph">
-<p>All teams will have up to 20 minutes of technical interview judging during the competition. Which will take place as an in-person meeting with the judges in a separate room at the venue.</p>
+<p>All teams will have up to <a id="substitution-2"></a>
+<strong><span class="red">25</span></strong>
+<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup> minutes of technical interview judging during the competition. Which will take place as an in-person meeting with the judges in a separate room at the venue.</p>
 </div>
 <div class="paragraph">
-<p>Interviews will be judged by at least two RoboCupJunior officials <a id="addition-6"></a>
-<strong><span class="red">who have also scored the teams poster beforehand</span></strong>.</p>
+<p>Interviews will be judged by at least two <a id="substitution-3"></a>
+<strong><span class="red">judges</span></strong>
+<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup> who have also scored the <a id="substitution-4"></a>
+<strong><span class="red">technical description poster and technical demonstration video</span></strong>
+<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup> beforehand.</p>
 </div>
 <div class="paragraph">
-<p>The Interview Score Sheet is used in the interview judging. It is strongly suggested for teams to read the Technical Interview Score Sheet before the interview to make effective use of the interview.</p>
+<p>The Interview Score Sheet is used in the interview judging. It is strongly suggested for teams to review the Technical Interview Score Sheet before the interview to make effective use of the interview.</p>
 </div>
 <div class="paragraph">
-<p>Teams should have <strong>all</strong> physical robotic systems present at the interview with copies of all their work in a format that can be easily viewed. This includes any programs, CAD/CAM designs, PCB designs, or wiring diagrams.
+<p>Teams should have <strong>all</strong> physical robotic systems present at the interview with copies of all their work in a format that can be easily viewed. This includes any programs, CAD/CAM designs, PCB designs, or wiring diagrams, <a id="addition-22"></a>
+<strong><span class="red">in the formats that are easy for judges to review during the interview.</span></strong>
 Each team member must be prepared to answer questions about the technical aspects of their involvement in the robot design, construction, and programming.</p>
+</div>
+<div id="addition-23" class="paragraph">
+<p><strong><span class="red">Teams must be prepared to conduct a live demonstration proving that all four chosen features are fully working. Teams are asked to do a live demonstration of the four features and other functions of the robots during the interview. The goal of the live demonstration is for judges to review how the team execute the four chosen features and robotic functions.</span></strong></p>
 </div>
 </div>
 <div class="sect2">
@@ -1221,7 +1318,8 @@ Each team member must be prepared to answer questions about the technical aspect
 <p>The code is expected to be documented and include comments that explain the basic purpose of its functions/methods.</p>
 </div>
 <div class="paragraph">
-<p>Teams need to clarify which third party code and/or libraries were used for their performance and why.</p>
+<p>Teams need to clarify which third party code and/or libraries, <a id="addition-24"></a>
+<strong><span class="red">including the use of AI,</span></strong> were used for their performance and why.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1250,23 +1348,22 @@ Each team member must be prepared to answer questions about the technical aspect
 <p>Teams are required to submit a recorded demonstration to showcase the capabilities of their robots. The aim of the technical demonstration is to showcase how well the team integrated their robotics creations into a perfect performance. They should demonstrate and describe the capabilities of their robots such as interaction with humans or with each other using mechanisms, sensor systems, and algorithms that have been developed by the team.</p>
 </div>
 <div class="paragraph">
-<p>The maximum length of the video is <a id="substitution-1"></a>
-<strong><span class="red">6</span></strong>
-<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup> minutes. If it is longer than <a id="substitution-2"></a>
-<strong><span class="red">6</span></strong>
-<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup> minutes, it will be cut to that time for judging.</p>
+<p>The maximum length of the video is 6 minutes. If it is longer than 6 minutes, it will be cut to that time for judging.</p>
 </div>
 <div class="paragraph">
-<p>Robots should be presented without their costumes and key features of the technologies used should be visible to the audience.</p>
+<p>Robots should be presented without their costumes and <a id="addition-25"></a>
+<strong><span class="red">the four</span></strong> features used should be visible to the audience.</p>
 </div>
 <div class="paragraph">
 <p>The team should explain how the capabilities have been developed, the challenges overcome, and the technologies integrated. Teams should also provide examples of solutions to any problems/issues during their project development.</p>
 </div>
 <div class="paragraph">
-<p>Teams will also be required to outline what they believe are their chosen four features that they wish to be scored on during their OnStage performance (See <a href="#general-overview">Section 1, &#8220;Overview&#8221;</a>).</p>
+<p>Teams will also be required to outline their chosen four features that they wish to be scored on during their OnStage performance (See <a href="#general-overview">Section 1, &#8220;Overview&#8221;</a>).</p>
 </div>
 <div class="paragraph">
-<p>Video editing is allowed and should be used to create a technically engaging and informative demonstration of all robots. Teams may wish to include full English subtitles or transcripts.</p>
+<p>Video editing is allowed and should be used to create a technically engaging and informative demonstration of all robots. <a id="deletion-9"></a>
+<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup> <a id="addition-26"></a>
+<strong><span class="red">Teams must present their video in English, including voice-over and on-screen text, with English subtitles or transcripts recommended for clarity.</span></strong></p>
 </div>
 <div class="paragraph">
 <p>All team members are encouraged to be actively involved in the presentation.</p>
@@ -1281,7 +1378,9 @@ Each team member must be prepared to answer questions about the technical aspect
 <div class="sect2">
 <h3 id="technical-description-poster"><a class="anchor" href="#technical-description-poster"></a><a class="link" href="#technical-description-poster">7.2. Technical Description Poster (15% of total score)</a></h3>
 <div class="paragraph">
-<p>Each team is required to submit a Technical Description Poster by the deadline set by the OnStage League Committee, which is before the first performance during the RoboCupJunior competition. The purpose of the poster is to explain the technology used, particularly highlight the four chosen features, as well as to showcase the robots’ software and hardware. Posters should be made in an interesting and engaging format, as they will be viewed not only by the judges but also by other teams and visiting members of the public.</p>
+<p>Each team is required to submit a Technical Description Poster by the deadline set by the OnStage League Committee, which is before <a id="deletion-10"></a>
+<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup> the RoboCupJunior competition. The purpose of the poster is to explain the technology used, particularly highlight the four chosen features, as well as to showcase the robots’ software and hardware. Posters should be made in an interesting and engaging format, as they will be viewed not only by the judges but also by other teams and visiting members of the public. <a id="addition-27"></a>
+<strong><span class="red">Poster content must be presented in English.</span></strong></p>
 </div>
 <div class="paragraph">
 <p>Teams must submit a digital copy of their poster in PDF format (≤ 10 MB).</p>
@@ -1295,7 +1394,10 @@ Each team member must be prepared to answer questions about the technical aspect
 <p>team name and region</p>
 </li>
 <li>
-<p>abstract/summary/performance description</p>
+<p>summary (abstract)</p>
+</li>
+<li>
+<p>performance description</p>
 </li>
 <li>
 <p>annotated pictures</p>
@@ -1304,18 +1406,17 @@ Each team member must be prepared to answer questions about the technical aspect
 <p>system diagrams of the systems and robot(s) under development at various stages</p>
 </li>
 <li>
-<p><a id="addition-7"></a>
-<strong><span class="red">interconnection of robots (examples could include: network connection diagram, exploded views of robots, &#8230;&#8203;)</span></strong></p>
+<p>interconnection of robots (examples could include: network connection diagram, exploded views of robots, &#8230;&#8203;)</p>
 </li>
 <li>
-<p><a id="addition-8"></a>
-<strong><span class="red">flowchart of performance (Robot A triggers Robot B, Robot B communicates to Robot C)</span></strong></p>
+<p>flowchart of performance (Robot A triggers Robot B, Robot B communicates to Robot C)</p>
 </li>
 <li>
 <p>an explanation of the innovative robot technologies used</p>
 </li>
 <li>
-<p>a description of the features that should be judged during the performance</p>
+<p>a description of the <a id="addition-28"></a>
+<strong><span class="red">four</span></strong> features that should be judged during the performance</p>
 </li>
 <li>
 <p>QR-codes to repositories, videos, or team websites</p>
@@ -1334,16 +1435,24 @@ Each team member must be prepared to answer questions about the technical aspect
 <p>The judging criteria and allocation of marks are given in the respective score sheets.</p>
 </div>
 <div class="paragraph">
-<p>Teams must read the Score Sheets carefully so that their robot performance covers as much judging criteria as possible,</p>
+<p>Teams must read the Score Sheets carefully so that their robot performance<a id="addition-29"></a>
+<strong><span class="red">, technical demonstration video, technical description poster and interview</span></strong> cover as much judging criteria as possible,</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="totaling"><a class="anchor" href="#totaling"></a><a class="link" href="#totaling">8.2. Totaling</a></h3>
 <div class="paragraph">
-<p>The total score of each team is calculated by combining the scores from the team’s Technical Interview, the Technical Demonstration, and the OnStage Performance.</p>
+<p>The total score of each team is calculated by <a id="substitution-5"></a>
+<strong><span class="red">combining the weighted scores as described in the scoresheet document</span></strong>
+<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup> from the team’s Technical Interview, <a id="deletion-11"></a>
+<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup><a id="addition-30"></a>
+<strong><span class="red">the Technical Demonstration Video, the Technical Description Poster</span></strong>, and the OnStage Performance.</p>
 </div>
 <div class="paragraph">
 <p>If more than one performance is scheduled, the highest of all performance scores will be used.</p>
+</div>
+<div id="addition-31" class="paragraph">
+<p><strong><span class="red">RoboCupJunior OnStage competition aims to promote awareness of and encourage sustainable practices in robotics and technology. To support this goal, we have established a <u>Sustainability Scoring</u> criterion encouraging all participants to consider environmental impact when developing their projects. Sustainability will be evaluated through all judging criteria during the competition. Unlike other judging criteria that are weighted, sustainability scores are awarded as direct bonus points added to your final score. This means every sustainable choice teams make, from material selection to energy-efficient design, can boost your overall score and contribute to a better future.</span></strong></p>
 </div>
 </div>
 <div class="sect2">
@@ -1387,12 +1496,16 @@ Each team member must be prepared to answer questions about the technical aspect
 </div>
 </div>
 <div class="sect2">
-<h3 id="robocupjunior-officials"><a class="anchor" href="#robocupjunior-officials"></a><a class="link" href="#robocupjunior-officials">10.2. RoboCupJunior Officials</a></h3>
+<h3 id="judges"><a class="anchor" href="#judges"></a><a class="link" href="#judges">10.2. Judges</a></h3>
 <div class="paragraph">
-<p>The officials will act within the spirit of the event.</p>
+<p>The <a id="substitution-6"></a>
+<strong><span class="red">judges</span></strong>
+<sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup> will act within the spirit of the event.</p>
 </div>
 <div class="paragraph">
-<p>The RoboCupJunior officials shall not have a close relationship with any of the teams in the league they judge.</p>
+<p>The <a id="substitution-7"></a>
+<strong><span class="red">judges</span></strong>
+<sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup> shall not have a close relationship with any of the teams in the league they judge.</p>
 </div>
 </div>
 <div class="sect2">
@@ -1402,6 +1515,9 @@ Each team member must be prepared to answer questions about the technical aspect
 </div>
 <div class="paragraph">
 <p>If a problem is encountered that is beyond the team’s capabilities and is clearly beyond the reasonable ability level of a student to repair, mentors may request assistance from the OnStage League Committee, including supervised support to conduct repairs.</p>
+</div>
+<div id="addition-32" class="paragraph">
+<p><strong><span class="red">Mentors are not allowed in the student work area and interview room except to assist in carrying equipment in or out of the area on the arrival and departure days.</span></strong></p>
 </div>
 <div class="paragraph">
 <p>Mentors are not allowed to set up equipment on stage, as this should be the responsibility of team members. Teams should design all robots and any additional equipment to be carried by team members only.</p>
@@ -1454,7 +1570,7 @@ Each team member must be prepared to answer questions about the technical aspect
 </div>
 </div>
 <div class="sect1">
-<h2 id="appendix-a"><a class="anchor" href="#appendix-a"></a><a class="link" href="#appendix-a">12. Appendix A</a></h2>
+<h2 id="appendix-a"><a class="anchor" href="#appendix-a"></a><a class="link" href="#appendix-a">12. Appendix A - Layout of the stage</a></h2>
 <div class="sectionbody">
 <table class="tableblock frame-none grid-none stretch">
 <colgroup>
@@ -1471,27 +1587,24 @@ Each team member must be prepared to answer questions about the technical aspect
 </div>
 </div>
 <div class="sect1">
-<h2 id="appendix-b"><a class="anchor" href="#appendix-b"></a><a class="link" href="#appendix-b">13. Appendix B - Ressources to be released during the season</a></h2>
+<h2 id="appendix-b"><a class="anchor" href="#appendix-b"></a><a class="link" href="#appendix-b">13. Appendix B - Resources</a></h2>
 <div class="sectionbody">
+<div id="addition-33" class="paragraph">
+<p><strong><span class="red">Supplementary resources are available on the RoboCupJunior OnStage Community Website (<a href="https://robocup-junior.github.io/onstage" class="bare">https://robocup-junior.github.io/onstage</a>), including</span></strong>:</p>
+</div>
 <div class="ulist compact">
 <ul class="compact">
 <li>
-<p>Video: How to get started with OnStage</p>
+<p>How to get started with OnStage</p>
 </li>
 <li>
-<p>Explanation: How to create a good technical demonstration video and description poster</p>
+<p>How to Decide on Your OnStage Robotic Features</p>
 </li>
 <li>
-<p>Video: How to create valuable human robot interactions</p>
+<p>How to create a good technical demonstration video and description poster (to be released during the season)</p>
 </li>
 <li>
-<p>Explanation: How to select a good feature</p>
-</li>
-<li>
-<p>Word explanation: stage set, scenery, props, music, sound effects</p>
-</li>
-<li>
-<p>&#8230;&#8203;?</p>
+<p>What is innovative? (to be released during the season)</p>
 </li>
 </ul>
 </div>
@@ -1501,27 +1614,63 @@ Each team member must be prepared to answer questions about the technical aspect
 <div id="footnotes">
 <hr>
 <div class="footnote" id="_footnotedef_1">
-<a href="#_footnoteref_1">1</a>. In previous version this said "Penalty marks will be deducted from the score."
+<a href="#_footnoteref_1">1</a>. In previous version this said "From 2021 onwards, there will be no sub-leagues in RoboCupJunior OnStage."
 </div>
 <div class="footnote" id="_footnotedef_2">
-<a href="#_footnoteref_2">2</a>. In previous version this said "and allowed"
+<a href="#_footnoteref_2">2</a>. In previous version this said "before being judged on the implementation of these features during the Performance"
 </div>
 <div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. In previous version this said "No team is permitted to use other radio frequency (RF) signals (like Wi-Fi or Z waves) as this may interfere with robots in other RoboCup leagues. If you are unsure, please check with the OnStage League Committee before your performance."
+<a href="#_footnoteref_3">3</a>. In previous version this said "Teams should specify how innovations have been done with their technologies and provide documentation to support their claims."
 </div>
 <div class="footnote" id="_footnotedef_4">
-<a href="#_footnoteref_4">4</a>. In previous version this said "Lead-acid batteries are not considered appropriate unless the team has gained permission from the OnStage League Committee <strong>before</strong> attending the competition for a specific reason. Failure to declare batteries may result in disciplinary actions, including deductions."
+<a href="#_footnoteref_4">4</a>. In previous version this said "Teams are encouraged to design their robots to interact with a communication function. Robots are en- couraged to communicate with each other during the performance."
 </div>
 <div class="footnote" id="_footnotedef_5">
-<a href="#_footnoteref_5">5</a>. In previous version this said "5"
+<a href="#_footnoteref_5">5</a>. In previous version this said "Interactive props can be used to add value to the performance."
 </div>
 <div class="footnote" id="_footnotedef_6">
-<a href="#_footnoteref_6">6</a>. In previous version this said "5"
+<a href="#_footnoteref_6">6</a>. In previous version this said "Robots can sense static props to perform a certain task or trigger an action provided that they are placed on the defined stage performance area."
+</div>
+<div class="footnote" id="_footnotedef_7">
+<a href="#_footnoteref_7">7</a>. In previous version this said "Static"
+</div>
+<div class="footnote" id="_footnotedef_8">
+<a href="#_footnoteref_8">8</a>. In previous version this said "Teams are reminded that humans triggering the progress of the performance via touch-based sensors"
+</div>
+<div class="footnote" id="_footnotedef_9">
+<a href="#_footnoteref_9">9</a>. In previous version this said "Teams reusing robots without informing the judges in any way will be subject to deductions."
+</div>
+<div class="footnote" id="_footnotedef_10">
+<a href="#_footnoteref_10">10</a>. In previous version this said "20"
+</div>
+<div class="footnote" id="_footnotedef_11">
+<a href="#_footnoteref_11">11</a>. In previous version this said "RoboCupJunior officials"
+</div>
+<div class="footnote" id="_footnotedef_12">
+<a href="#_footnoteref_12">12</a>. In previous version this said "teams poster"
+</div>
+<div class="footnote" id="_footnotedef_13">
+<a href="#_footnoteref_13">13</a>. In previous version this said "Teams may wish to include full English subtitles or transcripts."
+</div>
+<div class="footnote" id="_footnotedef_14">
+<a href="#_footnoteref_14">14</a>. In previous version this said "the first performance during"
+</div>
+<div class="footnote" id="_footnotedef_15">
+<a href="#_footnoteref_15">15</a>. In previous version this said "combining the scores"
+</div>
+<div class="footnote" id="_footnotedef_16">
+<a href="#_footnoteref_16">16</a>. In previous version this said "the Technical Demonstration"
+</div>
+<div class="footnote" id="_footnotedef_17">
+<a href="#_footnoteref_17">17</a>. In previous version this said "officials"
+</div>
+<div class="footnote" id="_footnotedef_18">
+<a href="#_footnoteref_18">18</a>. In previous version this said "RoboCupJunior officials"
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-02-26 06:49:26 UTC
+Last updated 2025-12-26 13:27:30 UTC
 </div>
 </div>
 </body>
