@@ -50,7 +50,7 @@ RoboCupJunior OnStage invites teams to design, build, and program creative and a
 
 {++An OnStage performance should incorporate innovative technologies or apply existing technologies in novel and creative ways that meaningfully enhance the performance. Innovation should be demonstrated through clear evidence of experimentation, testing, research, and iterative development. Ideally, these innovations will not only strengthen the performance but also become an inspiration for future competitors to explore new ideas and possibilities.++}
 
-{++In their performance, teams must highlight four features that visually enhance the performance or add meaningful value to it. These features should contribute to the overall theme, story, or message being portrayed++} {++The four selected features must be clearly visible and identifiable to the judges during the performance.++} More information about the selection of the features can be found in <<judging-overview>>.
+{++In their performance, teams must highlight four features that visually enhance the performance or add meaningful value to it. These features should contribute to the overall theme, story, or message being portrayed.++} {++The four selected features must be clearly visible and identifiable to the judges during the performance.++} More information about the selection of the features can be found in <<judging-overview>>.
 
 During the International RoboCupJunior OnStage Competition, teams also take part in a SuperTeam Challenge. The SuperTeam Challenge is a robotic performance created by two or more cooperating teams from different regions. The SuperTeams spend a short time on collaborative performance creation. More details will be released before the International RoboCupJunior competition.
 
@@ -279,7 +279,8 @@ A team whose routine includes any situation that could be deemed hazardous {++(i
 [[onstage-technical-interview]]
 == Technical Interview (30% of total score)
 
-The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against scoresheet's criteria. Creative and innovative technical features chosen by the team will be rewarded with higher scores. Judges are interested in learning students' understanding of the robotic technologies they have used. Teams must show authenticity and originality of their robots and performance in this interview. 
+The Technical Interview is a live interview between the team and the judges, in which all robots and programming are judged against scoresheet's criteria. Creative and innovative technical features chosen by the team will be rewarded with higher scores. Judges are interested in learning students' understanding of the robotic technologies they have used. Teams must show authenticity and originality of their robots and performance in this interview.
+ 
 [[interview-procedure]]
 === Interview procedure
 
