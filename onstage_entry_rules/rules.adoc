@@ -1,4 +1,4 @@
-= RoboCupJunior OnStage Entry Rules 2026
+= RoboCupJunior OnStage Entry Rules 2027
 {docdate}
 :toc: left
 :sectanchors:
