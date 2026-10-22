@@ -205,7 +205,7 @@ All props must be in the performance area.
 
 Props which are not an integral part of the performance are discouraged since the focus of the performance should be on robots.
 
-{++More clarification on the props can be found in the Article *Props* (https://robocup-junior.github.io/onstage/resources/teams/props.html).++}
+{++More clarification on the props can be found in the Article *Props*++} (https://robocup-junior.github.io/onstage/resources/teams/props.html).
 
 [[robot-autonomy-and-interaction]]
 === Robot Autonomy and Interaction
